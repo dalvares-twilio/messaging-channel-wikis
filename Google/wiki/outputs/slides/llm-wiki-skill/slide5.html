@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #7C3AED; padding: 20pt 30pt;
+}
+.header h1 {
+  color: #F8FAFC; font-size: 28pt; margin: 0;
+}
+.content {
+  padding: 15pt 30pt; display: flex; flex-wrap: wrap; gap: 15pt;
+}
+.op-card {
+  width: 210pt; background: #ffffff; border-radius: 8pt; padding: 12pt;
+  border-left: 5pt solid #7C3AED; box-shadow: 0 2pt 6pt rgba(0,0,0,0.08);
+}
+.op-card h3 {
+  color: #7C3AED; font-size: 14pt; margin: 0 0 8pt 0;
+}
+.op-card ol {
+  margin: 0; padding-left: 16pt;
+}
+.op-card li {
+  color: #475569; font-size: 9pt; margin-bottom: 4pt; line-height: 1.3;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Operations</h1>
+</div>
+<div class="content">
+  <div class="op-card">
+    <h3>Ingest</h3>
+    <ol>
+      <li>Read source completely</li>
+      <li>Create wiki/sources/ summary</li>
+      <li>Create/update concept pages</li>
+      <li>Create/update entity pages</li>
+      <li>Update index.md</li>
+      <li>Append to log.md</li>
+    </ol>
+  </div>
+  <div class="op-card">
+    <h3>Query</h3>
+    <ol>
+      <li>Read index.md for relevant pages</li>
+      <li>Read wiki pages</li>
+      <li>Synthesize answer with citations</li>
+      <li>If valuable, file to queries/</li>
+      <li>Update index.md</li>
+      <li>Append to log.md</li>
+    </ol>
+  </div>
+  <div class="op-card">
+    <h3>Lint</h3>
+    <ol>
+      <li>Check for orphan pages</li>
+      <li>Find missing pages</li>
+      <li>Detect contradictions</li>
+      <li>Find stale sources</li>
+      <li>Write to health.md</li>
+      <li>Append to log.md</li>
+    </ol>
+  </div>
+  <div class="op-card">
+    <h3>Output</h3>
+    <ol>
+      <li>Identify wiki content</li>
+      <li>Generate artifact (slides/chart)</li>
+      <li>Save to outputs/</li>
+      <li>Link from wiki pages</li>
+      <li>Append to log.md</li>
+    </ol>
+  </div>
+</div>
+</body>
+</html>

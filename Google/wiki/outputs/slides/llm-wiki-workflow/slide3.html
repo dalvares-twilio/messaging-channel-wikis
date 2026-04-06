@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1E293B; padding: 20pt 30pt;
+}
+.header h1 {
+  color: #F8FAFC; font-size: 28pt; margin: 0;
+}
+.content {
+  padding: 25pt 30pt; display: flex; flex-direction: column; align-items: center;
+}
+.arch-row {
+  display: flex; align-items: center; gap: 15pt; margin-bottom: 20pt;
+}
+.box {
+  padding: 15pt 25pt; border-radius: 8pt; text-align: center;
+}
+.raw-box {
+  background: #DBEAFE; border: 2pt solid #3B82F6;
+}
+.raw-box p { color: #1E40AF; font-size: 16pt; margin: 0; font-weight: bold; }
+.raw-box h3 { color: #1E40AF; font-size: 11pt; margin: 5pt 0 0 0; font-weight: normal; }
+.wiki-box {
+  background: #D1FAE5; border: 2pt solid #10B981;
+}
+.wiki-box p { color: #065F46; font-size: 16pt; margin: 0; font-weight: bold; }
+.wiki-box h3 { color: #065F46; font-size: 11pt; margin: 5pt 0 0 0; font-weight: normal; }
+.query-box {
+  background: #FEF3C7; border: 2pt solid #F59E0B;
+}
+.query-box p { color: #92400E; font-size: 16pt; margin: 0; font-weight: bold; }
+.query-box h3 { color: #92400E; font-size: 11pt; margin: 5pt 0 0 0; font-weight: normal; }
+.arrow {
+  color: #64748B; font-size: 24pt;
+}
+.desc-row {
+  display: flex; gap: 20pt; margin-top: 15pt;
+}
+.desc-item {
+  flex: 1; text-align: center;
+}
+.desc-item h4 { color: #1E293B; font-size: 12pt; margin: 0 0 5pt 0; }
+.desc-item p { color: #64748B; font-size: 10pt; margin: 0; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Architecture</h1>
+</div>
+<div class="content">
+  <div class="arch-row">
+    <div class="box raw-box">
+      <p>raw/</p>
+      <h3>Immutable Sources</h3>
+    </div>
+    <p class="arrow">&#8594;</p>
+    <div class="box wiki-box">
+      <p>wiki/</p>
+      <h3>LLM-Maintained</h3>
+    </div>
+    <p class="arrow">&#8594;</p>
+    <div class="box query-box">
+      <p>User</p>
+      <h3>Queries + Outputs</h3>
+    </div>
+  </div>
+  <div class="desc-row">
+    <div class="desc-item">
+      <h4>Source of Truth</h4>
+      <p>Articles, papers, docs</p>
+      <p>Never modified</p>
+    </div>
+    <div class="desc-item">
+      <h4>Compiled Knowledge</h4>
+      <p>Summaries, concepts, entities</p>
+      <p>Cross-referenced, indexed</p>
+    </div>
+    <div class="desc-item">
+      <h4>Interaction Layer</h4>
+      <p>Ask questions, get answers</p>
+      <p>File results back to wiki</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

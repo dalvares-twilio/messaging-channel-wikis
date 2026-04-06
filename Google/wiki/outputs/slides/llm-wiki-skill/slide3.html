@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #7C3AED; padding: 20pt 30pt;
+}
+.header h1 {
+  color: #F8FAFC; font-size: 28pt; margin: 0;
+}
+.content {
+  padding: 20pt 30pt; display: flex; gap: 25pt;
+}
+.files {
+  flex: 1;
+}
+.files h2 {
+  color: #0F172A; font-size: 14pt; margin: 0 0 10pt 0;
+}
+.tree {
+  background: #0F172A; border-radius: 8pt; padding: 15pt;
+}
+.tree pre {
+  color: #A78BFA; font-family: Courier New, monospace; font-size: 9pt;
+  margin: 0; line-height: 1.5;
+}
+.desc {
+  flex: 1;
+}
+.desc-item {
+  margin-bottom: 10pt;
+}
+.desc-item h3 {
+  color: #7C3AED; font-size: 11pt; margin: 0 0 2pt 0;
+}
+.desc-item p {
+  color: #64748B; font-size: 9pt; margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Skill Files</h1>
+</div>
+<div class="content">
+  <div class="files">
+    <h2>~/.claude/skills/llm-wiki/</h2>
+    <div class="tree">
+      <pre>llm-wiki/
+  SKILL.md           # Main definition
+  assets/
+    schema-template.md
+  scripts/
+    init_wiki.py
+  references/
+    llm-wiki-pattern.md</pre>
+    </div>
+  </div>
+  <div class="desc">
+    <div class="desc-item">
+      <h3>SKILL.md</h3>
+      <p>Main skill - triggers, operations, page formats</p>
+    </div>
+    <div class="desc-item">
+      <h3>schema-template.md</h3>
+      <p>Template copied to new wiki as CLAUDE.md</p>
+    </div>
+    <div class="desc-item">
+      <h3>init_wiki.py</h3>
+      <p>Creates directory structure automatically</p>
+    </div>
+    <div class="desc-item">
+      <h3>llm-wiki-pattern.md</h3>
+      <p>Philosophy and rationale (Karpathy-inspired)</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

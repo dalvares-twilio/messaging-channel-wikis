@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1E293B; padding: 20pt 30pt;
+}
+.header h1 {
+  color: #F8FAFC; font-size: 28pt; margin: 0;
+}
+.content {
+  padding: 20pt 30pt; display: flex; gap: 25pt;
+}
+.tree {
+  flex: 1; background: #1E293B; border-radius: 8pt; padding: 15pt;
+}
+.tree pre {
+  color: #A7F3D0; font-family: Courier New, monospace; font-size: 10pt;
+  margin: 0; line-height: 1.5;
+}
+.descriptions {
+  flex: 1;
+}
+.desc-item {
+  margin-bottom: 12pt;
+}
+.desc-item h3 {
+  color: #0D9488; font-size: 12pt; margin: 0 0 3pt 0;
+}
+.desc-item p {
+  color: #64748B; font-size: 10pt; margin: 0; line-height: 1.3;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Wiki Structure</h1>
+</div>
+<div class="content">
+  <div class="tree">
+    <pre>knowledge-base/
+  CLAUDE.md        # Schema
+  raw/             # Sources
+    assets/        # Images
+  wiki/
+    index.md       # Catalog
+    log.md         # Activity
+    overview.md    # Synthesis
+    health.md      # Lint report
+    sources/       # Summaries
+    concepts/      # Topics
+    entities/      # APIs, tools
+    queries/       # Filed Q&A
+    outputs/       # Slides, charts</pre>
+  </div>
+  <div class="descriptions">
+    <div class="desc-item">
+      <h3>index.md</h3>
+      <p>Master catalog - LLM reads this first to find relevant pages</p>
+    </div>
+    <div class="desc-item">
+      <h3>sources/</h3>
+      <p>One summary per ingested document with key points</p>
+    </div>
+    <div class="desc-item">
+      <h3>concepts/</h3>
+      <p>Topic pages synthesizing info across sources</p>
+    </div>
+    <div class="desc-item">
+      <h3>queries/</h3>
+      <p>Filed Q&A that compounds the knowledge</p>
+    </div>
+    <div class="desc-item">
+      <h3>health.md</h3>
+      <p>Lint results: orphans, gaps, inconsistencies</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

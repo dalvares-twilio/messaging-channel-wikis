@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1E293B; padding: 20pt 30pt;
+}
+.header h1 {
+  color: #F8FAFC; font-size: 28pt; margin: 0;
+}
+.content {
+  padding: 25pt 30pt; display: flex; flex-direction: column; gap: 20pt;
+}
+.row {
+  display: flex; align-items: center; gap: 15pt;
+}
+.label {
+  width: 80pt; text-align: right;
+}
+.label p {
+  color: #64748B; font-size: 11pt; margin: 0;
+}
+.timeline {
+  flex: 1; display: flex; align-items: center;
+}
+.step {
+  padding: 10pt 15pt; border-radius: 6pt; text-align: center;
+}
+.step p {
+  font-size: 10pt; margin: 0;
+}
+.arrow {
+  color: #94A3B8; font-size: 18pt; margin: 0 8pt;
+}
+.q1 { background: #DBEAFE; }
+.q1 p { color: #1E40AF; }
+.filed { background: #D1FAE5; }
+.filed p { color: #065F46; }
+.q2 { background: #FEF3C7; }
+.q2 p { color: #92400E; }
+.compound { background: #0D9488; }
+.compound p { color: #ffffff; font-weight: bold; }
+.benefit-box {
+  background: #ffffff; border: 2pt solid #0D9488; border-radius: 8pt; padding: 15pt; margin-top: 10pt;
+}
+.benefit-box h3 {
+  color: #0D9488; font-size: 14pt; margin: 0 0 8pt 0;
+}
+.benefit-box ul {
+  margin: 0; padding-left: 18pt;
+}
+.benefit-box li {
+  color: #1E293B; font-size: 11pt; margin-bottom: 5pt;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>The Compounding Effect</h1>
+</div>
+<div class="content">
+  <div class="row">
+    <div class="label"><p>Session 1</p></div>
+    <div class="timeline">
+      <div class="step q1"><p>Query</p></div>
+      <p class="arrow">&#8594;</p>
+      <div class="step filed"><p>Answer</p></div>
+      <p class="arrow">&#8594;</p>
+      <div class="step compound"><p>Filed</p></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="label"><p>Session 5</p></div>
+    <div class="timeline">
+      <div class="step q2"><p>Related Query</p></div>
+      <p class="arrow">&#8594;</p>
+      <div class="step filed"><p>Cites Filed Q1</p></div>
+      <p class="arrow">&#8594;</p>
+      <div class="step compound"><p>Extends</p></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="label"><p>Session N</p></div>
+    <div class="timeline">
+      <div class="step q1"><p>Complex Query</p></div>
+      <p class="arrow">&#8594;</p>
+      <div class="step compound"><p>Instant Answer</p></div>
+    </div>
+  </div>
+  <div class="benefit-box">
+    <h3>Why This Matters</h3>
+    <ul>
+      <li>No re-work: answers exist, don't re-synthesize</li>
+      <li>Consistency: same question = same answer</li>
+      <li>Building blocks: filed answers become sources for new answers</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

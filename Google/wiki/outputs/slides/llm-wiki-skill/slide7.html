@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #7C3AED; padding: 20pt 30pt;
+}
+.header h1 {
+  color: #F8FAFC; font-size: 28pt; margin: 0;
+}
+.content {
+  padding: 20pt 30pt;
+}
+.example {
+  display: flex; gap: 15pt; margin-bottom: 15pt;
+}
+.cmd {
+  width: 200pt; background: #0F172A; padding: 12pt; border-radius: 6pt;
+}
+.cmd p {
+  color: #A78BFA; font-family: Courier New, monospace; font-size: 11pt; margin: 0;
+}
+.desc {
+  flex: 1; display: flex; align-items: center;
+}
+.desc p {
+  color: #475569; font-size: 12pt; margin: 0;
+}
+.arrow {
+  color: #7C3AED; font-size: 16pt; margin-right: 10pt;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Usage Examples</h1>
+</div>
+<div class="content">
+  <div class="example">
+    <div class="cmd"><p>"ingest the webhooks doc"</p></div>
+    <div class="desc"><p class="arrow">&#8594;</p><p>Creates source summary + concept pages</p></div>
+  </div>
+  <div class="example">
+    <div class="cmd"><p>"how do I create an agent?"</p></div>
+    <div class="desc"><p class="arrow">&#8594;</p><p>Queries wiki, synthesizes answer</p></div>
+  </div>
+  <div class="example">
+    <div class="cmd"><p>"file this answer"</p></div>
+    <div class="desc"><p class="arrow">&#8594;</p><p>Saves Q&A to wiki/queries/</p></div>
+  </div>
+  <div class="example">
+    <div class="cmd"><p>"lint wiki"</p></div>
+    <div class="desc"><p class="arrow">&#8594;</p><p>Runs health check, updates health.md</p></div>
+  </div>
+  <div class="example">
+    <div class="cmd"><p>"create slides on X"</p></div>
+    <div class="desc"><p class="arrow">&#8594;</p><p>Generates presentation to outputs/</p></div>
+  </div>
+</div>
+</body>
+</html>

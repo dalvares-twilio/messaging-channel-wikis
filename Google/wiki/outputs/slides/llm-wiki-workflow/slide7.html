@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1E293B; padding: 20pt 30pt;
+}
+.header h1 {
+  color: #F8FAFC; font-size: 28pt; margin: 0;
+}
+.content {
+  padding: 25pt 30pt; display: flex; gap: 30pt;
+}
+.role-box {
+  flex: 1; border-radius: 8pt; padding: 20pt;
+}
+.human-box {
+  background: #DBEAFE; border-top: 6pt solid #3B82F6;
+}
+.human-box h2 {
+  color: #1E40AF; font-size: 20pt; margin: 0 0 15pt 0;
+}
+.llm-box {
+  background: #D1FAE5; border-top: 6pt solid #10B981;
+}
+.llm-box h2 {
+  color: #065F46; font-size: 20pt; margin: 0 0 15pt 0;
+}
+.role-box ul {
+  margin: 0; padding-left: 18pt;
+}
+.role-box li {
+  color: #1E293B; font-size: 13pt; margin-bottom: 10pt; line-height: 1.4;
+}
+.quote-box {
+  background: #1E293B; padding: 12pt 25pt; margin: 15pt 30pt 25pt 30pt; border-radius: 8pt;
+  border-left: 6pt solid #F59E0B;
+}
+.quote-box p {
+  color: #F8FAFC; font-size: 14pt; margin: 0; font-style: italic;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Division of Labor</h1>
+</div>
+<div class="content">
+  <div class="role-box human-box">
+    <h2>You (Human)</h2>
+    <ul>
+      <li>Curate sources</li>
+      <li>Ask the right questions</li>
+      <li>Direct the analysis</li>
+      <li>Think about what it means</li>
+    </ul>
+  </div>
+  <div class="role-box llm-box">
+    <h2>LLM</h2>
+    <ul>
+      <li>Summarize and extract</li>
+      <li>Cross-reference pages</li>
+      <li>File and organize</li>
+      <li>Maintain consistency</li>
+    </ul>
+  </div>
+</div>
+<div class="quote-box">
+  <p>"You source and ask. LLM maintains."</p>
+</div>
+</body>
+</html>

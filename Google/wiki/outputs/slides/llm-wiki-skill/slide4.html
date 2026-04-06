@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #7C3AED; padding: 20pt 30pt;
+}
+.header h1 {
+  color: #F8FAFC; font-size: 28pt; margin: 0;
+}
+.content {
+  padding: 15pt 30pt;
+}
+.content h2 {
+  color: #0F172A; font-size: 14pt; margin: 0 0 12pt 0;
+}
+.tree {
+  background: #0F172A; border-radius: 8pt; padding: 12pt; margin-bottom: 10pt;
+}
+.tree pre {
+  color: #A78BFA; font-family: Courier New, monospace; font-size: 9pt;
+  margin: 0; line-height: 1.3;
+}
+.legend {
+  display: flex; flex-wrap: wrap; gap: 15pt;
+}
+.legend-item {
+  display: flex; align-items: center; gap: 6pt;
+}
+.dot {
+  width: 10pt; height: 10pt; border-radius: 50%;
+}
+.dot-blue { background: #3B82F6; }
+.dot-green { background: #10B981; }
+.dot-amber { background: #F59E0B; }
+.dot-purple { background: #8B5CF6; }
+.legend-item p {
+  color: #475569; font-size: 10pt; margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Wiki Structure Created</h1>
+</div>
+<div class="content">
+  <h2>python3 init_wiki.py /path --name "My Wiki"</h2>
+  <div class="tree">
+    <pre>my-wiki/
+  CLAUDE.md          # Schema (from template)
+  raw/               # Your source documents
+    assets/          # Downloaded images
+  wiki/
+    index.md         # Master catalog
+    log.md           # Activity history
+    overview.md      # High-level synthesis
+    health.md        # Lint report
+    sources/         # Document summaries
+    concepts/        # Topic pages
+    entities/        # API, tool pages
+    queries/         # Filed Q&A
+    outputs/         # Generated artifacts
+      slides/
+      charts/</pre>
+  </div>
+  <div class="legend">
+    <div class="legend-item"><div class="dot dot-blue"></div><p>System files</p></div>
+    <div class="legend-item"><div class="dot dot-green"></div><p>LLM-maintained</p></div>
+    <div class="legend-item"><div class="dot dot-amber"></div><p>User sources</p></div>
+    <div class="legend-item"><div class="dot dot-purple"></div><p>Generated outputs</p></div>
+  </div>
+</div>
+</body>
+</html>

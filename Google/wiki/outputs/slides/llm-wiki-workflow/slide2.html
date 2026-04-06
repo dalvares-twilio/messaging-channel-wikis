@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1E293B; padding: 20pt 30pt;
+}
+.header h1 {
+  color: #F8FAFC; font-size: 28pt; margin: 0;
+}
+.content {
+  padding: 25pt 30pt; display: flex; gap: 30pt;
+}
+.problem-box {
+  flex: 1; background: #FEE2E2; border-left: 6pt solid #EF4444; padding: 20pt;
+}
+.problem-box h2 {
+  color: #DC2626; font-size: 18pt; margin: 0 0 12pt 0;
+}
+.problem-box p {
+  color: #1E293B; font-size: 13pt; margin: 0 0 10pt 0; line-height: 1.4;
+}
+.solution-box {
+  flex: 1; background: #D1FAE5; border-left: 6pt solid #10B981; padding: 20pt;
+}
+.solution-box h2 {
+  color: #059669; font-size: 18pt; margin: 0 0 12pt 0;
+}
+.solution-box p {
+  color: #1E293B; font-size: 13pt; margin: 0 0 10pt 0; line-height: 1.4;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>The Problem with RAG</h1>
+</div>
+<div class="content">
+  <div class="problem-box">
+    <h2>Traditional RAG</h2>
+    <p>Re-derives knowledge from scratch every query</p>
+    <p>No accumulation between sessions</p>
+    <p>Same synthesis work repeated endlessly</p>
+    <p>Cross-references not preserved</p>
+  </div>
+  <div class="solution-box">
+    <h2>LLM Wiki</h2>
+    <p>Compiles knowledge once into wiki</p>
+    <p>Every query strengthens the base</p>
+    <p>Synthesis is persistent</p>
+    <p>Links multiply over time</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #1E293B; padding: 20pt 30pt;
+}
+.header h1 {
+  color: #F8FAFC; font-size: 28pt; margin: 0;
+}
+.content {
+  padding: 20pt 30pt; display: flex; gap: 20pt;
+}
+.phase {
+  flex: 1; background: #ffffff; border-radius: 8pt; padding: 15pt; box-shadow: 0 2pt 8pt rgba(0,0,0,0.1);
+}
+.phase-header {
+  padding: 10pt; border-radius: 6pt; margin-bottom: 12pt;
+}
+.build-header { background: #DBEAFE; }
+.build-header h2 { color: #1E40AF; font-size: 16pt; margin: 0; }
+.use-header { background: #D1FAE5; }
+.use-header h2 { color: #065F46; font-size: 16pt; margin: 0; }
+.maintain-header { background: #FEF3C7; }
+.maintain-header h2 { color: #92400E; font-size: 16pt; margin: 0; }
+.phase ul {
+  margin: 0; padding-left: 18pt;
+}
+.phase li {
+  color: #1E293B; font-size: 11pt; margin-bottom: 8pt; line-height: 1.3;
+}
+.step-num {
+  color: #0D9488; font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Three-Phase Workflow</h1>
+</div>
+<div class="content">
+  <div class="phase">
+    <div class="phase-header build-header">
+      <h2>BUILD</h2>
+    </div>
+    <ul>
+      <li><b>Collect</b> - Clip articles, docs into raw/</li>
+      <li><b>Ingest</b> - LLM reads and summarizes</li>
+      <li><b>Link</b> - Cross-references created</li>
+    </ul>
+  </div>
+  <div class="phase">
+    <div class="phase-header use-header">
+      <h2>USE</h2>
+    </div>
+    <ul>
+      <li><b>Query</b> - Ask questions against wiki</li>
+      <li><b>File</b> - Save valuable Q&A</li>
+      <li><b>Output</b> - Generate slides, charts</li>
+    </ul>
+  </div>
+  <div class="phase">
+    <div class="phase-header maintain-header">
+      <h2>MAINTAIN</h2>
+    </div>
+    <ul>
+      <li><b>Lint</b> - Health checks, find gaps</li>
+      <li><b>Expand</b> - Add new sources</li>
+      <li><b>Refine</b> - Fix stale info</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>

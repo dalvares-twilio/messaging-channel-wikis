@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F8FAFC; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header {
+  background: #7C3AED; padding: 20pt 30pt;
+}
+.header h1 {
+  color: #F8FAFC; font-size: 28pt; margin: 0;
+}
+.content {
+  padding: 25pt 30pt;
+}
+.content h2 {
+  color: #0F172A; font-size: 18pt; margin: 0 0 15pt 0;
+}
+.content p {
+  color: #475569; font-size: 14pt; margin: 0 0 20pt 0; line-height: 1.5;
+}
+.triggers {
+  display: flex; flex-wrap: wrap; gap: 10pt;
+}
+.trigger {
+  background: #EDE9FE; padding: 8pt 15pt; border-radius: 6pt;
+}
+.trigger p {
+  color: #6D28D9; font-size: 11pt; font-family: Courier New, monospace; margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>What It Does</h1>
+</div>
+<div class="content">
+  <h2>A pattern for persistent, compounding knowledge bases</h2>
+  <p>Unlike RAG which re-derives knowledge each query, llm-wiki compiles knowledge once into interlinked markdown. The wiki compounds with each source and query.</p>
+  <h2>Trigger Phrases</h2>
+  <div class="triggers">
+    <div class="trigger"><p>build a wiki</p></div>
+    <div class="trigger"><p>create knowledge base</p></div>
+    <div class="trigger"><p>ingest this document</p></div>
+    <div class="trigger"><p>query the wiki</p></div>
+    <div class="trigger"><p>lint the wiki</p></div>
+    <div class="trigger"><p>add to wiki</p></div>
+  </div>
+</div>
+</body>
+</html>
