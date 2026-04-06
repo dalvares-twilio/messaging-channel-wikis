@@ -50,6 +50,10 @@ Request → Acknowledge (200 OK) → Queue for processing → Process async
 
 - [[wiki/concepts/message-verification]]
 
+## Related Workflows
+
+- [[wiki/workflows/configure-webhook]] — Set up secure async webhook
+
 ## Sources
 
 - [[wiki/sources/webhooks]]

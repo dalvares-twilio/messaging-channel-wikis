@@ -76,3 +76,12 @@
 - [[wiki/entities/developer-console]] — Web console for RBM management
 - [[wiki/entities/google-messages]] — Android messaging app with RCS support
 - [[wiki/entities/dialogflow]] — Google Cloud NLU for conversational AI
+
+## Workflows (4)
+
+| Page | Trigger | Outcome |
+| --- | --- | --- |
+| [[wiki/workflows/create-launch-agent]] | New RCS channel needed | Agent live on carriers |
+| [[wiki/workflows/configure-webhook]] | Integrate RCS events | Secure async webhook running |
+| [[wiki/workflows/add-test-device]] | Pre-launch testing | Device receiving test messages |
+| [[wiki/workflows/setup-deep-links]] | Drive users to RCS | Deep links/QR codes working |

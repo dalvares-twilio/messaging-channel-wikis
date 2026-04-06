@@ -43,6 +43,10 @@ if (headerHash === genHash) {
 
 - [[wiki/concepts/async-processing]]
 
+## Related Workflows
+
+- [[wiki/workflows/configure-webhook]] — Set up secure async webhook
+
 ## Sources
 
 - [[wiki/sources/webhooks]]

@@ -1,0 +1,39 @@
+# Custom types for Google RCS Knowledge Base
+# Extends default types with workflow documentation
+
+types:
+  source:
+    directory: sources
+    required_fields: [title, source_file, ingested]
+    optional_fields: [source_url, tags]
+    description: "Summary of an ingested raw source document"
+    index_columns: [Page, Summary, Date]
+
+  concept:
+    directory: concepts
+    required_fields: [title]
+    optional_fields: [aliases, sources]
+    description: "Topic or concept page synthesized from multiple sources"
+    index_columns: [Page, Summary]
+
+  entity:
+    directory: entities
+    required_fields: [title, entity_type]
+    optional_fields: []
+    description: "Named entity page (API, tool, product, service)"
+    index_columns: [Page, Type, Summary]
+
+  query:
+    directory: queries
+    required_fields: [title, query, answered]
+    optional_fields: [tags]
+    description: "Filed Q&A that was valuable enough to persist"
+    index_columns: [Page, Question, Date]
+
+  workflow:
+    directory: workflows
+    required_fields: [title, trigger, outcome]
+    optional_fields: [prerequisites, estimated_time, tags]
+    description: "Step-by-step process or integration workflow"
+    extraction_hint: "Extract when document describes a sequence of steps, setup process, or integration procedure"
+    index_columns: [Page, Trigger, Outcome]

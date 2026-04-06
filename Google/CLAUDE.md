@@ -7,6 +7,7 @@ This schema governs how the LLM maintains this knowledge base.
 ```
 Google/
 ├── CLAUDE.md          # This schema file
+├── wiki-types.yaml    # Custom type definitions
 ├── raw/               # Immutable source documents (never modify)
 │   └── assets/        # Downloaded images from sources
 └── wiki/              # LLM-generated knowledge base
@@ -17,6 +18,7 @@ Google/
     ├── sources/       # Summary pages for each ingested source
     ├── concepts/      # Topic and concept pages
     ├── entities/      # Entity pages (APIs, products, tools)
+    ├── workflows/     # Step-by-step process documentation
     ├── queries/       # Filed Q&A outputs
     └── outputs/       # Generated artifacts
         ├── slides/    # Marp presentations
@@ -30,6 +32,12 @@ Google/
 3. **Knowledge compounds** — Every ingest and query should strengthen the wiki.
 4. **Cross-reference extensively** — Use `[[wiki links]]` to connect related concepts.
 5. **Cite sources** — Reference raw sources with `[[raw/filename]]` links.
+
+## Extraction Hints
+
+When ingesting sources, use these hints to identify content for each type:
+
+- **Workflow**: Extract when document describes a sequence of steps, setup process, or integration procedure
 
 ## Domain Context
 
@@ -133,6 +141,45 @@ tags: [<relevant-tags>]
 <anything discovered not already in wiki — candidates for new pages>
 ```
 
+### Workflow Page (`wiki/workflows/`)
+```markdown
+---
+type: workflow
+title: "<Workflow Name>"
+trigger: "<What initiates this workflow>"
+outcome: "<What is achieved>"
+prerequisites: [<required setup>]
+estimated_time: "<time estimate>"
+tags: [<relevant-tags>]
+---
+
+## Overview
+<brief description of what this workflow accomplishes>
+
+## Prerequisites
+- <required setup, permissions, or prior steps>
+
+## Steps
+1. **Step Name** — Description
+   - Sub-step if needed
+2. **Step Name** — Description
+3. **Step Name** — Description
+
+## Verification
+<how to confirm the workflow succeeded>
+
+## Troubleshooting
+- **Issue**: <common problem>
+  **Solution**: <how to fix>
+
+## Related
+- [[wiki/concepts/<concept>]]
+- [[wiki/entities/<entity>]]
+
+## Sources
+- [[wiki/sources/<source>]]
+```
+
 ### Health Report (`wiki/health.md`)
 ```markdown
 # Wiki Health Report
@@ -183,13 +230,15 @@ Reference in wiki pages: `![[wiki/outputs/charts/<name>.png]]`
 ## Workflows
 
 ### Ingest Source
-1. Read the source document completely
-2. Create a summary page in `wiki/sources/`
-3. Identify concepts — create or update pages in `wiki/concepts/`
-4. Identify entities — create or update pages in `wiki/entities/`
-5. Update `wiki/index.md` with new pages
-6. Update `wiki/overview.md` if the synthesis changes
-7. Append entry to `wiki/log.md`
+1. Read `wiki-types.yaml` for type definitions and extraction hints
+2. Read the source document completely
+3. Create a summary page in `wiki/sources/`
+4. Identify concepts — create or update pages in `wiki/concepts/`
+5. Identify entities — create or update pages in `wiki/entities/`
+6. Identify workflows (step-by-step processes) — create pages in `wiki/workflows/`
+7. Update `wiki/index.md` with new pages
+8. Update `wiki/overview.md` if the synthesis changes
+9. Append entry to `wiki/log.md`
 
 ### Answer Query
 1. Read `wiki/index.md` to find relevant pages

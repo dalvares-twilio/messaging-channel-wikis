@@ -164,3 +164,36 @@ Generated: `wiki/outputs/slides/llm-wiki-skill/llm-wiki-skill.pptx`
 6. Page Formats - source, concept, query, health
 7. Usage Examples - common commands
 8. Get Started - quick start guide
+
+## [2026-04-05] schema | Added Workflow Type
+
+Added `workflow` type to wiki for step-by-step runbooks:
+- Created `wiki-types.yaml` with custom type definitions
+- Updated `CLAUDE.md` with workflow page format and extraction hints
+- Created `wiki/workflows/` directory
+
+## [2026-04-05] workflows | Created 4 Workflow Pages
+
+Extracted actionable runbooks from existing concepts:
+
+- [[wiki/workflows/create-launch-agent]] — End-to-end agent setup and carrier launch
+  - Sources: agent-lifecycle, carrier-launch, create-agent, launch-approval
+- [[wiki/workflows/configure-webhook]] — Async webhook with HMAC security
+  - Sources: async-processing, message-verification, webhooks
+- [[wiki/workflows/add-test-device]] — Test device setup for pre-launch
+  - Sources: rcs-enablement, test-devices
+- [[wiki/workflows/setup-deep-links]] — Deep links and QR codes for user acquisition
+  - Sources: user-acquisition, deep-links
+
+Updated 6 concept pages with "Related Workflows" links:
+- agent-lifecycle, carrier-launch, async-processing, message-verification, rcs-enablement, user-acquisition
+
+## [2026-04-05] lint | Health Check
+
+Results:
+- Orphaned pages: 0
+- Missing links: 0
+- Type validation: All 54 pages pass
+- Workflows: 4 pages validated (title, trigger, outcome)
+
+Wiki is healthy. See [[wiki/health]] for full report.
