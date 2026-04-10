@@ -112,8 +112,27 @@ entity_type: "<api|endpoint|field|parameter|service>"
 ### Answer Query
 1. Read `wiki/index.md` to find relevant pages
 2. Read relevant wiki pages
-3. Synthesize answer with citations
-4. If answer is valuable, consider filing it as a new wiki page
+3. **Trust the wiki** — it's already compiled, cross-referenced knowledge
+4. Synthesize answer with citations
+5. If answer is valuable, consider filing it as a new wiki page
+
+## Query Response Philosophy
+
+**Trust the compiled wiki.** Per Karpathy's philosophy, knowledge is compiled once into the wiki — don't re-derive on every query. The wiki IS the verified knowledge.
+
+### When to verify with subagent (optional, not default)
+
+Dispatch a verification subagent ONLY when:
+- Answer requires synthesis across **3+ sources** with potential conflicts
+- User explicitly requests **proof/citation** for a specific claim
+- Answer feels **uncertain or contradictory**
+- Dealing with **time-sensitive information** that may be stale
+
+### Always required (no subagent needed)
+
+1. **Include source URL** — from `source_url` frontmatter
+2. **Cite wiki pages** — `[[wiki/sources/...]]` links
+3. **Separate quotes from synthesis** — blockquotes for direct quotes
 
 ### Lint/Health Check
 - Look for orphan pages (no inbound links)

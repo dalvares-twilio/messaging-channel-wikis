@@ -33,7 +33,8 @@ Agents receive webhook events from the RBM platform including user events (inter
 - Resubscription applies to all message types including promotions
 
 ### Platform Events
-- `AgentLaunchEvent`: launch state changes (check `message.attributes.type` = `agent_launch_event`)
+- `AgentLaunchEvent`: launch state changes — see [[wiki/concepts/agent-launch-event]] for full payload structure
+  - Detection: `message.attributes.type` = `agent_launch_event`
   - States: PENDING, LAUNCHED, REJECTED, SUSPENDED, UNLAUNCHED
 - `TTL_EXPIRATION_REVOKED`: message expired, successfully revoked
 - `TTL_EXPIRATION_REVOKE_FAILED`: message expired, revocation failed
@@ -49,6 +50,7 @@ Agents receive webhook events from the RBM platform including user events (inter
 
 - [[wiki/concepts/subscribe-unsubscribe]]
 - [[wiki/concepts/agent-lifecycle]]
+- [[wiki/concepts/agent-launch-event]]
 
 ## Related Entities
 

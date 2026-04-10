@@ -197,3 +197,38 @@ Results:
 - Workflows: 4 pages validated (title, trigger, outcome)
 
 Wiki is healthy. See [[wiki/health]] for full report.
+
+## [2026-04-09] ingest | API Resource Documentation — 5 New Pages
+
+Source: Google Business Communications REST API Reference
+Created:
+- [[wiki/sources/api-resource-agent-launch]] — AgentLaunch resource with questionnaire and region launch details
+- [[wiki/sources/api-resource-agent-verification]] — AgentVerification resource and VerificationState enum
+- [[wiki/sources/api-resource-agent-verification-contact]] — Partner and brand contact details for verification
+- [[wiki/sources/api-resource-verification-state]] — VerificationState enum values (UNSPECIFIED, UNVERIFIED, PENDING, VERIFIED, SUSPENDED_IN_GMB)
+- [[wiki/sources/api-resource-phone]] — Phone number resource (E.164 format)
+
+## [2026-04-09] ingest | Partner Account Setup
+
+Source: https://developers.google.com/business-communications/rcs-business-messaging/guides/get-started/partner-account
+Created: [[wiki/sources/partner-account-setup]]
+
+Key content:
+- Partner account registration steps
+- Partner-level webhook configuration (vs agent-level)
+- Service account setup and key generation
+- User roles: Owner, Manager, Reader
+- Webhook validation flow and HMAC verification
+
+## [2026-04-09] concept | AgentLaunchEvent
+
+Created: [[wiki/concepts/agent-launch-event]]
+
+Detailed platform event documentation including:
+- Full Pub/Sub message wrapper structure
+- Base64-decoded data field with all fields documented
+- Launch state enum values and transitions
+- Detection logic for webhook handler
+- KYC status mapping for OTTM integration
+
+Updated: [[wiki/sources/receive-events]] — added link to new concept

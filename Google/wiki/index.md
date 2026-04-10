@@ -1,8 +1,9 @@
 # Google RCS for Business — Wiki Index
 
-## Sources (25)
+## Sources (31)
 
 ### Setup & Configuration
+- [[wiki/sources/partner-account-setup]] — Partner account, partner webhook, service account, user roles
 - [[wiki/sources/create-agent]] — Agent creation, regions, billing categories, use cases
 - [[wiki/sources/edit-agent-info]] — Agent info, branding, status stages, immutability
 - [[wiki/sources/manage-agents]] — Archiving/unarchiving agents, bulk operations
@@ -38,6 +39,11 @@
 ### API Reference (Schemas)
 - [[wiki/sources/api-reference-overview]] — Business Communications API endpoints
 - [[wiki/sources/api-resource-agents]] — Agent resource schema, enums, fields
+- [[wiki/sources/api-resource-agent-launch]] — AgentLaunch resource, questionnaire, region launch
+- [[wiki/sources/api-resource-agent-verification]] — AgentVerification resource and states
+- [[wiki/sources/api-resource-agent-verification-contact]] — Partner and brand contact details
+- [[wiki/sources/api-resource-verification-state]] — VerificationState enum values
+- [[wiki/sources/api-resource-phone]] — Phone number resource (E.164)
 - [[wiki/sources/api-resource-integrations]] — Webhook and Dialogflow integration schemas
 - [[wiki/sources/api-resource-partners]] — Partner resource schema
 
@@ -48,8 +54,9 @@
 ### Implementation Reference
 - [[wiki/sources/ottm-implementation]] — Twilio OTTM client: defaults, retry semantics, immutability rules
 
-## Concepts (14)
+## Concepts (15)
 
+- [[wiki/concepts/agent-launch-event]] — Platform event payload, launch states, KYC mapping
 - [[wiki/concepts/agent-lifecycle]] — Status progression, immutability points, archiving
 - [[wiki/concepts/carrier-launch]] — Google-managed vs carrier-managed launch, verification
 - [[wiki/concepts/use-cases]] — OTP, Transactional, Promotional, Multi-use
