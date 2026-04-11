@@ -312,3 +312,16 @@ Converted all Obsidian wikilinks to standard markdown links for GitHub compatibi
 - 7 image embeds converted to `![image](path)` format
 
 Links now render correctly on GitHub.
+
+## [2026-04-10] patterns | Generate Reasoning Patterns
+
+Created 7 reasoning patterns in wiki/patterns/:
+- [embedded-signup-method-selection](patterns/embedded-signup-method-selection.md) — Hosted vs Standard ES decision matrix
+- [partner-type-selection](patterns/partner-type-selection.md) — Solution Partner vs Tech Provider role decision
+- [webhook-security-validation](patterns/webhook-security-validation.md) — Security implementation checklist
+- [phone-number-registration-decision](patterns/phone-number-registration-decision.md) — Phone number lifecycle and type selection
+- [oba-eligibility-assessment](patterns/oba-eligibility-assessment.md) — Six-criteria OBA readiness checklist
+- [mps-architecture-decision](patterns/mps-architecture-decision.md) — Multi-Partner Solution evaluation
+- [messaging-limit-growth](patterns/messaging-limit-growth.md) — Tier progression strategy and blockers
+
+Patterns capture recurring decision rules and heuristics for WhatsApp Business Platform integration decisions.

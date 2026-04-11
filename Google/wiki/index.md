@@ -168,6 +168,21 @@
 - [google-messages](entities/google-messages.md) — Android messaging app with RCS support
 - [dialogflow](entities/dialogflow.md) — Google Cloud NLU for conversational AI
 
+## Patterns (8)
+
+Reasoning patterns capture decision heuristics and judgment calls for common RCS implementation scenarios.
+
+| Pattern | Applies To | Confidence |
+| --- | --- | --- |
+| [standalone-vs-carousel-selection](patterns/standalone-vs-carousel-selection.md) | Rich card message design | high |
+| [media-height-selection](patterns/media-height-selection.md) | Rich card visual design | high |
+| [ttl-by-message-urgency](patterns/ttl-by-message-urgency.md) | Message expiration and SMS fallback | high |
+| [capability-check-then-send](patterns/capability-check-then-send.md) | Pre-send device validation | high |
+| [error-recovery-by-code](patterns/error-recovery-by-code.md) | API error handling and retry | high |
+| [google-managed-launch-preference](patterns/google-managed-launch-preference.md) | Carrier launch strategy | high |
+| [regional-endpoint-selection](patterns/regional-endpoint-selection.md) | Agent creation and data residency | high |
+| [async-webhook-processing](patterns/async-webhook-processing.md) | Webhook handler implementation | high |
+
 ## Workflows (4)
 
 | Page | Trigger | Outcome |

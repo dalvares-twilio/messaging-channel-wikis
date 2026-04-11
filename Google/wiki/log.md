@@ -458,3 +458,27 @@ New insights identified across queries:
 - 30-day queue has no notification when message is deleted
 
 Index updated: Query count increased from 39 to 48, new categories added (Agent Branding, Message Content & Limits, Suggested Actions & Replies, Error Handling & Retry).
+
+## [2026-04-10] patterns | Initial Reasoning Patterns — 8 New Pages
+
+Created reasoning patterns capturing decision heuristics and judgment calls for common RCS implementation scenarios:
+
+### Rich Card Design
+- [standalone-vs-carousel-selection](patterns/standalone-vs-carousel-selection.md) — Use standalone for single-item focus; carousel for browsing/choosing
+- [media-height-selection](patterns/media-height-selection.md) — Short for thumbnails, Medium for balanced, Tall for hero images
+
+### Message Delivery & Fallback
+- [ttl-by-message-urgency](patterns/ttl-by-message-urgency.md) — TTL proportional to urgency: 5-15 min (auth), 1-24 hours (transactional), 3-7 days (promotional)
+- [capability-check-then-send](patterns/capability-check-then-send.md) — Pre-check RCS capability to route appropriately or fall back immediately
+
+### Error Handling
+- [error-recovery-by-code](patterns/error-recovery-by-code.md) — Retry 401/5xx; treat 400/403/404/429 as terminal
+
+### Launch & Configuration
+- [google-managed-launch-preference](patterns/google-managed-launch-preference.md) — Prefer Google-managed (1-3 days) over carrier-managed (weeks)
+- [regional-endpoint-selection](patterns/regional-endpoint-selection.md) — Select by data residency first (GDPR), then latency; region does not affect carrier access
+
+### Webhook Implementation
+- [async-webhook-processing](patterns/async-webhook-processing.md) — Return 200 OK immediately; queue for async processing to avoid shared queue impact
+
+Index updated: Added Patterns section (8 pages) between Entities and Workflows.

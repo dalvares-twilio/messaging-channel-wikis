@@ -125,6 +125,20 @@ Master catalog of all pages in this knowledge base.
 
 ---
 
+## Patterns
+
+| Page | Summary |
+|------|---------|
+| [embedded-signup-method-selection](patterns/embedded-signup-method-selection.md) | Hosted vs Standard Embedded Signup decision matrix |
+| [partner-type-selection](patterns/partner-type-selection.md) | Solution Partner vs Tech Provider role decision |
+| [webhook-security-validation](patterns/webhook-security-validation.md) | Security checklist: TLS, signatures, mTLS |
+| [phone-number-registration-decision](patterns/phone-number-registration-decision.md) | Phone number lifecycle and type selection |
+| [oba-eligibility-assessment](patterns/oba-eligibility-assessment.md) | Six-criteria OBA readiness checklist |
+| [mps-architecture-decision](patterns/mps-architecture-decision.md) | Multi-Partner Solution vs single-partner evaluation |
+| [messaging-limit-growth](patterns/messaging-limit-growth.md) | Tier progression strategy and blockers |
+
+---
+
 ## Queries
 
 | Page | Question |
@@ -195,5 +209,6 @@ Master catalog of all pages in this knowledge base.
 - **Sources**: 65
 - **Concepts**: 15
 - **Entities**: 20
-- **Queries: 58
+- **Patterns**: 7
+- **Queries**: 58
 - **Last updated**: 2026-04-10
