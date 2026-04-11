@@ -14,9 +14,11 @@ Meta/
     ├── index.md       # Master catalog of all wiki pages
     ├── log.md         # Chronological activity log
     ├── overview.md    # High-level synthesis of the knowledge base
+    ├── health.md      # Lint report (LLM-maintained)
     ├── sources/       # Summary pages for each ingested source
     ├── concepts/      # Topic and concept pages
-    └── entities/      # Entity pages (APIs, endpoints, fields, etc.)
+    ├── entities/      # Entity pages (APIs, endpoints, fields, etc.)
+    └── patterns/      # Reasoning patterns — "how you think" rules
 ```
 
 ## Core Principles

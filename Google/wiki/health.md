@@ -31,6 +31,24 @@ Potential future additions:
 - `suggested-actions` — Suggested replies/actions patterns
 - `error-handling` — Common API errors and retry strategies
 
+## Suggested Questions
+Questions the wiki can't yet answer well — prompts for future exploration:
+
+### Under-documented concepts (<3 sources)
+- What are the specific rate limits for RBM API calls?
+- How does Google handle message delivery failures at scale?
+
+### Never-queried entities
+- How does Dialogflow integration handle multi-turn conversations?
+- What are the limits of the Developer Console vs API?
+
+### Cross-domain gaps
+- How does Google RCS webhook security compare to Meta's?
+- What's the equivalent of Meta's WABA in Google's model?
+
+### Contradictions to resolve
+- None detected
+
 ## Inconsistencies
 - None detected
 

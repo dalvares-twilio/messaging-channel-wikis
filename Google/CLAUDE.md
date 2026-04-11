@@ -18,6 +18,7 @@ Google/
     ├── sources/       # Summary pages for each ingested source
     ├── concepts/      # Topic and concept pages
     ├── entities/      # Entity pages (APIs, products, tools)
+    ├── patterns/      # Reasoning patterns — "how you think" rules
     ├── workflows/     # Step-by-step process documentation
     ├── queries/       # Filed Q&A outputs
     └── outputs/       # Generated artifacts
