@@ -390,3 +390,71 @@ Converted all Obsidian wikilinks to standard markdown links for GitHub compatibi
 - 36 `[[raw/filename]]` → `[filename](../../raw/filename)`
 
 Links now render correctly on GitHub.
+
+## [2026-04-10] query | Fourth Batch Query Generation — 10 New Queries
+
+Generated 10 additional practical Q&A queries focused on partner setup, regional data residency, agent archiving, tester management, and API schema requirements:
+
+### Partner Account & Setup
+- [partner-webhook-vs-agent-webhook](queries/partner-webhook-vs-agent-webhook.md) — Partner vs agent webhook scope, priority, and shared queue architecture
+- [service-account-setup-authentication](queries/service-account-setup-authentication.md) — Service account JSON key setup, OAuth2 flow, key management
+- [partner-user-roles-permissions](queries/partner-user-roles-permissions.md) — Owner, Manager, Reader roles and permission differences
+
+### Agent Archiving
+- [agent-archiving-eligibility](queries/agent-archiving-eligibility.md) — Archivable states (UNLAUNCHED, SUSPENDED, REJECTED) vs non-archivable (PENDING, LAUNCHED)
+- [bulk-archiving-operations](queries/bulk-archiving-operations.md) — 100-agent limit, partial failure handling, Console-only feature
+- [unarchive-agent-workflow](queries/unarchive-agent-workflow.md) — Visibility restoration without state change
+
+### Tester Management
+- [tester-invite-status-transitions](queries/tester-invite-status-transitions.md) — PENDING→ACCEPTED/DECLINED transitions, re-invite constraints
+- [resending-tester-invites-declined](queries/resending-tester-invites-declined.md) — Delete-then-add workflow for declined testers
+
+### API Schema
+- [agent-schema-required-fields](queries/agent-schema-required-fields.md) — Required, conditionally required, and optional fields with immutability points
+- [india-principal-entity-id](queries/india-principal-entity-id.md) — TRAI DLT compliance for India carrier launch
+
+New insights identified across queries:
+- Shared webhook queue architecture impacts all agents under partner
+- Archive/unarchive appears to be Console-only (no API documented)
+- Declined testers consume quota until explicitly removed
+- India PE ID registration can take weeks - plan ahead
+
+Index updated: Query count increased from 29 to 39, reorganized into 13 categories.
+
+## [2026-04-10] query | Fifth Batch Query Generation — 9 New Queries
+
+Generated 9 additional practical Q&A queries focused on agent branding, message content limits, suggested actions/replies, and error handling:
+
+### Agent Branding
+- [logo-dark-mode-transparency](queries/logo-dark-mode-transparency.md) — Why to avoid transparency in logos, dark mode visibility issues
+- [hero-image-overlap-design](queries/hero-image-overlap-design.md) — Logo overlap considerations for hero/banner image design
+
+### Message Content & Limits
+- [text-message-character-limits](queries/text-message-character-limits.md) — 3072 chars for rich text, 160 for basic; multi-byte character impact
+- [media-pdf-size-limits](queries/media-pdf-size-limits.md) — 250KB message payload, 100MiB media, 50KB logo, 200KB hero
+
+### Suggested Actions & Replies
+- [suggested-actions-vs-replies](queries/suggested-actions-vs-replies.md) — When to use actions (external app) vs replies (conversation flow)
+- [suggestion-postback-data-patterns](queries/suggestion-postback-data-patterns.md) — Machine-readable postbackData patterns, best practices
+
+### Error Handling & Retry
+- [error-404-not-found-handling](queries/error-404-not-found-handling.md) — 404 causes (no RCS, not launched), non-retryable, fallback strategy
+- [error-400-invalid-argument-handling](queries/error-400-invalid-argument-handling.md) — 400 causes (unsupported feature, payload limits), capability-aware sending
+
+### TTL & Message Expiration
+- [offline-message-queuing-behavior](queries/offline-message-queuing-behavior.md) — 30-day platform queuing for offline recipients, TTL implications
+
+Topics covered:
+1. Agent branding requirements (logo, hero image, colors)
+2. Message types and content limits (text, media, PDF)
+3. Suggested actions and replies (postbackData patterns)
+4. Error handling and retry strategies (404, 400)
+5. API authentication (duplicate removed - existing query covers this)
+
+New insights identified across queries:
+- No dark mode preview tool documented
+- Exact logo overlap position not specified - use templates
+- Byte counting needed for accurate character limits with emoji
+- 30-day queue has no notification when message is deleted
+
+Index updated: Query count increased from 39 to 48, new categories added (Agent Branding, Message Content & Limits, Suggested Actions & Replies, Error Handling & Retry).

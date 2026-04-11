@@ -72,7 +72,12 @@
 - [user-acquisition](concepts/user-acquisition.md) — Deep links, QR codes, conversation starters
 - [rich-cards](concepts/rich-cards.md) — Standalone cards, carousels, media heights, suggestions
 
-## Queries (29)
+## Queries (48)
+
+### Partner Account & Setup
+- [partner-webhook-vs-agent-webhook](queries/partner-webhook-vs-agent-webhook.md) — Differences between partner-level and agent-level webhooks
+- [service-account-setup-authentication](queries/service-account-setup-authentication.md) — Service account setup and API authentication
+- [partner-user-roles-permissions](queries/partner-user-roles-permissions.md) — Console user roles: Owner, Manager, Reader
 
 ### Agent Lifecycle & Configuration
 - [agent-status-progression](queries/agent-status-progression.md) — Agent lifecycle stages and field immutability
@@ -80,6 +85,19 @@
 - [use-case-selection](queries/use-case-selection.md) — Choosing OTP, Transactional, Promotional, or Multi-use
 - [billing-category-differences](queries/billing-category-differences.md) — Conversational vs Non-conversational billing
 - [regional-endpoint-selection](queries/regional-endpoint-selection.md) — Choosing NA, EU, or APAC region for data residency
+
+### Agent Branding
+- [logo-dark-mode-transparency](queries/logo-dark-mode-transparency.md) — Why to avoid logo transparency and dark mode handling
+- [hero-image-overlap-design](queries/hero-image-overlap-design.md) — Designing hero images with logo overlap considerations
+
+### Agent Archiving
+- [agent-archiving-eligibility](queries/agent-archiving-eligibility.md) — Which agent states can/cannot be archived
+- [bulk-archiving-operations](queries/bulk-archiving-operations.md) — Bulk archive up to 100 agents, partial failure handling
+- [unarchive-agent-workflow](queries/unarchive-agent-workflow.md) — How to unarchive and what happens when you do
+
+### API Schema & Fields
+- [agent-schema-required-fields](queries/agent-schema-required-fields.md) — Required vs conditionally required fields for agent creation
+- [india-principal-entity-id](queries/india-principal-entity-id.md) — India TRAI Principal Entity ID requirements
 
 ### Verification & Launch
 - [verification-failure-handling](queries/verification-failure-handling.md) — Verification states, rejection handling, retry paths
@@ -91,14 +109,29 @@
 - [webhook-security-hmac](queries/webhook-security-hmac.md) — HMAC-SHA512 webhook security verification
 - [webhook-failure-impact](queries/webhook-failure-impact.md) — Webhook failure impact, shared queue, recovery
 
-### Testing
+### Testing & Testers
 - [test-device-troubleshooting](queries/test-device-troubleshooting.md) — Common test device errors and fixes
 - [test-device-limits](queries/test-device-limits.md) — Test device invite limits and management
+- [tester-invite-status-transitions](queries/tester-invite-status-transitions.md) — PENDING, ACCEPTED, DECLINED status transitions
+- [resending-tester-invites-declined](queries/resending-tester-invites-declined.md) — How to re-invite a device that declined
+
+### Message Content & Limits
+- [text-message-character-limits](queries/text-message-character-limits.md) — Character limits and multi-byte character handling
+- [media-pdf-size-limits](queries/media-pdf-size-limits.md) — Media and PDF attachment size limits
+
+### Suggested Actions & Replies
+- [suggested-actions-vs-replies](queries/suggested-actions-vs-replies.md) — When to use actions vs replies
+- [suggestion-postback-data-patterns](queries/suggestion-postback-data-patterns.md) — Best practices for structuring postbackData
+
+### Error Handling & Retry
+- [error-404-not-found-handling](queries/error-404-not-found-handling.md) — 404 NOT_FOUND causes and fallback strategies
+- [error-400-invalid-argument-handling](queries/error-400-invalid-argument-handling.md) — 400 INVALID_ARGUMENT causes and fixes
 
 ### TTL & Message Expiration
 - [ttl-otp-strategy](queries/ttl-otp-strategy.md) — TTL strategy for OTP messages with fallback
 - [ttl-promotional-messages](queries/ttl-promotional-messages.md) — TTL strategy for promotional messages
 - [ttl-and-fallback-strategy](queries/ttl-and-fallback-strategy.md) — TTL configuration and SMS fallback strategy
+- [offline-message-queuing-behavior](queries/offline-message-queuing-behavior.md) — 30-day queuing for offline recipients
 
 ### Opt-Out Handling
 - [stop-keyword-handling](queries/stop-keyword-handling.md) — Handling STOP keywords and opt-out compliance
