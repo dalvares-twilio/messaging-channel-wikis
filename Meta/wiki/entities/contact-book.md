@@ -48,11 +48,11 @@ Meta Business Suite > Business settings > Business info
 - Each portfolio maintains separate contact book
 
 ## Related Concepts
-- [[user-identification]]
+- [user-identification](user-identification.md)
 
 ## Related Entities
-- [[bsuid]]
-- [[messages-webhook]]
+- [bsuid](bsuid.md)
+- [messages-webhook](messages-webhook.md)
 
 ## Sources
-- [[business-scoped-user-ids]]
+- [business-scoped-user-ids](business-scoped-user-ids.md)

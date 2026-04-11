@@ -30,13 +30,13 @@ Requires service account key for API authentication. Set up via Google Cloud Con
 
 ## Related
 
-- [[wiki/entities/developer-console]]
-- [[wiki/entities/rbm-management-api]]
-- [[wiki/concepts/regional-endpoints]]
+- [developer-console](../entities/developer-console.md)
+- [rbm-management-api](../entities/rbm-management-api.md)
+- [regional-endpoints](../concepts/regional-endpoints.md)
 
 ## Sources
 
-- [[wiki/sources/webhooks]]
-- [[wiki/sources/create-agent]]
-- [[wiki/sources/test-devices]]
-- [[wiki/sources/dialogflow-integration]]
+- [webhooks](../sources/webhooks.md)
+- [create-agent](../sources/create-agent.md)
+- [test-devices](../sources/test-devices.md)
+- [dialogflow-integration](../sources/dialogflow-integration.md)

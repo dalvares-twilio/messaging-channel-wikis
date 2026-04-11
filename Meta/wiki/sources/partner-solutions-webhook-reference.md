@@ -1,7 +1,7 @@
 ---
 type: source
 title: "partner_solutions Webhook Reference"
-source_file: "[[raw/partner_solutions webhook reference  Developer Documentation.md]]"
+source_file: "[partner_solutions webhook reference  Developer Documentation.md](../../raw/partner_solutions webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/partner_solutions"
 ingested: 2026-04-05
 tags: [webhooks, partners, solutions, reference]
@@ -39,4 +39,4 @@ The `partner_solutions` webhook notifies of Multi-Partner Solution status change
 | `REJECTED` | Partner rejected request |
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
+- [solution-partners](../concepts/solution-partners.md)

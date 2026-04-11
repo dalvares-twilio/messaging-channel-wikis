@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Embedded Signup Flow Errors"
-source_file: "[[raw/Embedded Signup Flow Errors.md]]"
+source_file: "[Embedded Signup Flow Errors.md](../../raw/Embedded Signup Flow Errors.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/errors"
 ingested: 2026-04-05
 tags: [embedded-signup, errors, troubleshooting]
@@ -55,4 +55,4 @@ Reference for errors that may occur during Embedded Signup flow.
 - Suspicious behavior
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)

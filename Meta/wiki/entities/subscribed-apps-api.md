@@ -57,11 +57,11 @@ GET /<WABA_ID>/subscribed_apps
 - Max URL length: 200 characters
 
 ## Related Concepts
-- [[Knowledge-Bases/Channels/Meta/wiki/concepts/webhook-overrides]]
-- [[webhooks]]
+- [webhook-overrides](../concepts/webhook-overrides.md)
+- [webhooks](webhooks.md)
 
 ## Related Entities
-- [[phone-number-webhook-config]]
+- [phone-number-webhook-config](phone-number-webhook-config.md)
 
 ## Sources
-- [[Knowledge-Bases/Channels/Meta/wiki/sources/webhook-overrides]]
+- [webhook-overrides](../sources/webhook-overrides.md)

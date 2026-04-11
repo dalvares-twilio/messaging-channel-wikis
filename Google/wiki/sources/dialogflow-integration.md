@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Dialogflow Integration"
-source_file: "[[raw/Dialogflow integration    RCS for Business.md]]"
+source_file: "[Dialogflow integration    RCS for Business.md](../../raw/Dialogflow integration    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/integrate/df"
 ingested: 2026-04-05
 tags: [dialogflow, nlu, integration]
@@ -22,9 +22,9 @@ Dialogflow is Google's NLU (Natural Language Understanding) module that can be i
 
 ## Related Concepts
 
-- [[wiki/concepts/async-processing]]
+- [async-processing](../concepts/async-processing.md)
 
 ## Related Entities
 
-- [[wiki/entities/dialogflow]]
-- [[wiki/entities/rbm-api]]
+- [dialogflow](../entities/dialogflow.md)
+- [rbm-api](../entities/rbm-api.md)

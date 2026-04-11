@@ -1,7 +1,7 @@
 ---
 type: source
 title: "account_alerts Webhook Reference"
-source_file: "[[raw/account_alerts webhook reference  Developer Documentation.md]]"
+source_file: "[account_alerts webhook reference  Developer Documentation.md](../../raw/account_alerts webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/account_alerts"
 ingested: 2026-04-05
 tags: [webhooks, account, alerts, reference]
@@ -60,5 +60,5 @@ The `account_alerts` webhook notifies of changes to messaging limits, business p
 ```
 
 ## Related Entities
-- [[wiki/entities/account-alerts-webhook]]
-- [[wiki/entities/official-business-account]]
+- [account-alerts-webhook](../entities/account-alerts-webhook.md)
+- [official-business-account](../entities/official-business-account.md)

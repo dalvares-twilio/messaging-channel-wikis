@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Customizing Default Flow"
-source_file: "[[raw/Customizing the default flow.md]]"
+source_file: "[Customizing the default flow.md](../../raw/Customizing the default flow.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/custom-flows"
 ingested: 2026-04-05
 tags: [embedded-signup, customization]
@@ -23,9 +23,9 @@ Overview of Embedded Signup customization options.
 
 ## Related Sources
 
-- [[wiki/sources/pre-filling-screens]]
-- [[wiki/sources/bypassing-phone-number-screen]]
-- [[wiki/sources/app-only-install]]
+- [pre-filling-screens](../sources/pre-filling-screens.md)
+- [bypassing-phone-number-screen](../sources/bypassing-phone-number-screen.md)
+- [app-only-install](../sources/app-only-install.md)
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)

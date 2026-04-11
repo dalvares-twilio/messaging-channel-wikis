@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Edit Agent Information"
-source_file: "[[raw/Edit agent information    RCS for Business.md]]"
+source_file: "[Edit agent information    RCS for Business.md](../../raw/Edit agent information    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/build/agents/edit-agent-information"
 ingested: 2026-04-05
 tags: [agents, configuration, branding]
@@ -30,10 +30,10 @@ Agent status progresses through: Incomplete → Ready for launch → Launch pend
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/branding-guidelines]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [branding-guidelines](../concepts/branding-guidelines.md)
 
 ## Related Entities
 
-- [[wiki/entities/developer-console]]
-- [[wiki/entities/rbm-management-api]]
+- [developer-console](../entities/developer-console.md)
+- [rbm-management-api](../entities/rbm-management-api.md)

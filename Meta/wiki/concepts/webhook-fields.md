@@ -52,7 +52,7 @@ Webhook fields are the specific event types you can subscribe to in the WhatsApp
 
 ## Override Support
 
-Only certain fields support [[Knowledge-Bases/Channels/Meta/wiki/concepts/webhook-overrides|callback overrides]]:
+Only certain fields support [webhook-overrides|callback overrides](../concepts/webhook-overrides|callback overrides.md):
 - `messages`, `message_echoes`, `calls`, `consumer_profile`
 - `messaging_handovers`, `group_*` fields
 - `smb_*` fields, `history`, `account_settings_update`
@@ -60,15 +60,15 @@ Only certain fields support [[Knowledge-Bases/Channels/Meta/wiki/concepts/webhoo
 **Not supported for override**: All template and account-level webhooks.
 
 ## Related Concepts
-- [[webhooks]]
-- [[Knowledge-Bases/Channels/Meta/wiki/concepts/webhook-overrides]]
-- [[permissions]]
+- [webhooks](webhooks.md)
+- [webhook-overrides](../concepts/webhook-overrides.md)
+- [permissions](permissions.md)
 
 ## Related Entities
-- [[messages-webhook]]
-- [[account-alerts-webhook]]
-- [[message-template-webhooks]]
+- [messages-webhook](messages-webhook.md)
+- [account-alerts-webhook](account-alerts-webhook.md)
+- [message-template-webhooks](message-template-webhooks.md)
 
 ## Sources
-- [[webhooks-overview]]
-- [[Knowledge-Bases/Channels/Meta/wiki/sources/webhook-overrides]]
+- [webhooks-overview](webhooks-overview.md)
+- [webhook-overrides](../sources/webhook-overrides.md)

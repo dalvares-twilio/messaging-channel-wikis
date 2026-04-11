@@ -1,7 +1,7 @@
 ---
 type: source
 title: Business Profiles
-source_file: "[[Business profiles  Developer Documentation]]"
+source_file: "[Business profiles  Developer Documentation](Business profiles  Developer Documentation.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/business-profiles
 ingested: 2026-04-05
 tags:
@@ -53,9 +53,9 @@ Body: JSON with fields to update
 4. Edit fields as needed
 
 ## Related Concepts
-- [[phone-number-management]]
+- [phone-number-management](phone-number-management.md)
 
 ## Related Entities
-- [[business-profile]]
-- [[display-name]]
-- [[whatsapp-business-account]]
+- [business-profile](business-profile.md)
+- [display-name](display-name.md)
+- [whatsapp-business-account](whatsapp-business-account.md)

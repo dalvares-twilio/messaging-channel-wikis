@@ -1,7 +1,7 @@
 ---
 type: source
 title: "messages Webhook Reference"
-source_file: "[[raw/messages webhook reference  Developer Documentation.md]]"
+source_file: "[messages webhook reference  Developer Documentation.md](../../raw/messages webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/messages"
 ingested: 2026-04-05
 tags: [webhooks, messages, reference, payload]
@@ -55,11 +55,11 @@ Each outgoing message can trigger up to 3 webhooks (sent → delivered → read)
 | `statuses.errors` | Outgoing message errors |
 
 ## Related Concepts
-- [[wiki/concepts/webhooks]]
-- [[wiki/concepts/webhook-fields]]
+- [webhooks](../concepts/webhooks.md)
+- [webhook-fields](../concepts/webhook-fields.md)
 
 ## Related Entities
-- [[wiki/entities/messages-webhook]]
+- [messages-webhook](../entities/messages-webhook.md)
 
 ## Sources
-- [[wiki/sources/webhooks-overview]]
+- [webhooks-overview](../sources/webhooks-overview.md)

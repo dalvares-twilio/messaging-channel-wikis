@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Send Events"
-source_file: "[[raw/Send events    RCS for Business.md]]"
+source_file: "[Send events    RCS for Business.md](../../raw/Send events    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/build/events/send-events"
 ingested: 2026-04-05
 tags: [events, api, user-experience]
@@ -29,8 +29,8 @@ Agents send status events to users to simulate human interactions — read recei
 
 ## Related Concepts
 
-- [[wiki/concepts/async-processing]]
+- [async-processing](../concepts/async-processing.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
+- [rbm-api](../entities/rbm-api.md)

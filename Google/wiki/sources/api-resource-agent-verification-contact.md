@@ -1,7 +1,7 @@
 ---
 type: source
 title: "REST Resource: AgentVerificationContact"
-source_file: "[[raw/REST Resource AgentVerificationContact.md]]"
+source_file: "[REST Resource AgentVerificationContact.md](../../raw/REST Resource AgentVerificationContact.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/reference/business-communications/rest/v1/AgentVerificationContact"
 ingested: 2026-04-09
 tags: [api, verification, rest-resource]
@@ -38,8 +38,8 @@ The `AgentVerificationContact` resource captures partner and brand representativ
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
+- [rbm-api](../entities/rbm-api.md)

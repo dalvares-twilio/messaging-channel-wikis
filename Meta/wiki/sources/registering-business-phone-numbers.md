@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Registering Business Phone Numbers"
-source_file: "[[raw/Registering business phone numbers.md]]"
+source_file: "[Registering business phone numbers.md](../../raw/Registering business phone numbers.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/registering-phone-numbers"
 ingested: 2026-04-05
 tags: [phone-numbers, registration, api]
@@ -58,5 +58,5 @@ PIN becomes two-step verification PIN if not already set.
 - All 4 steps needed if phone number screen bypassed
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
-- [[wiki/concepts/two-step-verification]]
+- [embedded-signup](../concepts/embedded-signup.md)
+- [two-step-verification](../concepts/two-step-verification.md)

@@ -61,6 +61,9 @@ title: "<Document Title>"
 source_file: "[[raw/<filename>.md]]"
 source_url: "<original URL>"
 ingested: YYYY-MM-DD
+version: 1                              # Increment for each new version
+supersedes: "[[wiki/sources/<prev>]]"   # Only if v2+, link to previous version
+superseded_by: "[[wiki/sources/<next>]]" # Added when newer version exists
 tags: [<relevant-tags>]
 ---
 
@@ -245,10 +248,11 @@ Reference in wiki pages: `![[wiki/outputs/charts/<name>.png]]`
 1. Read `wiki/index.md` to find relevant pages
 2. Read relevant wiki pages
 3. **Trust the wiki** — it's already compiled, cross-referenced knowledge
-4. Synthesize answer with citations
-5. If answer is valuable → file to `wiki/queries/<slug>.md`
-6. Update `wiki/index.md` with query entry
-7. Append to `wiki/log.md`: `## [YYYY-MM-DD] query | <Question Summary>`
+4. Synthesize answer with citations (`[[wiki/sources/...]]`)
+5. **Check for superseded sources:** If any cited source has `superseded_by` field, include warning
+6. **ALWAYS file to `wiki/queries/<slug>.md`** — every query strengthens the wiki
+7. Update `wiki/index.md` with query entry
+8. Append to `wiki/log.md`: `## [YYYY-MM-DD] query | <Question Summary>`
 
 ## Query Response Philosophy
 
@@ -267,16 +271,19 @@ Dispatch a verification subagent ONLY when:
 1. **Include source URL** — from `source_url` frontmatter
 2. **Cite wiki pages** — `[[wiki/sources/...]]` links
 3. **Separate quotes from synthesis** — blockquotes for direct quotes
+4. **Include References section** — wiki pages, original URL, Slack/contact
 
 ### Lint/Health Check
 1. Check for:
    - Orphan pages (no inbound links)
    - Missing pages (referenced but don't exist)
+   - **Stale citations** (pages citing sources with `superseded_by` field)
    - Contradictions between pages
    - Stale sources (raw files without wiki summaries)
    - Suggested articles (concepts mentioned 3+ times without page)
-2. Write results to `wiki/health.md`
-3. Append to `wiki/log.md`: `## [YYYY-MM-DD] lint | Health Check`
+2. Generate **suggested questions** (concepts with <3 sources, entities never queried)
+3. Write results to `wiki/health.md`
+4. Append to `wiki/log.md`: `## [YYYY-MM-DD] lint | Health Check`
 
 ### Generate Output
 1. Identify wiki content for output (slides, chart, report)

@@ -1,7 +1,7 @@
 ---
 type: source
 title: "RBM Management API Overview"
-source_file: "[[raw/The RBM Management API    RCS for Business.md]]"
+source_file: "[The RBM Management API    RCS for Business.md](../../raw/The RBM Management API    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/management-api/overview"
 ingested: 2026-04-05
 tags: [api, management, aggregators]
@@ -39,9 +39,9 @@ The RBM Management API replicates Developer Console capabilities programmaticall
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-management-api]]
-- [[wiki/entities/developer-console]]
+- [rbm-management-api](../entities/rbm-management-api.md)
+- [developer-console](../entities/developer-console.md)

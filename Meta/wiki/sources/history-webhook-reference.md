@@ -1,7 +1,7 @@
 ---
 type: source
 title: "history Webhook Reference"
-source_file: "[[raw/history webhook reference  Developer Documentation.md]]"
+source_file: "[history webhook reference  Developer Documentation.md](../../raw/history webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/history"
 ingested: 2026-04-05
 tags: [webhooks, history, sync, reference]
@@ -52,7 +52,7 @@ The `history` webhook synchronizes WhatsApp Business app chat history for busine
 Error code `2593109`: "History sync is turned off by the business from the WhatsApp Business App"
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)
 
 ## Related Entities
-- [[wiki/entities/business-phone-number]]
+- [business-phone-number](../entities/business-phone-number.md)

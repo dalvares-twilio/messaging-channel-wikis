@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Bypassing Phone Number Addition Screen"
-source_file: "[[raw/Bypassing the phone number addition screen.md]]"
+source_file: "[Bypassing the phone number addition screen.md](../../raw/Bypassing the phone number addition screen.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/bypass-phone-addition"
 ingested: 2026-04-05
 tags: [embedded-signup, customization, phone-numbers]
@@ -44,4 +44,4 @@ FB.login(callback, {
 Must programmatically create and register phone number via API.
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)

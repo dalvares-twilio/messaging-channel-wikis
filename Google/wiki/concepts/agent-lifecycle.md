@@ -43,17 +43,17 @@ RBM agents progress through defined lifecycle stages from creation to launch. Un
 
 ## Related
 
-- [[wiki/concepts/use-cases]]
-- [[wiki/concepts/billing-categories]]
-- [[wiki/concepts/regional-endpoints]]
+- [use-cases](../concepts/use-cases.md)
+- [billing-categories](../concepts/billing-categories.md)
+- [regional-endpoints](../concepts/regional-endpoints.md)
 
 ## Related Workflows
 
-- [[wiki/workflows/create-launch-agent]] — Step-by-step agent creation and launch
+- [create-launch-agent](../workflows/create-launch-agent.md) — Step-by-step agent creation and launch
 
 ## Sources
 
-- [[wiki/sources/create-agent]]
-- [[wiki/sources/edit-agent-info]]
-- [[wiki/sources/manage-agents]]
-- [[wiki/sources/test-devices]]
+- [create-agent](../sources/create-agent.md)
+- [edit-agent-info](../sources/edit-agent-info.md)
+- [manage-agents](../sources/manage-agents.md)
+- [test-devices](../sources/test-devices.md)

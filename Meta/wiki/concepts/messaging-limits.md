@@ -32,5 +32,5 @@ Limits increase automatically when:
 
 ## Sources
 
-- [[wiki/sources/business-capability-webhook-reference]]
-- [[wiki/sources/account-alerts-webhook-reference]]
+- [business-capability-webhook-reference](../sources/business-capability-webhook-reference.md)
+- [account-alerts-webhook-reference](../sources/account-alerts-webhook-reference.md)

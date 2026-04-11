@@ -53,8 +53,8 @@ https://wa.me/message/<CODE>
 
 ## Sources
 
-- [[wiki/sources/qr-codes-short-links]]
+- [qr-codes-short-links](../sources/qr-codes-short-links.md)
 
 ## Related Entities
 
-- [[wiki/entities/business-phone-number]]
+- [business-phone-number](../entities/business-phone-number.md)

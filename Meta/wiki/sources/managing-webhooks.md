@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Managing Webhooks"
-source_file: "[[raw/Managing Webhooks  Developer Documentation.md]]"
+source_file: "[Managing Webhooks  Developer Documentation.md](../../raw/Managing Webhooks  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/manage-webhooks"
 ingested: 2026-04-05
 tags: [webhooks, subscriptions, management]
@@ -57,5 +57,5 @@ DELETE /<WABA_ID>/subscribed_apps
 | `user_preferences` | Marketing opt-out |
 
 ## Related Concepts
-- [[wiki/concepts/webhooks]]
-- [[wiki/concepts/webhook-fields]]
+- [webhooks](../concepts/webhooks.md)
+- [webhook-fields](../concepts/webhook-fields.md)

@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Cloud API Flow"
-source_file: "[[raw/Cloud API flow  Developer Documentation.md]]"
+source_file: "[Cloud API flow  Developer Documentation.md](../../raw/Cloud API flow  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/default-flow"
 ingested: 2026-04-05
 tags: [embedded-signup, flow, screens]
@@ -30,7 +30,7 @@ On clicking Finish:
 - Exchangeable token code
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)
 
 ## Related Sources
-- [[wiki/sources/embedded-signup-overview]]
+- [embedded-signup-overview](../sources/embedded-signup-overview.md)

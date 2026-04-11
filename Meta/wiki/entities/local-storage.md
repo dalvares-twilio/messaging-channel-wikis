@@ -47,7 +47,7 @@ Cannot change directly. Must:
 - Disabled when number is deregistered
 
 ## Related Entities
-- [[business-phone-number]]
+- [business-phone-number](business-phone-number.md)
 
 ## Sources
-- [[phone-number-registration]]
+- [phone-number-registration](phone-number-registration.md)

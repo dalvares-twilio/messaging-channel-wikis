@@ -12,7 +12,7 @@ Webhooks are HTTP requests containing JSON payloads sent from Meta's servers to 
 ## How They Work
 
 1. You create and configure a webhook endpoint on your server
-2. You subscribe to specific [[webhook-fields|webhook fields]] via the App Dashboard
+2. You subscribe to specific [webhook-fields|webhook fields](webhook-fields|webhook fields.md) via the App Dashboard
 3. When events occur, Meta sends HTTP POST requests to your endpoint
 4. Your server validates and processes the payload, responding with HTTP 200
 
@@ -40,17 +40,17 @@ Webhooks are configured in the **App Dashboard > WhatsApp > Configuration** pane
 1. Set **Callback URL** (your endpoint)
 2. Set **Verify token** (your secret string)
 3. Meta sends GET request to verify
-4. Subscribe to desired [[webhook-fields|fields]]
+4. Subscribe to desired [webhook-fields|fields](webhook-fields|fields.md)
 
 ## Related Concepts
-- [[webhook-fields]] — subscribable event types
-- [[webhook-verification]] — handshake process
-- [[webhook-security]] — TLS, mTLS, signature validation
-- [[Knowledge-Bases/Channels/Meta/wiki/concepts/webhook-overrides]] — alternate callback URLs
-- [[permissions]] — required permissions
+- [webhook-fields](webhook-fields.md) — subscribable event types
+- [webhook-verification](webhook-verification.md) — handshake process
+- [webhook-security](webhook-security.md) — TLS, mTLS, signature validation
+- [webhook-overrides](../concepts/webhook-overrides.md) — alternate callback URLs
+- [permissions](permissions.md) — required permissions
 
 ## Sources
-- [[webhooks-overview]]
-- [[create-webhook-endpoint]]
-- [[create-test-webhook-endpoint]]
-- [[Knowledge-Bases/Channels/Meta/wiki/sources/webhook-overrides]]
+- [webhooks-overview](webhooks-overview.md)
+- [create-webhook-endpoint](create-webhook-endpoint.md)
+- [create-test-webhook-endpoint](create-test-webhook-endpoint.md)
+- [webhook-overrides](../sources/webhook-overrides.md)

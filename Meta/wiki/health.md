@@ -10,6 +10,9 @@ Last checked: 2026-04-10
 ## Stale Sources
 - None detected
 
+## Stale Citations
+- None — no sources have been superseded
+
 ## Suggested Articles
 Potential future additions:
 - `rate-limits` — API rate limiting and throttling

@@ -48,10 +48,10 @@ Message expiration allows agents to set a time limit for message delivery. If no
 
 ## Related
 
-- [[wiki/concepts/async-processing]]
+- [async-processing](../concepts/async-processing.md)
 
 ## Sources
 
-- [[wiki/sources/send-messages]]
-- [[wiki/sources/revoke-messages]]
-- [[wiki/sources/receive-events]]
+- [send-messages](../sources/send-messages.md)
+- [revoke-messages](../sources/revoke-messages.md)
+- [receive-events](../sources/receive-events.md)

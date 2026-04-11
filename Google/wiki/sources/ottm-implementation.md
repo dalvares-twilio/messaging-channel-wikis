@@ -133,11 +133,11 @@ VerificationStateVerified   = "VERIFIED"
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/carrier-launch]]
-- [[wiki/concepts/billing-categories]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [carrier-launch](../concepts/carrier-launch.md)
+- [billing-categories](../concepts/billing-categories.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-management-api]]
-- [[wiki/entities/rbm-api]]
+- [rbm-management-api](../entities/rbm-management-api.md)
+- [rbm-api](../entities/rbm-api.md)

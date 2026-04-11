@@ -95,9 +95,9 @@ Create SMS deep links that launch RCS conversations from websites, emails, apps,
 
 ## Related
 
-- [[wiki/concepts/user-acquisition]]
-- [[wiki/concepts/rcs-enablement]]
+- [user-acquisition](../concepts/user-acquisition.md)
+- [rcs-enablement](../concepts/rcs-enablement.md)
 
 ## Sources
 
-- [[wiki/sources/deep-links]]
+- [deep-links](../sources/deep-links.md)

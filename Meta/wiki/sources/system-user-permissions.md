@@ -1,7 +1,7 @@
 ---
 type: source
 title: "System User Permissions"
-source_file: "[[raw/System User Permissions.md]]"
+source_file: "[System User Permissions.md](../../raw/System User Permissions.md)"
 source_url: "https://developers.facebook.com/docs/business-management-apis/system-users/guides/permissions"
 ingested: 2026-04-05
 tags: [system-users, permissions, api]
@@ -57,5 +57,5 @@ GET /<SYSTEM_USER_ID>?fields=email,assigned_ad_accounts,assigned_pages
 System users can access assets owned by other Business Managers if access has been granted between businesses.
 
 ## Related Sources
-- [[wiki/sources/create-retrieve-update-system-user]]
-- [[wiki/sources/manage-system-users]]
+- [create-retrieve-update-system-user](../sources/create-retrieve-update-system-user.md)
+- [manage-system-users](../sources/manage-system-users.md)

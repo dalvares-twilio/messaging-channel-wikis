@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Manage Webhooks (API)"
-source_file: "[[raw/Manage webhooks    RCS for Business.md]]"
+source_file: "[Manage webhooks    RCS for Business.md](../../raw/Manage webhooks    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/management-api/webhooks"
 ingested: 2026-04-05
 tags: [api, management, webhooks]
@@ -42,10 +42,10 @@ Programmatic webhook management via RBM Management API. By default, agents use p
 
 ## Related Concepts
 
-- [[wiki/concepts/async-processing]]
-- [[wiki/concepts/message-verification]]
+- [async-processing](../concepts/async-processing.md)
+- [message-verification](../concepts/message-verification.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-management-api]]
-- [[wiki/entities/developer-console]]
+- [rbm-management-api](../entities/rbm-management-api.md)
+- [developer-console](../entities/developer-console.md)

@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Install Apps and Generate Tokens"
-source_file: "[[raw/Install Apps and Generate Tokens.md]]"
+source_file: "[Install Apps and Generate Tokens.md](../../raw/Install Apps and Generate Tokens.md)"
 source_url: "https://developers.facebook.com/docs/business-management-apis/system-users/install-apps-and-generate-tokens"
 ingested: 2026-04-05
 tags: [system-users, tokens, api]
@@ -76,5 +76,5 @@ GET /oauth/revoke
 3. Revoke old token
 
 ## Related Sources
-- [[wiki/sources/create-retrieve-update-system-user]]
-- [[wiki/sources/system-user-permissions]]
+- [create-retrieve-update-system-user](../sources/create-retrieve-update-system-user.md)
+- [system-user-permissions](../sources/system-user-permissions.md)

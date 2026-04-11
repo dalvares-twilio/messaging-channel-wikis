@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Embedded Signup Overview"
-source_file: "[[raw/Embedded Signup  Developer Documentation.md]]"
+source_file: "[Embedded Signup  Developer Documentation.md](../../raw/Embedded Signup  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/overview"
 ingested: 2026-04-05
 tags: [embedded-signup, onboarding, authentication]
@@ -50,8 +50,8 @@ Embedded Signup is a desktop/mobile-compatible interface for onboarding business
 Available in 30 languages, auto-triggered by user's Facebook language.
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
-- [[wiki/concepts/solution-partners]]
+- [embedded-signup](../concepts/embedded-signup.md)
+- [solution-partners](../concepts/solution-partners.md)
 
 ## Related Entities
-- [[wiki/entities/whatsapp-business-account]]
+- [whatsapp-business-account](../entities/whatsapp-business-account.md)

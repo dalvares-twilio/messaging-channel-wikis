@@ -1,7 +1,7 @@
 ---
 type: source
 title: "account_review_update Webhook Reference"
-source_file: "[[raw/account_review_update webhook reference  Developer Documentation.md]]"
+source_file: "[account_review_update webhook reference  Developer Documentation.md](../../raw/account_review_update webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/account_review_update"
 ingested: 2026-04-05
 tags: [webhooks, account, review, reference]
@@ -27,7 +27,7 @@ The `account_review_update` webhook notifies of WABA policy review outcomes.
 | `DEFERRED` | Decision deferred, cannot use APIs |
 
 ## Related Concepts
-- [[wiki/concepts/webhooks]]
+- [webhooks](../concepts/webhooks.md)
 
 ## Related Entities
-- [[wiki/entities/whatsapp-business-account]]
+- [whatsapp-business-account](../entities/whatsapp-business-account.md)

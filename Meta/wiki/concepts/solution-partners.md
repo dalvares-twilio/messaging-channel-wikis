@@ -30,5 +30,5 @@ Businesses can work with multiple solution partners simultaneously. The `partner
 
 ## Sources
 
-- [[wiki/sources/partner-solutions-webhook-reference]]
-- [[wiki/sources/account-update-webhook-reference]]
+- [partner-solutions-webhook-reference](../sources/partner-solutions-webhook-reference.md)
+- [account-update-webhook-reference](../sources/account-update-webhook-reference.md)

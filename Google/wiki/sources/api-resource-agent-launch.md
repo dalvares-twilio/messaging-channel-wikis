@@ -1,7 +1,7 @@
 ---
 type: source
 title: "REST Resource: AgentLaunch"
-source_file: "[[raw/REST Resource AgentLaunch.md]]"
+source_file: "[REST Resource AgentLaunch.md](../../raw/REST Resource AgentLaunch.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/reference/business-communications/rest/v1/AgentLaunch"
 ingested: 2026-04-09
 tags: [api, launch, rest-resource]
@@ -51,9 +51,9 @@ The `AgentLaunch` resource defines details for launching an RBM agent across dif
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/carrier-launch]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [carrier-launch](../concepts/carrier-launch.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
+- [rbm-api](../entities/rbm-api.md)

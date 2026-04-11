@@ -46,13 +46,13 @@ GET /<WABA_ID>?fields=name,status,currency,country
 - `account_review_update` — policy review outcomes
 
 ## Related Concepts
-- [[webhooks]]
+- [webhooks](webhooks.md)
 
 ## Related Entities
-- [[official-business-account]]
-- [[meta-business-suite]]
-- [[subscribed-apps-api]]
+- [official-business-account](official-business-account.md)
+- [meta-business-suite](meta-business-suite.md)
+- [subscribed-apps-api](subscribed-apps-api.md)
 
 ## Sources
-- [[whatsapp-business-accounts]]
-- [[webhooks-overview]]
+- [whatsapp-business-accounts](whatsapp-business-accounts.md)
+- [webhooks-overview](webhooks-overview.md)

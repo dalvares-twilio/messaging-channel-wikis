@@ -1,7 +1,7 @@
 ---
 type: source
 title: Business Phone Numbers
-source_file: "[[Business phone numbers  Developer Documentation]]"
+source_file: "[Business phone numbers  Developer Documentation](Business phone numbers  Developer Documentation.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/business-phone-numbers/phone-numbers
 ingested: 2026-04-05
 tags:
@@ -60,10 +60,10 @@ Optional security feature to verify customer identity before message delivery:
 - Mismatch returns error `137000`
 
 ## Related Concepts
-- [[phone-number-management]]
+- [phone-number-management](phone-number-management.md)
 
 ## Related Entities
-- [[business-phone-number]]
-- [[display-name]]
-- [[business-profile]]
-- [[Knowledge-Bases/Channels/Meta/wiki/entities/two-step-verification]]
+- [business-phone-number](business-phone-number.md)
+- [display-name](display-name.md)
+- [business-profile](business-profile.md)
+- [two-step-verification](../entities/two-step-verification.md)

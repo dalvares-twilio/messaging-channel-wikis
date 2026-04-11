@@ -56,7 +56,7 @@ The `messages` webhook field is the most important webhook subscription for What
 
 ## Override Support
 
-Yes — supports [[Knowledge-Bases/Channels/Meta/wiki/concepts/webhook-overrides|callback overrides]] at WABA and phone number level.
+Yes — supports [webhook-overrides|callback overrides](../concepts/webhook-overrides|callback overrides.md) at WABA and phone number level.
 
 ## Usage
 
@@ -65,12 +65,12 @@ Yes — supports [[Knowledge-Bases/Channels/Meta/wiki/concepts/webhook-overrides
 3. Handle message status updates (sent, delivered, read, failed)
 
 ## Related Concepts
-- [[webhooks]]
-- [[webhook-fields]]
-- [[permissions]]
+- [webhooks](webhooks.md)
+- [webhook-fields](webhook-fields.md)
+- [permissions](permissions.md)
 
 ## Related Entities
-- [[post-webhook-request]]
+- [post-webhook-request](post-webhook-request.md)
 
 ## Sources
-- [[webhooks-overview]]
+- [webhooks-overview](webhooks-overview.md)

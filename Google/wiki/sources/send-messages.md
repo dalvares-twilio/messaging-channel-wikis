@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Send Messages"
-source_file: "[[raw/Send messages    RCS for Business.md]]"
+source_file: "[Send messages    RCS for Business.md](../../raw/Send messages    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/build/messages/send"
 ingested: 2026-04-05
 tags: [messaging, api, content-types]
@@ -53,8 +53,8 @@ RBM agents send messages via the RCS Business Messaging API. Messages can includ
 
 ## Related Concepts
 
-- [[wiki/concepts/message-expiration]]
+- [message-expiration](../concepts/message-expiration.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
+- [rbm-api](../entities/rbm-api.md)

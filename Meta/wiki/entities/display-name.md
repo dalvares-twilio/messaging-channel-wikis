@@ -60,8 +60,8 @@ POST /<PHONE_NUMBER_ID>/register
 - `phone_number_name_update` — verification outcomes
 
 ## Related Entities
-- [[business-profile]]
-- [[official-business-account]]
+- [business-profile](business-profile.md)
+- [official-business-account](official-business-account.md)
 
 ## Sources
-- [[display-names]]
+- [display-names](display-names.md)

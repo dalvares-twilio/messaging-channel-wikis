@@ -47,12 +47,12 @@ sms:+15554443333?service_id=bot%40example.com&body=hello
 
 ## Related
 
-- [[wiki/concepts/rcs-enablement]]
+- [rcs-enablement](../concepts/rcs-enablement.md)
 
 ## Related Workflows
 
-- [[wiki/workflows/setup-deep-links]] — Create deep links and QR codes
+- [setup-deep-links](../workflows/setup-deep-links.md) — Create deep links and QR codes
 
 ## Sources
 
-- [[wiki/sources/deep-links]]
+- [deep-links](../sources/deep-links.md)

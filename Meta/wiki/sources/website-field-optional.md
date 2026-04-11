@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Website Field Optional"
-source_file: "[[raw/Website field optional  Developer Documentation.md]]"
+source_file: "[Website field optional  Developer Documentation.md](../../raw/Website field optional  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/website-optional"
 ingested: 2026-04-05
 tags: [embedded-signup, customization, verification]
@@ -35,7 +35,7 @@ Customer sees "My business does not have a website" checkbox. When checked and f
 Partner must complete Partner-led Business Verification. Customer **cannot send messages** until verified.
 
 ## Related Sources
-- [[wiki/sources/partner-led-verification]]
+- [partner-led-verification](../sources/partner-led-verification.md)
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)

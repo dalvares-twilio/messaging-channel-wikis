@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Synchronous and Asynchronous Operations"
-source_file: "[[raw/Synchronous and asynchronous operations in RCS for Business.md]]"
+source_file: "[Synchronous and asynchronous operations in RCS for Business.md](../../raw/Synchronous and asynchronous operations in RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/management-api/synchronous-asynchronous-operations"
 ingested: 2026-04-05
 tags: [api, architecture, webhooks]
@@ -33,8 +33,8 @@ RBM API interactions follow a synchronous request-response pattern at HTTP level
 
 ## Related Concepts
 
-- [[wiki/concepts/async-processing]]
+- [async-processing](../concepts/async-processing.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
+- [rbm-api](../entities/rbm-api.md)

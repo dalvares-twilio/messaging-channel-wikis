@@ -66,14 +66,14 @@ POST /<PHONE_NUMBER_ID>/register
 - Cannot delete if paid messages sent within 30 days
 
 ## Related Concepts
-- [[phone-number-management]]
+- [phone-number-management](phone-number-management.md)
 
 ## Related Entities
-- [[display-name]]
-- [[business-profile]]
-- [[Knowledge-Bases/Channels/Meta/wiki/entities/two-step-verification]]
-- [[whatsapp-business-account]]
+- [display-name](display-name.md)
+- [business-profile](business-profile.md)
+- [two-step-verification](../entities/two-step-verification.md)
+- [whatsapp-business-account](whatsapp-business-account.md)
 
 ## Sources
-- [[business-phone-numbers]]
-- [[phone-number-registration]]
+- [business-phone-numbers](business-phone-numbers.md)
+- [phone-number-registration](phone-number-registration.md)

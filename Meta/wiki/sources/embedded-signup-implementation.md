@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Embedded Signup Implementation"
-source_file: "[[raw/Implementation  Developer Documentation.md]]"
+source_file: "[Implementation  Developer Documentation.md](../../raw/Implementation  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/implementation"
 ingested: 2026-04-05
 tags: [embedded-signup, implementation, javascript]
@@ -68,4 +68,4 @@ FB.login(callback, {
 | `CANCEL` | User abandoned flow |
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)

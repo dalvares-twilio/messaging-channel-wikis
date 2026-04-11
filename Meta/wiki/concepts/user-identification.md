@@ -41,12 +41,12 @@ Phone numbers included in webhooks if:
 - Cannot use BSUID for auth templates
 
 ## Related Concepts
-- [[webhooks]]
+- [webhooks](webhooks.md)
 
 ## Related Entities
-- [[bsuid]]
-- [[contact-book]]
-- [[messages-webhook]]
+- [bsuid](bsuid.md)
+- [contact-book](contact-book.md)
+- [messages-webhook](messages-webhook.md)
 
 ## Sources
-- [[business-scoped-user-ids]]
+- [business-scoped-user-ids](business-scoped-user-ids.md)

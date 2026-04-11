@@ -1,7 +1,7 @@
 ---
 type: source
 title: "security Webhook Reference"
-source_file: "[[raw/security webhook reference  Developer Documentation.md]]"
+source_file: "[security webhook reference  Developer Documentation.md](../../raw/security webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/security"
 ingested: 2026-04-05
 tags: [webhooks, security, two-step-verification, reference]
@@ -30,7 +30,7 @@ The `security` webhook notifies of changes to a business phone number's security
 | `requester` | Meta Business Suite user ID who triggered the action |
 
 ## Related Concepts
-- [[wiki/concepts/two-step-verification]]
+- [two-step-verification](../concepts/two-step-verification.md)
 
 ## Related Entities
-- [[wiki/entities/business-phone-number]]
+- [business-phone-number](../entities/business-phone-number.md)

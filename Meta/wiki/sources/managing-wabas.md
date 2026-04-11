@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Managing WhatsApp Business Accounts"
-source_file: "[[raw/Managing WhatsApp Business Accounts.md]]"
+source_file: "[Managing WhatsApp Business Accounts.md](../../raw/Managing WhatsApp Business Accounts.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/manage-accounts"
 ingested: 2026-04-05
 tags: [waba, management, api]
@@ -53,4 +53,4 @@ Values: `PENDING`, `APPROVED`, `REJECTED`
 - View payment info
 
 ## Related Entities
-- [[wiki/entities/whatsapp-business-account]]
+- [whatsapp-business-account](../entities/whatsapp-business-account.md)

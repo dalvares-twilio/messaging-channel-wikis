@@ -54,13 +54,13 @@ Only these webhook fields support overrides:
 | Delete phone override | `POST /<PHONE_ID>` with empty `override_callback_uri` |
 
 ## Related Concepts
-- [[webhooks]]
-- [[webhook-fields]]
-- [[webhook-verification]]
+- [webhooks](webhooks.md)
+- [webhook-fields](webhook-fields.md)
+- [webhook-verification](webhook-verification.md)
 
 ## Related Entities
-- [[subscribed-apps-api]]
-- [[phone-number-webhook-config]]
+- [subscribed-apps-api](subscribed-apps-api.md)
+- [phone-number-webhook-config](phone-number-webhook-config.md)
 
 ## Sources
-- [[Knowledge-Bases/Channels/Meta/wiki/sources/webhook-overrides]]
+- [webhook-overrides](../sources/webhook-overrides.md)

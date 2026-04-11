@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Phone Number Webhooks Reference"
-source_file: "[[raw/phone_number_quality_update webhook reference  Developer Documentation.md]]"
+source_file: "[phone_number_quality_update webhook reference  Developer Documentation.md](../../raw/phone_number_quality_update webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/phone_number_quality_update"
 ingested: 2026-04-05
 tags: [webhooks, phone-number, quality, reference]
@@ -44,8 +44,8 @@ The `phone_number_name_update` webhook notifies of display name verification out
 - Triggers re-registration workflow when approved
 
 ## Related Concepts
-- [[wiki/concepts/phone-number-management]]
+- [phone-number-management](../concepts/phone-number-management.md)
 
 ## Related Entities
-- [[wiki/entities/business-phone-number]]
-- [[wiki/entities/display-name]]
+- [business-phone-number](../entities/business-phone-number.md)
+- [display-name](../entities/display-name.md)

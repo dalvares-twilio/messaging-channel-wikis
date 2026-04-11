@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Analytics Overview"
-source_file: "[[raw/Analytics overview    RCS for Business.md]]"
+source_file: "[Analytics overview    RCS for Business.md](../../raw/Analytics overview    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/measure/analytics-overview"
 ingested: 2026-04-05
 tags: [analytics, reputation, monitoring]
@@ -38,10 +38,10 @@ The Analytics overview in Developer Console provides summary view of all agents 
 
 ## Related Concepts
 
-- [[wiki/concepts/analytics-reputation]]
-- [[wiki/concepts/subscribe-unsubscribe]]
+- [analytics-reputation](../concepts/analytics-reputation.md)
+- [subscribe-unsubscribe](../concepts/subscribe-unsubscribe.md)
 
 ## Related Entities
 
-- [[wiki/entities/developer-console]]
-- [[wiki/entities/rbm-management-api]]
+- [developer-console](../entities/developer-console.md)
+- [rbm-management-api](../entities/rbm-management-api.md)

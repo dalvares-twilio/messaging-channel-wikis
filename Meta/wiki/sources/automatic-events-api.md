@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Automatic Events API"
-source_file: "[[raw/Automatic Events API  Developer Documentation.md]]"
+source_file: "[Automatic Events API  Developer Documentation.md](../../raw/Automatic Events API  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/automatic-events-api"
 ingested: 2026-04-05
 tags: [webhooks, events, click-to-whatsapp, conversions]
@@ -51,5 +51,5 @@ Report events via Conversions API with `action_source: business_messaging`.
 Business customers toggle via Meta Business Suite > WhatsApp accounts > Privacy and data sharing.
 
 ## Related Concepts
-- [[wiki/concepts/webhooks]]
-- [[wiki/concepts/embedded-signup]]
+- [webhooks](../concepts/webhooks.md)
+- [embedded-signup](../concepts/embedded-signup.md)

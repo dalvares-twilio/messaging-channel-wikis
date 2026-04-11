@@ -57,12 +57,12 @@ whois -h whois.radb.net — '-i origin AS32934' | grep '^route' | awk '{print $2
 4. Store app secret securely (environment variable, secrets manager)
 
 ## Related Concepts
-- [[webhooks]]
-- [[webhook-verification]]
+- [webhooks](webhooks.md)
+- [webhook-verification](webhook-verification.md)
 
 ## Related Entities
-- [[post-webhook-request]]
+- [post-webhook-request](post-webhook-request.md)
 
 ## Sources
-- [[create-webhook-endpoint]]
-- [[webhooks-overview]]
+- [create-webhook-endpoint](create-webhook-endpoint.md)
+- [webhooks-overview](webhooks-overview.md)

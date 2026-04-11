@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Receive Messages"
-source_file: "[[raw/Receive messages    RCS for Business.md]]"
+source_file: "[Receive messages    RCS for Business.md](../../raw/Receive messages    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/build/messages/receive"
 ingested: 2026-04-05
 tags: [messaging, webhooks, user-input]
@@ -41,9 +41,9 @@ Agents receive user messages and events through webhooks. Users can send text, s
 
 ## Related Concepts
 
-- [[wiki/concepts/async-processing]]
+- [async-processing](../concepts/async-processing.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
-- [[wiki/entities/dialogflow]]
+- [rbm-api](../entities/rbm-api.md)
+- [dialogflow](../entities/dialogflow.md)

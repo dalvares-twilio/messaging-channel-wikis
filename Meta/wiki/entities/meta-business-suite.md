@@ -39,9 +39,9 @@ https://business.facebook.com/
 - Path: Business settings > Business info
 
 ## Related Entities
-- [[whatsapp-business-account]]
-- [[contact-book]]
+- [whatsapp-business-account](whatsapp-business-account.md)
+- [contact-book](contact-book.md)
 
 ## Sources
-- [[whatsapp-business-accounts]]
-- [[business-scoped-user-ids]]
+- [whatsapp-business-accounts](whatsapp-business-accounts.md)
+- [business-scoped-user-ids](business-scoped-user-ids.md)

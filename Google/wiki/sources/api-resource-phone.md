@@ -1,7 +1,7 @@
 ---
 type: source
 title: "REST Resource: Phone"
-source_file: "[[raw/REST Resource Phone.md]]"
+source_file: "[REST Resource Phone.md](../../raw/REST Resource Phone.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/reference/business-communications/rest/v1/Phone"
 ingested: 2026-04-09
 tags: [api, rest-resource]
@@ -27,4 +27,4 @@ The `Phone` resource represents a phone number in the RBM API.
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
+- [rbm-api](../entities/rbm-api.md)

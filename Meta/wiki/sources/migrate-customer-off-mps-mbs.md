@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Migrate Customer Off MPS via Meta Business Suite"
-source_file: "[[raw/Migrating customers off of a Multi-Partner Solution using Meta Business Suite.md]]"
+source_file: "[Migrating customers off of a Multi-Partner Solution using Meta Business Suite.md](../../raw/Migrating customers off of a Multi-Partner Solution using Meta Business Suite.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/support/migrating-customers-off-solutions-via-meta-business-suite"
 ingested: 2026-04-05
 tags: [migration, multi-partner-solutions, mbs]
@@ -38,4 +38,4 @@ Tech Providers can migrate customers off Multi-Partner Solutions using Meta Busi
 Must add payment method—cannot send templates until payment configured.
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
+- [solution-partners](../concepts/solution-partners.md)

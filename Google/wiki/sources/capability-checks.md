@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Capability Checks"
-source_file: "[[raw/Capability checks    RCS for Business.md]]"
+source_file: "[Capability checks    RCS for Business.md](../../raw/Capability checks    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/build/capabilities"
 ingested: 2026-04-05
 tags: [capabilities, devices, api]
@@ -43,8 +43,8 @@ Capability checks let agents determine if a user's device supports RCS and which
 
 ## Related Concepts
 
-- [[wiki/concepts/rcs-enablement]]
+- [rcs-enablement](../concepts/rcs-enablement.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
+- [rbm-api](../entities/rbm-api.md)

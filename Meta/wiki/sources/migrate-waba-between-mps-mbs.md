@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Migrate WABA Between MPS via Meta Business Suite"
-source_file: "[[raw/Migrating a WABA from one Multi-Partner Solution to another via Meta Business Suite.md]]"
+source_file: "[Migrating a WABA from one Multi-Partner Solution to another via Meta Business Suite.md](../../raw/Migrating a WABA from one Multi-Partner Solution to another via Meta Business Suite.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/support/migrating-wabas-among-solutions-via-meta-business-suite"
 ingested: 2026-04-05
 tags: [migration, multi-partner-solutions, mbs]
@@ -39,4 +39,4 @@ Migrate WABA between Multi-Partner Solutions using API + Meta Business Suite. Cr
 6. Register phone: `POST /<PHONE_ID>/register`
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
+- [solution-partners](../concepts/solution-partners.md)

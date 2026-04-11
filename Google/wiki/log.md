@@ -7,41 +7,41 @@ Initialized wiki with schema and directory structure.
 ## [2026-04-05] ingest | Webhooks
 
 Source: RCS for Business - Google for Developers (webhooks guide)
-Created: [[wiki/sources/webhooks]], [[wiki/concepts/message-verification]], [[wiki/concepts/async-processing]]
+Created: [webhooks](sources/webhooks.md), [message-verification](concepts/message-verification.md), [async-processing](concepts/async-processing.md)
 
 ## [2026-04-05] ingest | Create an Agent
 
 Source: RCS for Business - Create an agent guide
-Created: [[wiki/sources/create-agent]], [[wiki/concepts/agent-lifecycle]], [[wiki/concepts/use-cases]], [[wiki/concepts/billing-categories]], [[wiki/concepts/regional-endpoints]]
+Created: [create-agent](sources/create-agent.md), [agent-lifecycle](concepts/agent-lifecycle.md), [use-cases](concepts/use-cases.md), [billing-categories](concepts/billing-categories.md), [regional-endpoints](concepts/regional-endpoints.md)
 
 ## [2026-04-05] ingest | Edit Agent Information
 
 Source: RCS for Business - Edit agent information guide
-Created: [[wiki/sources/edit-agent-info]], [[wiki/concepts/branding-guidelines]]
+Created: [edit-agent-info](sources/edit-agent-info.md), [branding-guidelines](concepts/branding-guidelines.md)
 
 ## [2026-04-05] ingest | Manage Agents
 
 Source: RCS for Business - Manage agents guide
-Created: [[wiki/sources/manage-agents]]
+Created: [manage-agents](sources/manage-agents.md)
 
 ## [2026-04-05] ingest | Set Up a Test Device
 
 Source: RCS for Business - Test device guide
-Created: [[wiki/sources/test-devices]], [[wiki/concepts/rcs-enablement]]
+Created: [test-devices](sources/test-devices.md), [rcs-enablement](concepts/rcs-enablement.md)
 
 ## [2026-04-05] ingest | SMS Deep Links
 
 Source: RCS for Business - Deep links guide
-Created: [[wiki/sources/deep-links]]
+Created: [deep-links](sources/deep-links.md)
 
 ## [2026-04-05] ingest | Dialogflow Integration
 
 Source: RCS for Business - Dialogflow integration guide
-Created: [[wiki/sources/dialogflow-integration]]
+Created: [dialogflow-integration](sources/dialogflow-integration.md)
 
 ## [2026-04-05] entities | Initial Entity Pages
 
-Created: [[wiki/entities/rbm-api]], [[wiki/entities/rbm-management-api]], [[wiki/entities/developer-console]], [[wiki/entities/google-messages]], [[wiki/entities/dialogflow]]
+Created: [rbm-api](entities/rbm-api.md), [rbm-management-api](entities/rbm-management-api.md), [developer-console](entities/developer-console.md), [google-messages](entities/google-messages.md), [dialogflow](entities/dialogflow.md)
 
 ## [2026-04-05] assets | Image Attachments Downloaded
 
@@ -54,46 +54,46 @@ Created: [[wiki/entities/rbm-api]], [[wiki/entities/rbm-management-api]], [[wiki
 ## [2026-04-05] ingest | Batch Ingest — 18 New Sources
 
 ### Launch & Verification
-- [[wiki/sources/verify-launch-overview]] — launch process overview
-- [[wiki/sources/brand-verification]] — brand verification workflow
-- [[wiki/sources/launch-approval]] — prerequisites and approval process
-- [[wiki/sources/list-carriers]] — carrier regions API
+- [verify-launch-overview](sources/verify-launch-overview.md) — launch process overview
+- [brand-verification](sources/brand-verification.md) — brand verification workflow
+- [launch-approval](sources/launch-approval.md) — prerequisites and approval process
+- [list-carriers](sources/list-carriers.md) — carrier regions API
 
 ### Messaging
-- [[wiki/sources/send-messages]] — sending text, rich cards, media, TTL
-- [[wiki/sources/receive-messages]] — handling user messages
-- [[wiki/sources/revoke-messages]] — message revocation
-- [[wiki/sources/send-events]] — READ/IS_TYPING events
-- [[wiki/sources/receive-events]] — user and platform events
-- [[wiki/sources/capability-checks]] — device and bulk capability checks
+- [send-messages](sources/send-messages.md) — sending text, rich cards, media, TTL
+- [receive-messages](sources/receive-messages.md) — handling user messages
+- [revoke-messages](sources/revoke-messages.md) — message revocation
+- [send-events](sources/send-events.md) — READ/IS_TYPING events
+- [receive-events](sources/receive-events.md) — user and platform events
+- [capability-checks](sources/capability-checks.md) — device and bulk capability checks
 
 ### Management API
-- [[wiki/sources/management-api-overview]] — API overview and auth
-- [[wiki/sources/manage-brands-api]] — brand CRUD
-- [[wiki/sources/manage-testers-api]] — tester management
-- [[wiki/sources/manage-webhooks-api]] — webhook integration
-- [[wiki/sources/sync-async-operations]] — sync vs async patterns
+- [management-api-overview](sources/management-api-overview.md) — API overview and auth
+- [manage-brands-api](sources/manage-brands-api.md) — brand CRUD
+- [manage-testers-api](sources/manage-testers-api.md) — tester management
+- [manage-webhooks-api](sources/manage-webhooks-api.md) — webhook integration
+- [sync-async-operations](sources/sync-async-operations.md) — sync vs async patterns
 
 ### Analytics
-- [[wiki/sources/analytics-overview]] — reputation, traffic limits
-- [[wiki/sources/agent-analytics]] — metrics and custom analytics
+- [analytics-overview](sources/analytics-overview.md) — reputation, traffic limits
+- [agent-analytics](sources/agent-analytics.md) — metrics and custom analytics
 
 ### New Concepts Created
-- [[wiki/concepts/carrier-launch]] — launch process, Google vs carrier-managed
-- [[wiki/concepts/message-expiration]] — TTL, revocation, fallback
-- [[wiki/concepts/subscribe-unsubscribe]] — opt-out/opt-in rules
-- [[wiki/concepts/analytics-reputation]] — reputation score, traffic limits
+- [carrier-launch](concepts/carrier-launch.md) — launch process, Google vs carrier-managed
+- [message-expiration](concepts/message-expiration.md) — TTL, revocation, fallback
+- [subscribe-unsubscribe](concepts/subscribe-unsubscribe.md) — opt-out/opt-in rules
+- [analytics-reputation](concepts/analytics-reputation.md) — reputation score, traffic limits
 
 ## [2026-04-05] ingest | API Reference Documentation
 
 Ingested 5 high-value API reference files, consolidated 24 method files:
 
 ### API Reference (new)
-- [[wiki/sources/api-reference-overview]] — Business Communications API endpoints overview
-- [[wiki/sources/api-resource-agents]] — Agent resource schema (16KB), all enums/fields
-- [[wiki/sources/api-resource-integrations]] — Webhook + Dialogflow integration schemas (15KB)
-- [[wiki/sources/api-resource-partners]] — Partner resource schema (5KB)
-- [[wiki/sources/manage-agents-extended]] — Extended agent management guide with code examples
+- [api-reference-overview](sources/api-reference-overview.md) — Business Communications API endpoints overview
+- [api-resource-agents](sources/api-resource-agents.md) — Agent resource schema (16KB), all enums/fields
+- [api-resource-integrations](sources/api-resource-integrations.md) — Webhook + Dialogflow integration schemas (15KB)
+- [api-resource-partners](sources/api-resource-partners.md) — Partner resource schema (5KB)
+- [manage-agents-extended](sources/manage-agents-extended.md) — Extended agent management guide with code examples
 
 ### Skipped (low value / duplicates)
 - 24 individual method files (consolidated into resource pages)
@@ -103,7 +103,7 @@ Ingested 5 high-value API reference files, consolidated 24 method files:
 ## [2026-04-05] ingest | OTTM Implementation Details
 
 Source: Twilio OTTM Google client code (internal/clients/google)
-Created: [[wiki/sources/ottm-implementation]]
+Created: [ottm-implementation](sources/ottm-implementation.md)
 
 Key insights captured:
 - Default values: NON_CONVERSATIONAL, MULTI_USE, EUROPE
@@ -122,11 +122,11 @@ First wiki health check. Results:
 - Stale sources: 37 (intentionally skipped — consolidated or low-value)
 - Inconsistencies: 0
 
-Wiki is healthy. See [[wiki/health]] for full report.
+Wiki is healthy. See [health](health.md) for full report.
 
 ## [2026-04-05] concept | Rich Cards
 
-Created: [[wiki/concepts/rich-cards]]
+Created: [rich-cards](concepts/rich-cards.md)
 - Standalone cards and carousels
 - Card heights (Short/Medium/Tall)
 - Component limits and payload size
@@ -134,7 +134,7 @@ Created: [[wiki/concepts/rich-cards]]
 
 ## [2026-04-05] query | Standalone vs Carousel
 
-Filed: [[wiki/queries/standalone-vs-carousel]]
+Filed: [standalone-vs-carousel](queries/standalone-vs-carousel.md)
 - Decision criteria for choosing card type
 - Use case examples for each
 - UX performance considerations
@@ -176,13 +176,13 @@ Added `workflow` type to wiki for step-by-step runbooks:
 
 Extracted actionable runbooks from existing concepts:
 
-- [[wiki/workflows/create-launch-agent]] — End-to-end agent setup and carrier launch
+- [create-launch-agent](workflows/create-launch-agent.md) — End-to-end agent setup and carrier launch
   - Sources: agent-lifecycle, carrier-launch, create-agent, launch-approval
-- [[wiki/workflows/configure-webhook]] — Async webhook with HMAC security
+- [configure-webhook](workflows/configure-webhook.md) — Async webhook with HMAC security
   - Sources: async-processing, message-verification, webhooks
-- [[wiki/workflows/add-test-device]] — Test device setup for pre-launch
+- [add-test-device](workflows/add-test-device.md) — Test device setup for pre-launch
   - Sources: rcs-enablement, test-devices
-- [[wiki/workflows/setup-deep-links]] — Deep links and QR codes for user acquisition
+- [setup-deep-links](workflows/setup-deep-links.md) — Deep links and QR codes for user acquisition
   - Sources: user-acquisition, deep-links
 
 Updated 6 concept pages with "Related Workflows" links:
@@ -196,22 +196,22 @@ Results:
 - Type validation: All 54 pages pass
 - Workflows: 4 pages validated (title, trigger, outcome)
 
-Wiki is healthy. See [[wiki/health]] for full report.
+Wiki is healthy. See [health](health.md) for full report.
 
 ## [2026-04-09] ingest | API Resource Documentation — 5 New Pages
 
 Source: Google Business Communications REST API Reference
 Created:
-- [[wiki/sources/api-resource-agent-launch]] — AgentLaunch resource with questionnaire and region launch details
-- [[wiki/sources/api-resource-agent-verification]] — AgentVerification resource and VerificationState enum
-- [[wiki/sources/api-resource-agent-verification-contact]] — Partner and brand contact details for verification
-- [[wiki/sources/api-resource-verification-state]] — VerificationState enum values (UNSPECIFIED, UNVERIFIED, PENDING, VERIFIED, SUSPENDED_IN_GMB)
-- [[wiki/sources/api-resource-phone]] — Phone number resource (E.164 format)
+- [api-resource-agent-launch](sources/api-resource-agent-launch.md) — AgentLaunch resource with questionnaire and region launch details
+- [api-resource-agent-verification](sources/api-resource-agent-verification.md) — AgentVerification resource and VerificationState enum
+- [api-resource-agent-verification-contact](sources/api-resource-agent-verification-contact.md) — Partner and brand contact details for verification
+- [api-resource-verification-state](sources/api-resource-verification-state.md) — VerificationState enum values (UNSPECIFIED, UNVERIFIED, PENDING, VERIFIED, SUSPENDED_IN_GMB)
+- [api-resource-phone](sources/api-resource-phone.md) — Phone number resource (E.164 format)
 
 ## [2026-04-09] ingest | Partner Account Setup
 
 Source: https://developers.google.com/business-communications/rcs-business-messaging/guides/get-started/partner-account
-Created: [[wiki/sources/partner-account-setup]]
+Created: [partner-account-setup](sources/partner-account-setup.md)
 
 Key content:
 - Partner account registration steps
@@ -222,7 +222,7 @@ Key content:
 
 ## [2026-04-09] concept | AgentLaunchEvent
 
-Created: [[wiki/concepts/agent-launch-event]]
+Created: [agent-launch-event](concepts/agent-launch-event.md)
 
 Detailed platform event documentation including:
 - Full Pub/Sub message wrapper structure
@@ -231,4 +231,162 @@ Detailed platform event documentation including:
 - Detection logic for webhook handler
 - KYC status mapping for OTTM integration
 
-Updated: [[wiki/sources/receive-events]] — added link to new concept
+Updated: [receive-events](sources/receive-events.md) — added link to new concept
+
+## [2026-04-10] query | Verification Failure Handling
+
+Query: "What happens when a Google RCS agent fails verification? What are the states and how can it be retried?"
+
+Created: [verification-failure-handling](queries/verification-failure-handling.md)
+
+Synthesized from 6 sources:
+- [api-resource-verification-state](sources/api-resource-verification-state.md)
+- [api-resource-agent-verification](sources/api-resource-agent-verification.md)
+- [agent-lifecycle](concepts/agent-lifecycle.md)
+- [carrier-launch](concepts/carrier-launch.md)
+- [brand-verification](sources/brand-verification.md)
+- [launch-approval](sources/launch-approval.md)
+
+New insights identified (gaps for health.md):
+- Rejection reasons not documented
+- Appeal/retry process unclear
+- GMB suspension recovery steps missing
+- Carrier-managed rejection differences
+
+## [2026-04-10] lint | Health Check
+
+Updated health.md with:
+- Current statistics (62 wiki pages, 49% coverage)
+- New Suggested Questions section with 4 categories:
+  - Under-documented concepts (3 questions)
+  - Never-queried entities (3 questions)
+  - Cross-domain gaps vs Meta (3 questions)
+  - Contradictions/gaps to resolve (4 questions from recent query)
+- Pattern candidates identified (3)
+- Action items updated
+
+## [2026-04-10] query | Batch Query Generation — 10 New Queries
+
+Generated 10 practical Q&A queries across 5 topic areas:
+
+### Rich Cards & Carousels
+- [rich-card-height-selection](queries/rich-card-height-selection.md) — Media height decision criteria (Short/Medium/Tall)
+- [carousel-card-limit](queries/carousel-card-limit.md) — Optimal card count by use case
+
+### Testing with Test Devices
+- [test-device-troubleshooting](queries/test-device-troubleshooting.md) — 403/429 errors, DECLINED status, diagnosis steps
+- [test-device-limits](queries/test-device-limits.md) — 20/day, 200 total limits, tester lifecycle
+
+### Analytics & Reputation
+- [reputation-score-impact](queries/reputation-score-impact.md) — Traffic limits by reputation level, recovery strategies
+- [custom-analytics-tracking](queries/custom-analytics-tracking.md) — Beyond Console metrics, webhook event tracking
+
+### TTL & Message Expiration
+- [ttl-otp-strategy](queries/ttl-otp-strategy.md) — 5-10 min TTL, fallback flow, traffic type
+- [ttl-promotional-messages](queries/ttl-promotional-messages.md) — expireTime vs ttl, fallback decisions
+
+### Deep Links & QR Codes
+- [deep-link-fallback](queries/deep-link-fallback.md) — Format 1 vs Format 2, fallback behavior
+- [qr-code-best-practices](queries/qr-code-best-practices.md) — Short URLs, pre-fill strategy, testing checklist
+
+New insights identified across queries:
+- Pattern candidates: "OTP delivery with multi-channel fallback", "TTL selection by message urgency", "Progressive disclosure for large option sets"
+- Documentation gaps: reputation recovery timeline, image resolution by height, deep link analytics
+
+## [2026-04-10] query | Second Batch Query Generation — 10 New Queries
+
+Generated 10 additional practical Q&A queries focused on agent lifecycle, webhook security, use cases, billing, and regional endpoints:
+
+### Agent Lifecycle & Configuration
+- [agent-status-progression](queries/agent-status-progression.md) — Lifecycle stages (Incomplete→Launched) and field immutability points
+- [agent-deletion-constraints](queries/agent-deletion-constraints.md) — Why agents can't be deleted, archiving rules by state
+- [use-case-selection](queries/use-case-selection.md) — OTP vs Transactional vs Promotional vs Multi-use decision guide
+- [billing-category-differences](queries/billing-category-differences.md) — Conversational vs Non-conversational billing model selection
+- [regional-endpoint-selection](queries/regional-endpoint-selection.md) — NA/EU/APAC selection criteria, data residency, latency considerations
+
+### Launch Process
+- [google-vs-carrier-managed-launch](queries/google-vs-carrier-managed-launch.md) — Key differences in verification, timeline, and requirements
+
+### Webhook Security
+- [hmac-sha512-verification](queries/hmac-sha512-verification.md) — Step-by-step HMAC verification with code example
+- [async-webhook-best-practices](queries/async-webhook-best-practices.md) — Why sync processing fails, retry storms, shared queue impact
+
+### Message Delivery
+- [message-ttl-and-fallback](queries/message-ttl-and-fallback.md) — TTL by use case, notification interpretation, SMS fallback strategy
+
+### Compliance
+- [stop-keyword-handling](queries/stop-keyword-handling.md) — Country-specific keywords, post-unsubscribe rules, compliance monitoring
+
+Topics covered:
+1. Agent lifecycle and immutability (heavily requested by engineers)
+2. Webhook security (HMAC-SHA512 verification)
+3. Message verification best practices
+4. Use cases and billing categories
+5. Regional endpoints and data residency
+
+Index updated: Queries section reorganized into 8 categories, count updated to 22.
+
+## [2026-04-10] query | Third Batch Query Generation — 10 New Queries
+
+Generated 10 additional practical Q&A queries focused on Dialogflow integration, subscribe/unsubscribe handling, capability checks, brand verification, and sync vs async operations:
+
+### Dialogflow Integration
+- [dialogflow-integration-patterns](queries/dialogflow-integration-patterns.md) — NLU integration architecture, open-source module, async processing considerations
+
+### Subscribe/Unsubscribe Handling
+- [stop-start-handling](queries/stop-start-handling.md) — Country-specific STOP/START keywords, post-unsubscribe rules, essential vs non-essential messages
+
+### Capability Checks
+- [capability-check-before-messaging](queries/capability-check-before-messaging.md) — Single device check features, error codes, offline queuing, fallback pattern
+- [bulk-capability-check-usage](queries/bulk-capability-check-usage.md) — Bulk vs single check comparison, use cases, caching implications
+
+### Brand Verification
+- [brand-verification-requirements](queries/brand-verification-requirements.md) — Brand contact requirements, supporting documents, Google-managed vs carrier-managed verification
+
+### Sync vs Async Operations
+- [sync-vs-async-operations](queries/sync-vs-async-operations.md) — HTTP sync vs webhook async, message delivery confirmation, webhook best practices
+- [webhook-failure-impact](queries/webhook-failure-impact.md) — Shared queue architecture, retry behavior, recovery strategy
+- [ttl-and-fallback-strategy](queries/ttl-and-fallback-strategy.md) — TTL configuration by use case, notification handling, race conditions
+
+### Launch Process
+- [google-managed-vs-carrier-managed](queries/google-managed-vs-carrier-managed.md) — Launch type identification via Console and API, process differences
+
+### Security
+- [webhook-security-hmac](queries/webhook-security-hmac.md) — HMAC-SHA512 implementation, initial verification, ongoing message verification
+
+### Messaging
+- [message-traffic-types](queries/message-traffic-types.md) — Traffic type requirements for multi-use agents, compliance implications
+
+Topics covered:
+1. Dialogflow NLU integration patterns
+2. STOP/START keyword handling by country
+3. Capability check strategies (single vs bulk)
+4. Brand verification prerequisites
+5. Sync vs async operation patterns
+
+New insights identified across queries:
+- Documentation gaps: Dialogflow CX vs ES differences, cache freshness for bulk checks, replay attack protection
+- Pattern candidates: "capability-check-then-send", "TTL race condition handling", "async webhook with internal queue"
+
+Index updated: Queries section expanded to 11 categories, count updated to 32.
+
+## [2026-04-10] cleanup | Duplicate Query Consolidation
+
+Reviewed queries and removed 4 duplicates created by parallel batch generation:
+
+| Removed | Kept (More Comprehensive) |
+|---------|---------------------------|
+| `google-vs-carrier-managed-launch.md` | `google-managed-vs-carrier-managed.md` |
+| `hmac-sha512-verification.md` | `webhook-security-hmac.md` |
+| `stop-start-handling.md` | `stop-keyword-handling.md` |
+| `message-ttl-and-fallback.md` | `ttl-and-fallback-strategy.md` |
+
+Index updated: Query count reduced from 33 to 29.
+
+## [2026-04-10] fix | Convert Wikilinks to Markdown Links
+
+Converted all Obsidian wikilinks to standard markdown links for GitHub compatibility:
+- 498 `[[wiki/type/name]]` → `[name](type/name.md)` or `[name](../type/name.md)`
+- 36 `[[raw/filename]]` → `[filename](../../raw/filename)`
+
+Links now render correctly on GitHub.

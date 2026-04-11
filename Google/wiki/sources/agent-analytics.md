@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Agent Analytics"
-source_file: "[[raw/Agent analytics    RCS for Business.md]]"
+source_file: "[Agent analytics    RCS for Business.md](../../raw/Agent analytics    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/measure"
 ingested: 2026-04-05
 tags: [analytics, metrics, monitoring]
@@ -42,8 +42,8 @@ Track message and conversation metrics via Developer Console or custom analytics
 
 ## Related Concepts
 
-- [[wiki/concepts/analytics-reputation]]
+- [analytics-reputation](../concepts/analytics-reputation.md)
 
 ## Related Entities
 
-- [[wiki/entities/developer-console]]
+- [developer-console](../entities/developer-console.md)

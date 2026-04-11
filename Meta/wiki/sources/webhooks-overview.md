@@ -1,7 +1,7 @@
 ---
 type: source
 title: Webhooks | Developer Documentation
-source_file: "[[Webhooks  Developer Documentation]]"
+source_file: "[Webhooks  Developer Documentation](Webhooks  Developer Documentation.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/overview
 ingested: 2026-04-05
 tags:
@@ -47,12 +47,12 @@ The document provides a complete reference of all subscribable webhook fields, e
 Solution providers need advanced access via App Review.
 
 ## Related Concepts
-- [[webhooks]]
-- [[webhook-fields]]
-- [[permissions]]
-- [[webhook-security]]
+- [webhooks](webhooks.md)
+- [webhook-fields](webhook-fields.md)
+- [permissions](permissions.md)
+- [webhook-security](webhook-security.md)
 
 ## Related Entities
-- [[messages-webhook]]
-- [[account-alerts-webhook]]
-- [[message-template-webhooks]]
+- [messages-webhook](messages-webhook.md)
+- [account-alerts-webhook](account-alerts-webhook.md)
+- [message-template-webhooks](message-template-webhooks.md)

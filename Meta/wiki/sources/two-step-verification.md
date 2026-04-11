@@ -1,7 +1,7 @@
 ---
 type: source
 title: Two-Step Verification
-source_file: "[[Two-Step Verification  Developer Documentation]]"
+source_file: "[Two-Step Verification  Developer Documentation](Two-Step Verification  Developer Documentation.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/business-phone-numbers/two-step-verification
 ingested: 2026-04-05
 tags:
@@ -41,8 +41,8 @@ POST /<PHONE_NUMBER_ID>
 6. Enter and confirm new PIN
 
 ## Related Concepts
-- [[webhook-security]]
+- [webhook-security](webhook-security.md)
 
 ## Related Entities
-- [[Knowledge-Bases/Channels/Meta/wiki/entities/two-step-verification]]
-- [[business-phone-number]]
+- [two-step-verification](../entities/two-step-verification.md)
+- [business-phone-number](business-phone-number.md)

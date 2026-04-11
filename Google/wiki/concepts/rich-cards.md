@@ -109,10 +109,10 @@ For standalone cards, thumbnails can be aligned:
 
 ## Related
 
-- [[wiki/concepts/message-expiration]] — TTL applies to rich cards too
-- [[wiki/concepts/async-processing]] — Delivery is async
+- [message-expiration](../concepts/message-expiration.md) — TTL applies to rich cards too
+- [async-processing](../concepts/async-processing.md) — Delivery is async
 
 ## Sources
 
-- [[wiki/sources/send-messages]]
-- [[wiki/sources/capability-checks]]
+- [send-messages](../sources/send-messages.md)
+- [capability-checks](../sources/capability-checks.md)

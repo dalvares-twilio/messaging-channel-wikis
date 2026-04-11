@@ -52,8 +52,8 @@ POST /<PHONE_NUMBER_ID>/whatsapp_business_profile
 3. Edit fields
 
 ## Related Entities
-- [[display-name]]
-- [[whatsapp-business-account]]
+- [display-name](display-name.md)
+- [whatsapp-business-account](whatsapp-business-account.md)
 
 ## Sources
-- [[business-profiles]]
+- [business-profiles](business-profiles.md)

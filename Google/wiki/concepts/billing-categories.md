@@ -29,9 +29,9 @@ RBM agents are assigned a billing category that reflects their interaction patte
 
 ## Related
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/use-cases]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [use-cases](../concepts/use-cases.md)
 
 ## Sources
 
-- [[wiki/sources/create-agent]]
+- [create-agent](../sources/create-agent.md)

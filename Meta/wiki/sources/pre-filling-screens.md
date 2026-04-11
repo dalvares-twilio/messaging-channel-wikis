@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Pre-filling Screens"
-source_file: "[[raw/Pre-filling screens  Developer Documentation.md]]"
+source_file: "[Pre-filling screens  Developer Documentation.md](../../raw/Pre-filling screens  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/pre-filled-data"
 ingested: 2026-04-05
 tags: [embedded-signup, pre-fill, customization]
@@ -68,4 +68,4 @@ setup: {
 Inject business portfolio data + pre-verified number + phone profile for optimal flow.
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)

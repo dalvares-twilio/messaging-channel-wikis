@@ -55,10 +55,10 @@ Google monitors message patterns after unsubscribe to identify policy violations
 
 ## Related
 
-- [[wiki/concepts/analytics-reputation]]
-- [[wiki/concepts/use-cases]]
+- [analytics-reputation](../concepts/analytics-reputation.md)
+- [use-cases](../concepts/use-cases.md)
 
 ## Sources
 
-- [[wiki/sources/receive-events]]
-- [[wiki/sources/analytics-overview]]
+- [receive-events](../sources/receive-events.md)
+- [analytics-overview](../sources/analytics-overview.md)

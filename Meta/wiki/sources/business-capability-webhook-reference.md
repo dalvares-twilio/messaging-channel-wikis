@@ -1,7 +1,7 @@
 ---
 type: source
 title: "business_capability_update Webhook Reference"
-source_file: "[[raw/business_capability_update webhook reference  Developer Documentation.md]]"
+source_file: "[business_capability_update webhook reference  Developer Documentation.md](../../raw/business_capability_update webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/business_capability_update"
 ingested: 2026-04-05
 tags: [webhooks, capabilities, limits, reference]
@@ -30,7 +30,7 @@ The `business_capability_update` webhook notifies of WABA or business portfolio 
 `max_daily_conversation_per_phone` deprecated February 2026 - use `max_daily_conversations_per_business` instead.
 
 ## Related Concepts
-- [[wiki/concepts/messaging-limits]]
+- [messaging-limits](../concepts/messaging-limits.md)
 
 ## Related Entities
-- [[wiki/entities/whatsapp-business-account]]
+- [whatsapp-business-account](../entities/whatsapp-business-account.md)

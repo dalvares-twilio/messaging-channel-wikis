@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Business Communications API Reference"
-source_file: "[[raw/Business Communications    RCS for Business.md]]"
+source_file: "[Business Communications    RCS for Business.md](../../raw/Business Communications    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/reference/business-communications/rest"
 ingested: 2026-04-05
 tags: [api, reference, endpoints]
@@ -47,9 +47,9 @@ https://businesscommunications.googleapis.com
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/carrier-launch]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [carrier-launch](../concepts/carrier-launch.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-management-api]]
+- [rbm-management-api](../entities/rbm-management-api.md)

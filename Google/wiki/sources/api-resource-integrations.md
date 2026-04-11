@@ -1,7 +1,7 @@
 ---
 type: source
 title: "API Resource: brands.agents.integrations"
-source_file: "[[raw/REST Resource brands.agents.integrations    RCS for Business.md]]"
+source_file: "[REST Resource brands.agents.integrations    RCS for Business.md](../../raw/REST Resource brands.agents.integrations    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/reference/business-communications/rest/v1/brands.agents.integrations"
 ingested: 2026-04-05
 tags: [api, schema, integrations, webhooks, dialogflow]
@@ -77,10 +77,10 @@ For Dialogflow ES:
 
 ## Related Concepts
 
-- [[wiki/concepts/async-processing]]
-- [[wiki/concepts/message-verification]]
+- [async-processing](../concepts/async-processing.md)
+- [message-verification](../concepts/message-verification.md)
 
 ## Related Entities
 
-- [[wiki/entities/dialogflow]]
-- [[wiki/entities/rbm-management-api]]
+- [dialogflow](../entities/dialogflow.md)
+- [rbm-management-api](../entities/rbm-management-api.md)

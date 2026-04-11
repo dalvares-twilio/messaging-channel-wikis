@@ -78,11 +78,11 @@ Add a test device to receive messages from an unlaunched RBM agent. Required for
 
 ## Related
 
-- [[wiki/concepts/rcs-enablement]]
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/workflows/configure-webhook]]
+- [rcs-enablement](../concepts/rcs-enablement.md)
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [configure-webhook](../workflows/configure-webhook.md)
 
 ## Sources
 
-- [[wiki/sources/test-devices]]
-- [[wiki/sources/manage-testers-api]]
+- [test-devices](../sources/test-devices.md)
+- [manage-testers-api](../sources/manage-testers-api.md)

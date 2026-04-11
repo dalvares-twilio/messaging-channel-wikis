@@ -30,9 +30,9 @@ Each use case has specific rules about permitted message content. Rules vary by 
 
 ## Related
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/billing-categories]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [billing-categories](../concepts/billing-categories.md)
 
 ## Sources
 
-- [[wiki/sources/create-agent]]
+- [create-agent](../sources/create-agent.md)

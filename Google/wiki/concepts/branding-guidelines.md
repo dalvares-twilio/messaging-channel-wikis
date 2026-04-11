@@ -39,8 +39,8 @@ RBM agents display branding elements (logo, hero image, colors) in messaging app
 
 ## Related
 
-- [[wiki/concepts/agent-lifecycle]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Sources
 
-- [[wiki/sources/edit-agent-info]]
+- [edit-agent-info](../sources/edit-agent-info.md)

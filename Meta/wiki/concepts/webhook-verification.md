@@ -55,13 +55,13 @@ app.get('/', (req, res) => {
 ```
 
 ## Related Concepts
-- [[webhooks]]
-- [[webhook-security]]
+- [webhooks](webhooks.md)
+- [webhook-security](webhook-security.md)
 
 ## Related Entities
-- [[get-verification-request]]
+- [get-verification-request](get-verification-request.md)
 
 ## Sources
-- [[create-webhook-endpoint]]
-- [[create-test-webhook-endpoint]]
-- [[webhooks-overview]]
+- [create-webhook-endpoint](create-webhook-endpoint.md)
+- [create-test-webhook-endpoint](create-test-webhook-endpoint.md)
+- [webhooks-overview](webhooks-overview.md)

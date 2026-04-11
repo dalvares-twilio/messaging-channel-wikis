@@ -5,50 +5,50 @@ This knowledge base covers Meta's WhatsApp Business Platform, based on official 
 ## Core Topics
 
 ### 1. Webhooks
-Real-time notifications from the platform covering messages, account changes, templates, and phone number updates. See [[webhooks]].
+Real-time notifications from the platform covering messages, account changes, templates, and phone number updates. See [webhooks](webhooks.md).
 
 ### 2. Business Accounts
-WABAs are the fundamental container for businesses on the platform. Each WABA holds phone numbers, templates, and configurations. See [[whatsapp-business-account]].
+WABAs are the fundamental container for businesses on the platform. Each WABA holds phone numbers, templates, and configurations. See [whatsapp-business-account](whatsapp-business-account.md).
 
 ### 3. Phone Number Management
-Business phone numbers require registration for Cloud API use. They have profiles, display names, 2FA, and can achieve OBA status. See [[phone-number-management]], [[business-phone-number]].
+Business phone numbers require registration for Cloud API use. They have profiles, display names, 2FA, and can achieve OBA status. See [phone-number-management](phone-number-management.md), [business-phone-number](business-phone-number.md).
 
 ### 4. User Identification (Coming 2026)
-BSUIDs and usernames are new identifiers enabling messaging without phone numbers. See [[user-identification]], [[bsuid]].
+BSUIDs and usernames are new identifiers enabling messaging without phone numbers. See [user-identification](user-identification.md), [bsuid](bsuid.md).
 
 ## Key Concepts
 
 | Concept | Description |
 |---------|-------------|
-| [[webhooks]] | HTTP callbacks delivering event notifications |
-| [[webhook-fields]] | Subscribable event types (messages, templates, account updates) |
-| [[webhook-verification]] | GET request handshake to verify endpoint ownership |
-| [[webhook-security]] | TLS/SSL, mTLS, and signature validation |
-| [[Knowledge-Bases/Channels/Meta/wiki/concepts/webhook-overrides]] | Alternate callback URLs per WABA or phone number |
-| [[permissions]] | Required permissions for receiving webhooks |
-| [[business-verification]] | Meta business portfolio verification |
-| [[user-identification]] | BSUIDs, usernames, phone number visibility |
-| [[phone-number-management]] | Phone number lifecycle — add, verify, register |
-| [[embedded-signup]] | Onboard businesses via solution partners |
-| [[messaging-limits]] | Daily conversation limits per business |
-| [[solution-partners]] | Third-party integration providers |
-| [[marketing-messages]] | Promotional templates and user opt-out |
-| [[two-step-verification]] | 6-digit PIN security for phone numbers |
-| [[payments-api]] | In-chat payments (India/Brazil) |
+| [webhooks](webhooks.md) | HTTP callbacks delivering event notifications |
+| [webhook-fields](webhook-fields.md) | Subscribable event types (messages, templates, account updates) |
+| [webhook-verification](webhook-verification.md) | GET request handshake to verify endpoint ownership |
+| [webhook-security](webhook-security.md) | TLS/SSL, mTLS, and signature validation |
+| [webhook-overrides](concepts/webhook-overrides.md) | Alternate callback URLs per WABA or phone number |
+| [permissions](permissions.md) | Required permissions for receiving webhooks |
+| [business-verification](business-verification.md) | Meta business portfolio verification |
+| [user-identification](user-identification.md) | BSUIDs, usernames, phone number visibility |
+| [phone-number-management](phone-number-management.md) | Phone number lifecycle — add, verify, register |
+| [embedded-signup](embedded-signup.md) | Onboard businesses via solution partners |
+| [messaging-limits](messaging-limits.md) | Daily conversation limits per business |
+| [solution-partners](solution-partners.md) | Third-party integration providers |
+| [marketing-messages](marketing-messages.md) | Promotional templates and user opt-out |
+| [two-step-verification](two-step-verification.md) | 6-digit PIN security for phone numbers |
+| [payments-api](payments-api.md) | In-chat payments (India/Brazil) |
 
 ## Key Entities
 
 | Entity | Type | Description |
 |--------|------|-------------|
-| [[whatsapp-business-account]] | account | Container for phone numbers and templates |
-| [[official-business-account]] | status | Blue checkmark verification |
-| [[display-name]] | attribute | Verified business name |
-| [[business-profile]] | attribute | Profile info (address, email, website) |
-| [[bsuid]] | identifier | Business-scoped user ID |
-| [[messages-webhook]] | webhook-field | Incoming/outgoing message events |
-| [[contact-book]] | feature | Meta-hosted user contact storage |
-| [[business-phone-number]] | resource | Core messaging identity |
-| [[Knowledge-Bases/Channels/Meta/wiki/entities/conversational-components]] | feature | Ice breakers and slash commands |
+| [whatsapp-business-account](whatsapp-business-account.md) | account | Container for phone numbers and templates |
+| [official-business-account](official-business-account.md) | status | Blue checkmark verification |
+| [display-name](display-name.md) | attribute | Verified business name |
+| [business-profile](business-profile.md) | attribute | Profile info (address, email, website) |
+| [bsuid](bsuid.md) | identifier | Business-scoped user ID |
+| [messages-webhook](messages-webhook.md) | webhook-field | Incoming/outgoing message events |
+| [contact-book](contact-book.md) | feature | Meta-hosted user contact storage |
+| [business-phone-number](business-phone-number.md) | resource | Core messaging identity |
+| [conversational-components](entities/conversational-components.md) | feature | Ice breakers and slash commands |
 
 ## Platform Hierarchy
 
@@ -74,19 +74,19 @@ Meta Business Suite (Portfolio)
 
 | Source | Key Content |
 |--------|-------------|
-| [[webhooks-overview]] | Complete webhook field reference |
-| [[Knowledge-Bases/Channels/Meta/wiki/sources/webhook-overrides]] | API for alternate callback URLs |
-| [[create-webhook-endpoint]] | Production endpoint setup |
-| [[create-test-webhook-endpoint]] | Render-based test endpoint |
-| [[whatsapp-business-accounts]] | WABA creation, limits, sharing |
-| [[official-business-accounts]] | OBA eligibility, notability |
-| [[business-profiles]] | Profile fields, API |
-| [[display-names]] | Display name verification workflow |
-| [[business-scoped-user-ids]] | BSUIDs, usernames, contact book |
-| [[business-phone-numbers]] | Phone number types, status, identity check |
-| [[Knowledge-Bases/Channels/Meta/wiki/sources/conversational-components]] | Ice breakers, commands UI |
-| [[phone-number-registration]] | Register/deregister, local storage |
-| [[Knowledge-Bases/Channels/Meta/wiki/sources/two-step-verification]] | 2FA PIN setup |
+| [webhooks-overview](webhooks-overview.md) | Complete webhook field reference |
+| [webhook-overrides](sources/webhook-overrides.md) | API for alternate callback URLs |
+| [create-webhook-endpoint](create-webhook-endpoint.md) | Production endpoint setup |
+| [create-test-webhook-endpoint](create-test-webhook-endpoint.md) | Render-based test endpoint |
+| [whatsapp-business-accounts](whatsapp-business-accounts.md) | WABA creation, limits, sharing |
+| [official-business-accounts](official-business-accounts.md) | OBA eligibility, notability |
+| [business-profiles](business-profiles.md) | Profile fields, API |
+| [display-names](display-names.md) | Display name verification workflow |
+| [business-scoped-user-ids](business-scoped-user-ids.md) | BSUIDs, usernames, contact book |
+| [business-phone-numbers](business-phone-numbers.md) | Phone number types, status, identity check |
+| [conversational-components](sources/conversational-components.md) | Ice breakers, commands UI |
+| [phone-number-registration](phone-number-registration.md) | Register/deregister, local storage |
+| [two-step-verification](sources/two-step-verification.md) | 2FA PIN setup |
 
 ## Current State
 

@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Template Webhooks Reference"
-source_file: "[[raw/message_template_status_update webhook reference  Developer Documentation.md]]"
+source_file: "[message_template_status_update webhook reference  Developer Documentation.md](../../raw/message_template_status_update webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/message_template_status_update"
 ingested: 2026-04-05
 tags: [webhooks, templates, reference, payload]
@@ -52,4 +52,4 @@ Four webhook fields cover template lifecycle events: status updates, quality cha
 - `AUTHENTICATION`
 
 ## Related Entities
-- [[wiki/entities/message-template-webhooks]]
+- [message-template-webhooks](../entities/message-template-webhooks.md)

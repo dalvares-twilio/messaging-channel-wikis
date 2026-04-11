@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Multi-Solution Conversations (MSC)"
-source_file: "[[raw/How to use Multi-Solution Conversations (MSC).md]]"
+source_file: "[How to use Multi-Solution Conversations (MSC).md](../../raw/How to use Multi-Solution Conversations (MSC).md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/multi-solution-conversations"
 ingested: 2026-04-05
 tags: [multi-partner-solutions, messaging, phone-numbers]
@@ -52,5 +52,5 @@ Per-message pricing. Each partner billed for messages sent through their app.
 Automatic via Embedded Signup v2+ for eligible businesses. No partner configuration needed.
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
-- [[wiki/concepts/embedded-signup]]
+- [solution-partners](../concepts/solution-partners.md)
+- [embedded-signup](../concepts/embedded-signup.md)

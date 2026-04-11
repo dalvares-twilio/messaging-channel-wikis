@@ -1,7 +1,7 @@
 ---
 type: source
 title: Webhook Overrides | Developer Documentation
-source_file: "[[Webhook overrides  Developer Documentation]]"
+source_file: "[Webhook overrides  Developer Documentation](Webhook overrides  Developer Documentation.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/override
 ingested: 2026-04-05
 tags:
@@ -55,9 +55,9 @@ The routing priority is: phone number override > WABA override > app default.
 - **Delete**: `POST /<PHONE_NUMBER_ID>` with `override_callback_uri` set to empty string
 
 ## Related Concepts
-- [[webhooks]]
-- [[Knowledge-Bases/Channels/Meta/wiki/concepts/webhook-overrides]]
+- [webhooks](webhooks.md)
+- [webhook-overrides](../concepts/webhook-overrides.md)
 
 ## Related Entities
-- [[subscribed-apps-api]]
-- [[phone-number-webhook-config]]
+- [subscribed-apps-api](subscribed-apps-api.md)
+- [phone-number-webhook-config](phone-number-webhook-config.md)

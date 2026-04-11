@@ -1,7 +1,7 @@
 ---
 type: source
 title: "account_update Webhook Reference"
-source_file: "[[raw/account_update webhook reference  Developer Documentation.md]]"
+source_file: "[account_update webhook reference  Developer Documentation.md](../../raw/account_update webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/account_update"
 ingested: 2026-04-05
 tags: [webhooks, account, reference, payload]
@@ -44,8 +44,8 @@ The `account_update` webhook notifies of WABA-level changes including partner ve
 See policy enforcement documentation for values like `ADULT`, `ALCOHOL`, `SCAM`, etc.
 
 ## Related Concepts
-- [[wiki/concepts/webhooks]]
-- [[wiki/concepts/webhook-fields]]
+- [webhooks](../concepts/webhooks.md)
+- [webhook-fields](../concepts/webhook-fields.md)
 
 ## Related Entities
-- [[wiki/entities/whatsapp-business-account]]
+- [whatsapp-business-account](../entities/whatsapp-business-account.md)

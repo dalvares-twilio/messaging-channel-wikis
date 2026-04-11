@@ -1,7 +1,7 @@
 ---
 type: source
 title: "SMS Deep Links"
-source_file: "[[raw/Start a conversation from an SMS deep link    RCS for Business.md]]"
+source_file: "[Start a conversation from an SMS deep link    RCS for Business.md](../../raw/Start a conversation from an SMS deep link    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/build/deeplinks"
 ingested: 2026-04-05
 tags: [deep-links, sms, user-acquisition]
@@ -27,9 +27,9 @@ Users can start conversations with RBM agents via SMS deep link URLs embedded in
 
 ## Related Concepts
 
-- [[wiki/concepts/user-acquisition]]
+- [user-acquisition](../concepts/user-acquisition.md)
 
 ## Related Entities
 
-- [[wiki/entities/developer-console]]
-- [[wiki/entities/google-messages]]
+- [developer-console](../entities/developer-console.md)
+- [google-messages](../entities/google-messages.md)

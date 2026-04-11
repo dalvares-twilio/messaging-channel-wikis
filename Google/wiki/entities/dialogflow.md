@@ -35,9 +35,9 @@ Open-source Node.js integration module available:
 
 ## Related
 
-- [[wiki/entities/rbm-api]]
-- [[wiki/concepts/async-processing]]
+- [rbm-api](../entities/rbm-api.md)
+- [async-processing](../concepts/async-processing.md)
 
 ## Sources
 
-- [[wiki/sources/dialogflow-integration]]
+- [dialogflow-integration](../sources/dialogflow-integration.md)

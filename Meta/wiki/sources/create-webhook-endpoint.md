@@ -1,7 +1,7 @@
 ---
 type: source
 title: Create a Webhook Endpoint
-source_file: "[[Create a webhook endpoint]]"
+source_file: "[Create a webhook endpoint](Create a webhook endpoint.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/create-webhook-endpoint
 ingested: 2026-04-05
 tags:
@@ -44,17 +44,17 @@ GET <CALLBACK_URL>?hub.mode=subscribe&hub.challenge=<RANDOM>&hub.verify_token=<Y
 
 ## App Dashboard Configuration
 
-![[Knowledge-Bases/Channels/Meta/raw/assets/518348561_1679202599393717_3427225193188619311_n 1.png]]
+![image](../../raw/assets/518348561_1679202599393717_3427225193188619311_n 1.png)
 
 Navigate to **App Dashboard > WhatsApp > Configuration** and enter:
 - **Callback URL**: Your endpoint URL
 - **Verify token**: Your chosen verification string
 
 ## Related Concepts
-- [[webhook-verification]]
-- [[webhook-security]]
-- [[webhooks]]
+- [webhook-verification](webhook-verification.md)
+- [webhook-security](webhook-security.md)
+- [webhooks](webhooks.md)
 
 ## Related Entities
-- [[get-verification-request]]
-- [[post-webhook-request]]
+- [get-verification-request](get-verification-request.md)
+- [post-webhook-request](post-webhook-request.md)

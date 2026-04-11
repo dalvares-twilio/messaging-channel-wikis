@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Business Customer Phone Numbers"
-source_file: "[[raw/Business customer phone numbers.md]]"
+source_file: "[Business customer phone numbers.md](../../raw/Business customer phone numbers.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/manage-phone-numbers"
 ingested: 2026-04-05
 tags: [phone-numbers, solution-partners, management]
@@ -55,5 +55,5 @@ GET /<WABA_ID>/phone_numbers?filtering=[{"field":"account_mode","operator":"EQUA
 2. Via WhatsApp Manager (requires partner to verify)
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
-- [[wiki/concepts/embedded-signup]]
+- [solution-partners](../concepts/solution-partners.md)
+- [embedded-signup](../concepts/embedded-signup.md)

@@ -32,11 +32,11 @@ No — template webhooks always go to app's default callback URL.
 - Track category re-classification by Meta
 
 ## Related Concepts
-- [[webhooks]]
-- [[webhook-fields]]
+- [webhooks](webhooks.md)
+- [webhook-fields](webhook-fields.md)
 
 ## Related Entities
-- [[account-alerts-webhook]]
+- [account-alerts-webhook](account-alerts-webhook.md)
 
 ## Sources
-- [[webhooks-overview]]
+- [webhooks-overview](webhooks-overview.md)

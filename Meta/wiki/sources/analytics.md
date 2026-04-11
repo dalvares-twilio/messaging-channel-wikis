@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Analytics"
-source_file: "[[raw/Analytics  Developer Documentation.md]]"
+source_file: "[Analytics  Developer Documentation.md](../../raw/Analytics  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/analytics"
 ingested: 2026-04-05
 tags: [analytics, metrics, reporting]
@@ -55,4 +55,4 @@ WhatsApp provides analytics for messaging, conversations, pricing, templates, ca
 - EU/UK/Japan WABAs excluded from template analytics
 
 ## Related Entities
-- [[wiki/entities/whatsapp-business-account]]
+- [whatsapp-business-account](../entities/whatsapp-business-account.md)

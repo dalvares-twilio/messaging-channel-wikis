@@ -32,11 +32,11 @@ The RBM Management API (part of Business Communications API) handles agent lifec
 
 ## Related
 
-- [[wiki/entities/rbm-api]]
-- [[wiki/entities/developer-console]]
-- [[wiki/concepts/agent-lifecycle]]
+- [rbm-api](../entities/rbm-api.md)
+- [developer-console](../entities/developer-console.md)
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Sources
 
-- [[wiki/sources/edit-agent-info]]
-- [[wiki/sources/test-devices]]
+- [edit-agent-info](../sources/edit-agent-info.md)
+- [test-devices](../sources/test-devices.md)

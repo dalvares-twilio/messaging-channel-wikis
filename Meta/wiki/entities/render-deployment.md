@@ -38,7 +38,7 @@ When properly configured, Render's app log shows:
 - `WEBHOOK VERIFIED` when Meta verifies endpoint
 - `Webhook received <timestamp>` + JSON for each incoming webhook
 
-![[Knowledge-Bases/Channels/Meta/raw/assets/518314752_779138407775567_4233589617658404934_n.png]]
+![image](../../raw/assets/518314752_779138407775567_4233589617658404934_n.png)
 
 ## Limitations
 
@@ -47,8 +47,8 @@ When properly configured, Render's app log shows:
 - **Logging**: Console output only, no persistent storage
 
 ## Related Concepts
-- [[webhook-verification]]
-- [[webhooks]]
+- [webhook-verification](webhook-verification.md)
+- [webhooks](webhooks.md)
 
 ## Sources
-- [[create-test-webhook-endpoint]]
+- [create-test-webhook-endpoint](create-test-webhook-endpoint.md)

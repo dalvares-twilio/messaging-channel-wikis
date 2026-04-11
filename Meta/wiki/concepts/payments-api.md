@@ -29,4 +29,4 @@ The Payments API enables businesses to accept payments directly within WhatsApp 
 
 ## Sources
 
-- [[wiki/sources/payment-config-webhook-reference]]
+- [payment-config-webhook-reference](../sources/payment-config-webhook-reference.md)

@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Adding WABA to Multi-Partner Solution"
-source_file: "[[raw/Adding a WABA to a Multi-Partner Solution.md]]"
+source_file: "[Adding a WABA to a Multi-Partner Solution.md](../../raw/Adding a WABA to a Multi-Partner Solution.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/support/adding-waba-to-mps"
 ingested: 2026-04-05
 tags: [multi-partner-solutions, waba, migration]
@@ -45,4 +45,4 @@ Customer accepts via Meta Business Suite > Settings > Requests > Received tab.
 **Auto-confirm**: If not completed within 90 days, acceptance happens automatically.
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
+- [solution-partners](../concepts/solution-partners.md)

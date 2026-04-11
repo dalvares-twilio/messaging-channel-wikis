@@ -1,7 +1,7 @@
 ---
 type: source
 title: Register a Business Phone Number
-source_file: "[[Register a Business Phone Number]]"
+source_file: "[Register a Business Phone Number](Register a Business Phone Number.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/business-phone-numbers/registration
 ingested: 2026-04-05
 tags:
@@ -70,9 +70,9 @@ POST /<PHONE_NUMBER_ID>/deregister
 - Same 10 request / 72 hour limit
 
 ## Related Concepts
-- [[phone-number-management]]
+- [phone-number-management](phone-number-management.md)
 
 ## Related Entities
-- [[business-phone-number]]
-- [[Knowledge-Bases/Channels/Meta/wiki/entities/two-step-verification]]
-- [[local-storage]]
+- [business-phone-number](business-phone-number.md)
+- [two-step-verification](../entities/two-step-verification.md)
+- [local-storage](local-storage.md)

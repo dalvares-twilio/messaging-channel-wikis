@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Meta Pixel Tracking"
-source_file: "[[raw/Tracking with the Meta Pixel.md]]"
+source_file: "[Tracking with the Meta Pixel.md](../../raw/Tracking with the Meta Pixel.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/pixel-tracking"
 ingested: 2026-04-05
 tags: [analytics, tracking, embedded-signup]
@@ -28,4 +28,4 @@ fbq('track', 'PageView', {
 Measure how many page visitors clicked signup vs. successfully converted.
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)

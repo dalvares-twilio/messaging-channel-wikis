@@ -108,11 +108,11 @@ func isPlatformEvent(payload types.InboundMessageEvent) bool {
 
 ## Related
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/carrier-launch]]
-- [[wiki/sources/receive-events]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [carrier-launch](../concepts/carrier-launch.md)
+- [receive-events](../sources/receive-events.md)
 
 ## Sources
 
-- [[wiki/sources/receive-events]]
-- [[raw/Receive events    RCS for Business.md]]
+- [receive-events](../sources/receive-events.md)
+- [Receive events    RCS for Business.md](../../raw/Receive events    RCS for Business.md)

@@ -1,7 +1,7 @@
 ---
 type: source
 title: Business-scoped User IDs
-source_file: "[[Business-scoped user IDs  Developer Documentation]]"
+source_file: "[Business-scoped user IDs  Developer Documentation](Business-scoped user IDs  Developer Documentation.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/business-scoped-user-ids
 ingested: 2026-04-05
 tags:
@@ -68,10 +68,10 @@ Phone numbers included in webhooks if:
 - Reserved usernames can be claimed before launch
 
 ## Related Concepts
-- [[webhooks]]
-- [[user-identification]]
+- [webhooks](webhooks.md)
+- [user-identification](user-identification.md)
 
 ## Related Entities
-- [[bsuid]]
-- [[contact-book]]
-- [[messages-webhook]]
+- [bsuid](bsuid.md)
+- [contact-book](contact-book.md)
+- [messages-webhook](messages-webhook.md)

@@ -37,12 +37,12 @@ For successful agent communication, device needs:
 
 ## Related
 
-- [[wiki/concepts/agent-lifecycle]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Related Workflows
 
-- [[wiki/workflows/add-test-device]] — Add and configure test devices
+- [add-test-device](../workflows/add-test-device.md) — Add and configure test devices
 
 ## Sources
 
-- [[wiki/sources/test-devices]]
+- [test-devices](../sources/test-devices.md)

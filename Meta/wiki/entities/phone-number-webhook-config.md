@@ -67,10 +67,10 @@ POST /<BUSINESS_PHONE_NUMBER_ID>
 - Endpoint must pass verification handshake
 
 ## Related Concepts
-- [[Knowledge-Bases/Channels/Meta/wiki/concepts/webhook-overrides]]
+- [webhook-overrides](../concepts/webhook-overrides.md)
 
 ## Related Entities
-- [[subscribed-apps-api]]
+- [subscribed-apps-api](subscribed-apps-api.md)
 
 ## Sources
-- [[Knowledge-Bases/Channels/Meta/wiki/sources/webhook-overrides]]
+- [webhook-overrides](../sources/webhook-overrides.md)

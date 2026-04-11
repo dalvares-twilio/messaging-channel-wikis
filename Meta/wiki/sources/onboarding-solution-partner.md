@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Onboarding as Solution Partner"
-source_file: "[[raw/Onboarding business customers as a Solution Partner.md]]"
+source_file: "[Onboarding business customers as a Solution Partner.md](../../raw/Onboarding business customers as a Solution Partner.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/onboarding-customers-as-a-solution-partner"
 ingested: 2026-04-05
 tags: [onboarding, solution-partner, embedded-signup]
@@ -52,5 +52,5 @@ POST /<BUSINESS_PHONE_NUMBER_ID>/register
 Send message to customer's number to verify messaging works.
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
-- [[wiki/concepts/embedded-signup]]
+- [solution-partners](../concepts/solution-partners.md)
+- [embedded-signup](../concepts/embedded-signup.md)

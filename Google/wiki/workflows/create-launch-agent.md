@@ -33,7 +33,7 @@ Step-by-step process to create an RBM agent and launch it on carrier networks. I
    - Description, contact info, privacy policy URL
    - *Info becomes immutable after verification submission*
 
-3. **Add Test Devices** — See [[wiki/workflows/add-test-device]]
+3. **Add Test Devices** — See [add-test-device](../workflows/add-test-device.md)
    - Invite testers by phone number
    - Wait for invite acceptance
    - Verify test messages work
@@ -78,15 +78,15 @@ Step-by-step process to create an RBM agent and launch it on carrier networks. I
 
 ## Related
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/carrier-launch]]
-- [[wiki/concepts/use-cases]]
-- [[wiki/concepts/billing-categories]]
-- [[wiki/concepts/branding-guidelines]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [carrier-launch](../concepts/carrier-launch.md)
+- [use-cases](../concepts/use-cases.md)
+- [billing-categories](../concepts/billing-categories.md)
+- [branding-guidelines](../concepts/branding-guidelines.md)
 
 ## Sources
 
-- [[wiki/sources/create-agent]]
-- [[wiki/sources/verify-launch-overview]]
-- [[wiki/sources/brand-verification]]
-- [[wiki/sources/launch-approval]]
+- [create-agent](../sources/create-agent.md)
+- [verify-launch-overview](../sources/verify-launch-overview.md)
+- [brand-verification](../sources/brand-verification.md)
+- [launch-approval](../sources/launch-approval.md)

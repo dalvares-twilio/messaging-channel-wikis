@@ -1,7 +1,7 @@
 ---
 type: source
 title: "smb_app_state_sync Webhook Reference"
-source_file: "[[raw/smb_app_state_sync webhook reference  Developer Documentation.md]]"
+source_file: "[smb_app_state_sync webhook reference  Developer Documentation.md](../../raw/smb_app_state_sync webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/smb_app_state_sync"
 ingested: 2026-04-05
 tags: [webhooks, contacts, sync, smb, reference]
@@ -34,7 +34,7 @@ The `smb_app_state_sync` webhook synchronizes contacts for WhatsApp Business app
 | `phone_number` | Contact's WhatsApp phone number |
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)
 
 ## Related Entities
-- [[wiki/entities/business-phone-number]]
+- [business-phone-number](../entities/business-phone-number.md)

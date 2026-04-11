@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Manage Testers (API)"
-source_file: "[[raw/Manage testers    RCS for Business.md]]"
+source_file: "[Manage testers    RCS for Business.md](../../raw/Manage testers    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/management-api/testers"
 ingested: 2026-04-05
 tags: [api, management, testing]
@@ -26,9 +26,9 @@ Programmatic management of testers via the RBM Management API. Testers allow unl
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/rcs-enablement]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [rcs-enablement](../concepts/rcs-enablement.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-management-api]]
+- [rbm-management-api](../entities/rbm-management-api.md)

@@ -46,8 +46,8 @@ Carousels require more cognitive effort — users must swipe and compare. If you
 
 ## Sources Consulted
 
-- [[wiki/concepts/rich-cards]]
-- [[wiki/sources/send-messages]]
+- [rich-cards](../concepts/rich-cards.md)
+- [send-messages](../sources/send-messages.md)
 
 ## New Insights
 

@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Brand Verification"
-source_file: "[[raw/Brand verification    RCS for Business.md]]"
+source_file: "[Brand verification    RCS for Business.md](../../raw/Brand verification    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/launch/brand-verification"
 ingested: 2026-04-05
 tags: [launch, verification, brand]
@@ -24,9 +24,9 @@ Brand verification confirms that an authorized brand representative verifies age
 
 ## Related Concepts
 
-- [[wiki/concepts/carrier-launch]]
-- [[wiki/concepts/agent-lifecycle]]
+- [carrier-launch](../concepts/carrier-launch.md)
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Related Entities
 
-- [[wiki/entities/developer-console]]
+- [developer-console](../entities/developer-console.md)

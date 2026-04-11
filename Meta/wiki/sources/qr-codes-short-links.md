@@ -1,7 +1,7 @@
 ---
 type: source
 title: "QR Codes and Short Links"
-source_file: "[[raw/QR Codes and Short Links.md]]"
+source_file: "[QR Codes and Short Links.md](../../raw/QR Codes and Short Links.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/qr-codes"
 ingested: 2026-04-05
 tags: [qr-codes, short-links, messaging, api]
@@ -79,5 +79,5 @@ DELETE /<PHONE_NUMBER_ID>/message_qrdls/<CODE>
 - Use different codes for different languages/locations
 
 ## Related Entities
-- [[wiki/entities/qr-codes]]
-- [[wiki/entities/business-phone-number]]
+- [qr-codes](../entities/qr-codes.md)
+- [business-phone-number](../entities/business-phone-number.md)

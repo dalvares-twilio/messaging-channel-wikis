@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Onboarding as Tech Provider"
-source_file: "[[raw/Onboarding business customers as a Tech Provider or Tech Partner.md]]"
+source_file: "[Onboarding business customers as a Tech Provider or Tech Partner.md](../../raw/Onboarding business customers as a Tech Provider or Tech Partner.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/onboarding-customers-as-a-tech-provider"
 ingested: 2026-04-05
 tags: [onboarding, tech-provider, embedded-signup]
@@ -50,5 +50,5 @@ Customer must add payment method via WhatsApp Manager > Overview > Add payment m
 Tech Providers do NOT share credit lines. Customers pay directly.
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
-- [[wiki/concepts/embedded-signup]]
+- [solution-partners](../concepts/solution-partners.md)
+- [embedded-signup](../concepts/embedded-signup.md)

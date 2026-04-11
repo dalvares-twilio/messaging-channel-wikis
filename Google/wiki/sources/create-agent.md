@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Create an Agent"
-source_file: "[[raw/Create an agent    RCS for Business.md]]"
+source_file: "[Create an agent    RCS for Business.md](../../raw/Create an agent    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/build/agents"
 ingested: 2026-04-05
 tags: [agents, setup, configuration]
@@ -27,12 +27,12 @@ Creating an agent requires specifying: brand, agent name, hosting region, billin
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/use-cases]]
-- [[wiki/concepts/billing-categories]]
-- [[wiki/concepts/regional-endpoints]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [use-cases](../concepts/use-cases.md)
+- [billing-categories](../concepts/billing-categories.md)
+- [regional-endpoints](../concepts/regional-endpoints.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
-- [[wiki/entities/developer-console]]
+- [rbm-api](../entities/rbm-api.md)
+- [developer-console](../entities/developer-console.md)

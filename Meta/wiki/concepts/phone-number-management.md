@@ -59,17 +59,17 @@ Required to send/receive messages via API.
 | Short codes | Not supported |
 
 ## Related Concepts
-- [[business-verification]]
-- [[user-identification]]
+- [business-verification](business-verification.md)
+- [user-identification](user-identification.md)
 
 ## Related Entities
-- [[business-phone-number]]
-- [[display-name]]
-- [[Knowledge-Bases/Channels/Meta/wiki/entities/two-step-verification]]
-- [[Knowledge-Bases/Channels/Meta/wiki/entities/conversational-components]]
+- [business-phone-number](business-phone-number.md)
+- [display-name](display-name.md)
+- [two-step-verification](../entities/two-step-verification.md)
+- [conversational-components](../entities/conversational-components.md)
 
 ## Sources
-- [[business-phone-numbers]]
-- [[phone-number-registration]]
-- [[display-names]]
-- [[Knowledge-Bases/Channels/Meta/wiki/sources/two-step-verification]]
+- [business-phone-numbers](business-phone-numbers.md)
+- [phone-number-registration](phone-number-registration.md)
+- [display-names](display-names.md)
+- [two-step-verification](../sources/two-step-verification.md)

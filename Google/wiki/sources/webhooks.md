@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Webhooks"
-source_file: "[[raw/RCS for Business    Google for Developers.md]]"
+source_file: "[RCS for Business    Google for Developers.md](../../raw/RCS for Business    Google for Developers.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/integrate/webhooks"
 ingested: 2026-04-05
 tags: [webhooks, integration, security]
@@ -29,10 +29,10 @@ Security is critical — incoming messages must be verified using HMAC-SHA512 wi
 
 ## Related Concepts
 
-- [[wiki/concepts/message-verification]]
-- [[wiki/concepts/async-processing]]
+- [message-verification](../concepts/message-verification.md)
+- [async-processing](../concepts/async-processing.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
-- [[wiki/entities/developer-console]]
+- [rbm-api](../entities/rbm-api.md)
+- [developer-console](../entities/developer-console.md)

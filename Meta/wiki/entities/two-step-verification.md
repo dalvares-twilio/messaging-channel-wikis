@@ -45,8 +45,8 @@ POST /<PHONE_NUMBER_ID>
 - Deleting phone number from platform
 
 ## Related Entities
-- [[business-phone-number]]
+- [business-phone-number](business-phone-number.md)
 
 ## Sources
-- [[Knowledge-Bases/Channels/Meta/wiki/sources/two-step-verification]]
-- [[business-phone-numbers]]
+- [two-step-verification](../sources/two-step-verification.md)
+- [business-phone-numbers](business-phone-numbers.md)

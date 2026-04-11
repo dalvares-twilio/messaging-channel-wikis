@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Revoke Messages"
-source_file: "[[raw/Revoke messages    RCS for Business.md]]"
+source_file: "[Revoke messages    RCS for Business.md](../../raw/Revoke messages    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/build/messages/revoke"
 ingested: 2026-04-05
 tags: [messaging, api, fallback]
@@ -32,9 +32,9 @@ Agents can revoke sent but undelivered messages to prevent stale content from re
 
 ## Related Concepts
 
-- [[wiki/concepts/message-expiration]]
-- [[wiki/concepts/async-processing]]
+- [message-expiration](../concepts/message-expiration.md)
+- [async-processing](../concepts/async-processing.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
+- [rbm-api](../entities/rbm-api.md)

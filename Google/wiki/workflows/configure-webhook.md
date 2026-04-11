@@ -99,11 +99,11 @@ Set up a webhook to receive RBM events (messages, delivery receipts, user action
 
 ## Related
 
-- [[wiki/concepts/async-processing]]
-- [[wiki/concepts/message-verification]]
+- [async-processing](../concepts/async-processing.md)
+- [message-verification](../concepts/message-verification.md)
 
 ## Sources
 
-- [[wiki/sources/webhooks]]
-- [[wiki/sources/receive-messages]]
-- [[wiki/sources/receive-events]]
+- [webhooks](../sources/webhooks.md)
+- [receive-messages](../sources/receive-messages.md)
+- [receive-events](../sources/receive-events.md)

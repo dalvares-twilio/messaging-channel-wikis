@@ -48,10 +48,10 @@ RBM tracks agent performance metrics including reputation score, traffic limits,
 
 ## Related
 
-- [[wiki/concepts/subscribe-unsubscribe]]
-- [[wiki/concepts/use-cases]]
+- [subscribe-unsubscribe](../concepts/subscribe-unsubscribe.md)
+- [use-cases](../concepts/use-cases.md)
 
 ## Sources
 
-- [[wiki/sources/analytics-overview]]
-- [[wiki/sources/agent-analytics]]
+- [analytics-overview](../sources/analytics-overview.md)
+- [agent-analytics](../sources/agent-analytics.md)

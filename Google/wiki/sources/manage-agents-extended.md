@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Manage Agents (Extended API Guide)"
-source_file: "[[raw/Manage agents    RCS for Business 1.md]]"
+source_file: "[Manage agents    RCS for Business 1.md](../../raw/Manage agents    RCS for Business 1.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/management-api/agents"
 ingested: 2026-04-05
 tags: [api, agents, management, launch, verification]
@@ -97,9 +97,9 @@ businessCommunicationsApiHelper.getAgentLaunch(agent.name);
 
 ## Related Concepts
 
-- [[wiki/concepts/carrier-launch]]
-- [[wiki/concepts/agent-lifecycle]]
+- [carrier-launch](../concepts/carrier-launch.md)
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-management-api]]
+- [rbm-management-api](../entities/rbm-management-api.md)

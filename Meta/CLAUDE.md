@@ -39,6 +39,9 @@ title: "<Document Title>"
 source_file: "[[raw/<filename>.md]]"
 source_url: "<original URL>"
 ingested: YYYY-MM-DD
+version: 1                              # Increment for each new version
+supersedes: "[[wiki/sources/<prev>]]"   # Only if v2+, link to previous version
+superseded_by: "[[wiki/sources/<next>]]" # Added when newer version exists
 tags: [<relevant-tags>]
 ---
 
@@ -100,6 +103,37 @@ entity_type: "<api|endpoint|field|parameter|service>"
 - [[wiki/sources/<source>]]
 ```
 
+### Pattern Page (`wiki/patterns/`)
+```markdown
+---
+type: pattern
+title: "<Pattern Name>"
+applies_to: "<domain or situation>"
+confidence: "<high|medium|low>"
+learned_from: "<source or experience>"
+---
+
+## Pattern
+<the rule or heuristic in one sentence>
+
+## When to Apply
+<situations where this pattern helps>
+
+## When NOT to Apply
+<exceptions, edge cases>
+
+## Examples
+- <example 1>
+- <example 2>
+
+## Related
+- [[wiki/concepts/<concept>]]
+- [[wiki/patterns/<related-pattern>]]
+
+## Sources
+- [[wiki/sources/<source>]]
+```
+
 ## Workflows
 
 ### Ingest Source
@@ -115,8 +149,11 @@ entity_type: "<api|endpoint|field|parameter|service>"
 1. Read `wiki/index.md` to find relevant pages
 2. Read relevant wiki pages
 3. **Trust the wiki** — it's already compiled, cross-referenced knowledge
-4. Synthesize answer with citations
-5. If answer is valuable, consider filing it as a new wiki page
+4. Synthesize answer with citations (`[[wiki/sources/...]]`)
+5. **Check for superseded sources:** If any cited source has `superseded_by` field, include warning
+6. **ALWAYS file to `wiki/queries/<slug>.md`** — every query strengthens the wiki
+7. Update `wiki/index.md` with query entry
+8. Append to `wiki/log.md`: `## [YYYY-MM-DD] query | <Question Summary>`
 
 ## Query Response Philosophy
 
@@ -135,12 +172,17 @@ Dispatch a verification subagent ONLY when:
 1. **Include source URL** — from `source_url` frontmatter
 2. **Cite wiki pages** — `[[wiki/sources/...]]` links
 3. **Separate quotes from synthesis** — blockquotes for direct quotes
+4. **Include References section** — wiki pages, original URL, Slack/contact
 
 ### Lint/Health Check
-- Look for orphan pages (no inbound links)
-- Look for mentioned but missing pages
-- Check for contradictions between pages
-- Identify gaps that new sources could fill
+1. Check for orphan pages (no inbound links)
+2. Check for mentioned but missing pages
+3. Check for **stale citations** (pages citing sources with `superseded_by` field)
+4. Check for contradictions between pages
+5. Identify gaps that new sources could fill
+6. Generate **suggested questions** (concepts with <3 sources, entities never queried)
+7. Write results to `wiki/health.md`
+8. Append to `wiki/log.md`: `## [YYYY-MM-DD] lint | Health Check`
 
 ## Image References
 

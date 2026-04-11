@@ -26,9 +26,9 @@ Two-step verification (2FA) adds a layer of security to business phone numbers b
 
 ## Related Entities
 
-- [[wiki/entities/two-step-verification]]
+- [two-step-verification](../entities/two-step-verification.md)
 
 ## Sources
 
-- [[wiki/sources/two-step-verification]]
-- [[wiki/sources/security-webhook-reference]]
+- [two-step-verification](../sources/two-step-verification.md)
+- [security-webhook-reference](../sources/security-webhook-reference.md)

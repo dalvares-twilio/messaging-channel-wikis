@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Migrate WABA Between MPS via Embedded Signup"
-source_file: "[[raw/Migrating a WABA from one Multi-Partner Solution to another via Embedded Signup.md]]"
+source_file: "[Migrating a WABA from one Multi-Partner Solution to another via Embedded Signup.md](../../raw/Migrating a WABA from one Multi-Partner Solution to another via Embedded Signup.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/support/migrating-wabas-among-solutions-via-embedded-signup"
 ingested: 2026-04-05
 tags: [migration, multi-partner-solutions, embedded-signup]
@@ -51,5 +51,5 @@ Customer uses destination Solution Partner's Embedded Signup with existing busin
 Provide Embedded Signup link configured with MPS ID. Onboard customer normally upon completion.
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
-- [[wiki/concepts/embedded-signup]]
+- [solution-partners](../concepts/solution-partners.md)
+- [embedded-signup](../concepts/embedded-signup.md)

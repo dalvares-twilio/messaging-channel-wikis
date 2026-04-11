@@ -1,7 +1,7 @@
 ---
 type: source
 title: WhatsApp Business Accounts
-source_file: "[[WhatsApp Business Accounts  Developer Documentation]]"
+source_file: "[WhatsApp Business Accounts  Developer Documentation](WhatsApp Business Accounts  Developer Documentation.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/whatsapp-business-accounts
 ingested: 2026-04-05
 tags:
@@ -49,10 +49,10 @@ Subscribe to `account_update` webhook for:
 - Offboarding events
 
 ## Related Concepts
-- [[webhooks]]
-- [[webhook-fields]]
+- [webhooks](webhooks.md)
+- [webhook-fields](webhook-fields.md)
 
 ## Related Entities
-- [[whatsapp-business-account]]
-- [[account-alerts-webhook]]
-- [[meta-business-suite]]
+- [whatsapp-business-account](whatsapp-business-account.md)
+- [account-alerts-webhook](account-alerts-webhook.md)
+- [meta-business-suite](meta-business-suite.md)

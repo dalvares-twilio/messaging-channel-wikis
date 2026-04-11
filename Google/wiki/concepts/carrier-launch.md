@@ -49,16 +49,16 @@ Launching an RBM agent involves brand verification and approval by Google, carri
 
 ## Related
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/use-cases]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [use-cases](../concepts/use-cases.md)
 
 ## Related Workflows
 
-- [[wiki/workflows/create-launch-agent]] — Step-by-step agent creation and launch
+- [create-launch-agent](../workflows/create-launch-agent.md) — Step-by-step agent creation and launch
 
 ## Sources
 
-- [[wiki/sources/verify-launch-overview]]
-- [[wiki/sources/brand-verification]]
-- [[wiki/sources/launch-approval]]
-- [[wiki/sources/list-carriers]]
+- [verify-launch-overview](../sources/verify-launch-overview.md)
+- [brand-verification](../sources/brand-verification.md)
+- [launch-approval](../sources/launch-approval.md)
+- [list-carriers](../sources/list-carriers.md)

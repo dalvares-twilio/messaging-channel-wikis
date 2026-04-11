@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Manage System Users"
-source_file: "[[raw/Manage System Users  Developer Documentation.md]]"
+source_file: "[Manage System Users  Developer Documentation.md](../../raw/Manage System Users  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/manage-system-users"
 ingested: 2026-04-05
 tags: [system-users, permissions, management]
@@ -55,4 +55,4 @@ GET /<WABA_ID>/assigned_users?business=<WABA_ID>
 ```
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
+- [solution-partners](../concepts/solution-partners.md)

@@ -1,7 +1,7 @@
 ---
 type: source
 title: "user_preferences Webhook Reference"
-source_file: "[[raw/user_preferences webhook reference  Developer Documentation.md]]"
+source_file: "[user_preferences webhook reference  Developer Documentation.md](../../raw/user_preferences webhook reference  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/user_preferences"
 ingested: 2026-04-05
 tags: [webhooks, preferences, marketing, reference]
@@ -33,7 +33,7 @@ The `user_preferences` webhook notifies of changes to WhatsApp user marketing me
 | `detail` | Human-readable description |
 
 ## Related Concepts
-- [[wiki/concepts/marketing-messages]]
+- [marketing-messages](../concepts/marketing-messages.md)
 
 ## Related Entities
-- [[wiki/entities/message-template-webhooks]]
+- [message-template-webhooks](../entities/message-template-webhooks.md)

@@ -27,5 +27,5 @@ Marketing is one of three template categories:
 
 ## Sources
 
-- [[wiki/sources/user-preferences-webhook-reference]]
-- [[wiki/sources/template-webhooks-reference]]
+- [user-preferences-webhook-reference](../sources/user-preferences-webhook-reference.md)
+- [template-webhooks-reference](../sources/template-webhooks-reference.md)

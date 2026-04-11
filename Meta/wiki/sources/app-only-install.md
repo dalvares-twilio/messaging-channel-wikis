@@ -1,7 +1,7 @@
 ---
 type: source
 title: "App-Only Install"
-source_file: "[[raw/App-Only Install  Developer Documentation.md]]"
+source_file: "[App-Only Install  Developer Documentation.md](../../raw/App-Only Install  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/app-only-install"
 ingested: 2026-04-05
 tags: [embedded-signup, security, tokens]
@@ -46,5 +46,5 @@ POST /<BUSINESS_PORTFOLIO_ID>/system_user_access_tokens
 Cannot be used for WhatsApp Business app user onboarding.
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
-- [[wiki/concepts/solution-partners]]
+- [embedded-signup](../concepts/embedded-signup.md)
+- [solution-partners](../concepts/solution-partners.md)

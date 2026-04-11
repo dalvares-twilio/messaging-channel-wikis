@@ -1,7 +1,7 @@
 ---
 type: source
 title: "API Resource: partners"
-source_file: "[[raw/REST Resource partners    RCS for Business.md]]"
+source_file: "[REST Resource partners    RCS for Business.md](../../raw/REST Resource partners    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/reference/business-communications/rest/v1/partners"
 ingested: 2026-04-05
 tags: [api, schema, partners]
@@ -59,9 +59,9 @@ The `partners` resource represents an RBM partner account — the entity onboard
 
 ## Related Concepts
 
-- [[wiki/concepts/async-processing]]
+- [async-processing](../concepts/async-processing.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-management-api]]
-- [[wiki/entities/developer-console]]
+- [rbm-management-api](../entities/rbm-management-api.md)
+- [developer-console](../entities/developer-console.md)

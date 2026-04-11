@@ -54,8 +54,8 @@ GET /<PHONE_NUMBER_ID>?fields=conversational_automation
 Both ice breakers and commands trigger standard `messages` webhook with text in `body` property.
 
 ## Related Entities
-- [[business-phone-number]]
-- [[messages-webhook]]
+- [business-phone-number](business-phone-number.md)
+- [messages-webhook](messages-webhook.md)
 
 ## Sources
-- [[Knowledge-Bases/Channels/Meta/wiki/sources/conversational-components]]
+- [conversational-components](../sources/conversational-components.md)

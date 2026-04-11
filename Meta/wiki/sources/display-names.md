@@ -1,7 +1,7 @@
 ---
 type: source
 title: Display Names
-source_file: "[[Display names  Developer Documentation]]"
+source_file: "[Display names  Developer Documentation](Display names  Developer Documentation.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/display-names
 ingested: 2026-04-05
 tags:
@@ -59,8 +59,8 @@ GET /<PHONE_NUMBER_ID>?fields=new_display_name,new_name_status
 - `phone_number_name_update` — notifies of verification outcomes
 
 ## Related Concepts
-- [[webhook-fields]]
+- [webhook-fields](webhook-fields.md)
 
 ## Related Entities
-- [[display-name]]
-- [[business-profile]]
+- [display-name](display-name.md)
+- [business-profile](business-profile.md)

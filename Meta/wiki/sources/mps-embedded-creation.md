@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Multi-Partner Solution — Embedded Creation"
-source_file: "[[raw/Multi-Partner Solution — Embedded creation.md]]"
+source_file: "[Multi-Partner Solution — Embedded creation.md](../../raw/Multi-Partner Solution — Embedded creation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/multi-partner-solution-embedded-creation"
 ingested: 2026-04-05
 tags: [multi-partner-solutions, embedded-signup, api]
@@ -61,4 +61,4 @@ Authorization: Bearer <SYSTEM_USER_TOKEN>
 ```
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
+- [solution-partners](../concepts/solution-partners.md)

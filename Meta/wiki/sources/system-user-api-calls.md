@@ -1,7 +1,7 @@
 ---
 type: source
 title: "System User API Call Examples"
-source_file: "[[raw/System User API Call Examples.md]]"
+source_file: "[System User API Call Examples.md](../../raw/System User API Call Examples.md)"
 source_url: "https://developers.facebook.com/docs/business-management-apis/system-users/guides/api-calls"
 ingested: 2026-04-05
 tags: [system-users, api, examples]
@@ -51,5 +51,5 @@ Response includes page access tokens with assigned tasks:
 - Page endpoint calls unchanged — just use retrieved page token
 
 ## Related Sources
-- [[wiki/sources/install-apps-generate-tokens]]
-- [[wiki/sources/system-user-permissions]]
+- [install-apps-generate-tokens](../sources/install-apps-generate-tokens.md)
+- [system-user-permissions](../sources/system-user-permissions.md)

@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Partner-initiated WABA Creation"
-source_file: "[[raw/Partner-initiated WABA creation  Developer Documentation.md]]"
+source_file: "[Partner-initiated WABA creation  Developer Documentation.md](../../raw/Partner-initiated WABA creation  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/partner-initiated-waba-creation"
 ingested: 2026-04-05
 tags: [waba, onboarding, solution-partners]
@@ -44,5 +44,5 @@ Customer-owned WABA created via Embedded Signup with business token access.
 On-Behalf-Of ownership model is deprecated.
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
-- [[wiki/concepts/embedded-signup]]
+- [solution-partners](../concepts/solution-partners.md)
+- [embedded-signup](../concepts/embedded-signup.md)

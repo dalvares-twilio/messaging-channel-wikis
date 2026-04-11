@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Partner Account Setup"
-source_file: "[[raw/Partner Account Setup.md]]"
+source_file: "[Partner Account Setup.md](../../raw/Partner Account Setup.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/get-started/partner-account"
 ingested: 2026-04-09
 tags: [partner, webhook, setup, onboarding]
@@ -68,10 +68,10 @@ if (actualSig === expectedSig) {
 
 ## Related Concepts
 
-- [[wiki/concepts/message-verification]]
-- [[wiki/concepts/async-processing]]
+- [message-verification](../concepts/message-verification.md)
+- [async-processing](../concepts/async-processing.md)
 
 ## Related Entities
 
-- [[wiki/entities/developer-console]]
-- [[wiki/entities/rbm-management-api]]
+- [developer-console](../entities/developer-console.md)
+- [rbm-management-api](../entities/rbm-management-api.md)

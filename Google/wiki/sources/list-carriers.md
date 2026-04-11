@@ -1,7 +1,7 @@
 ---
 type: source
 title: "List Carriers (Regions)"
-source_file: "[[raw/List carriers (regions)    RCS for Business.md]]"
+source_file: "[List carriers (regions)    RCS for Business.md](../../raw/List carriers (regions)    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/management-api/regions"
 ingested: 2026-04-05
 tags: [carriers, api, launch]
@@ -42,8 +42,8 @@ Carrier networks where RBM agents can launch are called "regions" in the RBM Man
 
 ## Related Concepts
 
-- [[wiki/concepts/carrier-launch]]
+- [carrier-launch](../concepts/carrier-launch.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-management-api]]
+- [rbm-management-api](../entities/rbm-management-api.md)

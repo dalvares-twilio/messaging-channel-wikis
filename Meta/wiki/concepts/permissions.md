@@ -36,8 +36,8 @@ If providing services to business customers:
 - Solution providers need per-customer onboarding
 
 ## Related Concepts
-- [[webhooks]]
-- [[webhook-fields]]
+- [webhooks](webhooks.md)
+- [webhook-fields](webhook-fields.md)
 
 ## Sources
-- [[webhooks-overview]]
+- [webhooks-overview](webhooks-overview.md)

@@ -1,7 +1,7 @@
 ---
 type: source
 title: Official Business Accounts
-source_file: "[[Official Business Accounts  Developer Documentation]]"
+source_file: "[Official Business Accounts  Developer Documentation](Official Business Accounts  Developer Documentation.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/official-business-accounts
 ingested: 2026-04-05
 tags:
@@ -58,9 +58,9 @@ GET /<PHONE_NUMBER_ID>?fields=official_business_account
 Returns `oba_status`: `NOT_STARTED`, `PENDING`, `APPROVED`, `REJECTED`
 
 ## Related Concepts
-- [[business-verification]]
+- [business-verification](business-verification.md)
 
 ## Related Entities
-- [[official-business-account]]
-- [[whatsapp-business-account]]
-- [[display-name]]
+- [official-business-account](official-business-account.md)
+- [whatsapp-business-account](whatsapp-business-account.md)
+- [display-name](display-name.md)

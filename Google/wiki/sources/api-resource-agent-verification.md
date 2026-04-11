@@ -1,7 +1,7 @@
 ---
 type: source
 title: "REST Resource: AgentVerification"
-source_file: "[[raw/REST Resource AgentVerification.md]]"
+source_file: "[REST Resource AgentVerification.md](../../raw/REST Resource AgentVerification.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/reference/business-communications/rest/v1/AgentVerification"
 ingested: 2026-04-09
 tags: [api, verification, rest-resource]
@@ -32,9 +32,9 @@ The `AgentVerification` resource contains verification information for an RBM ag
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/carrier-launch]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [carrier-launch](../concepts/carrier-launch.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
+- [rbm-api](../entities/rbm-api.md)

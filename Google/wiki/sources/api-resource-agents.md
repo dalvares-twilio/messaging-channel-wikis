@@ -1,7 +1,7 @@
 ---
 type: source
 title: "API Resource: brands.agents"
-source_file: "[[raw/REST Resource brands.agents    RCS for Business.md]]"
+source_file: "[REST Resource brands.agents    RCS for Business.md](../../raw/REST Resource brands.agents    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/reference/business-communications/rest/v1/brands.agents"
 ingested: 2026-04-05
 tags: [api, schema, agents]
@@ -85,10 +85,10 @@ The `brands.agents` resource defines the schema for RBM agents. An Agent is a co
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/use-cases]]
-- [[wiki/concepts/billing-categories]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [use-cases](../concepts/use-cases.md)
+- [billing-categories](../concepts/billing-categories.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-management-api]]
+- [rbm-management-api](../entities/rbm-management-api.md)

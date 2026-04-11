@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Manage Brands (API)"
-source_file: "[[raw/Manage brands    RCS for Business.md]]"
+source_file: "[Manage brands    RCS for Business.md](../../raw/Manage brands    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/management-api/brands"
 ingested: 2026-04-05
 tags: [api, management, brands]
@@ -29,8 +29,8 @@ All agents belong to a brand (business, organization, or group). Brands are orga
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-management-api]]
+- [rbm-management-api](../entities/rbm-management-api.md)

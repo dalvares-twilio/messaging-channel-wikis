@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Set Up a Test Device"
-source_file: "[[raw/Set up a test device    RCS for Business.md]]"
+source_file: "[Set up a test device    RCS for Business.md](../../raw/Set up a test device    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/build/test"
 ingested: 2026-04-05
 tags: [testing, devices, development]
@@ -27,11 +27,11 @@ Unlaunched agents can only communicate with designated test devices. This preven
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/rcs-enablement]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [rcs-enablement](../concepts/rcs-enablement.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
-- [[wiki/entities/developer-console]]
-- [[wiki/entities/google-messages]]
+- [rbm-api](../entities/rbm-api.md)
+- [developer-console](../entities/developer-console.md)
+- [google-messages](../entities/google-messages.md)

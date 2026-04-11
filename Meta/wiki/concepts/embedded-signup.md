@@ -23,6 +23,6 @@ Embedded Signup allows solution providers to onboard business customers directly
 
 ## Sources
 
-- [[wiki/sources/history-webhook-reference]]
-- [[wiki/sources/smb-state-sync-webhook-reference]]
-- [[wiki/sources/smb-message-echoes-webhook-reference]]
+- [history-webhook-reference](../sources/history-webhook-reference.md)
+- [smb-state-sync-webhook-reference](../sources/smb-state-sync-webhook-reference.md)
+- [smb-message-echoes-webhook-reference](../sources/smb-message-echoes-webhook-reference.md)

@@ -37,8 +37,8 @@ Region **cannot be changed** after agent creation — choose carefully.
 
 ## Related
 
-- [[wiki/concepts/agent-lifecycle]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Sources
 
-- [[wiki/sources/create-agent]]
+- [create-agent](../sources/create-agent.md)

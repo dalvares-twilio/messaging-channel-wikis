@@ -1,7 +1,7 @@
 ---
 type: source
 title: Conversational Components
-source_file: "[[Conversational Components  Developer Documentation]]"
+source_file: "[Conversational Components  Developer Documentation](Conversational Components  Developer Documentation.md)"
 source_url: https://developers.facebook.com/documentation/business-messaging/whatsapp/business-phone-numbers/conversational-components
 ingested: 2026-04-05
 tags:
@@ -65,9 +65,9 @@ GET /<PHONE_NUMBER_ID>?fields=conversational_automation
 4. Configure components
 
 ## Related Concepts
-- [[webhooks]]
+- [webhooks](webhooks.md)
 
 ## Related Entities
-- [[Knowledge-Bases/Channels/Meta/wiki/entities/conversational-components]]
-- [[messages-webhook]]
-- [[business-phone-number]]
+- [conversational-components](../entities/conversational-components.md)
+- [messages-webhook](messages-webhook.md)
+- [business-phone-number](business-phone-number.md)

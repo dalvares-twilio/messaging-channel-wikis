@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Multi-Partner Solutions"
-source_file: "[[raw/Multi-Partner Solutions  Developer Documentation.md]]"
+source_file: "[Multi-Partner Solutions  Developer Documentation.md](../../raw/Multi-Partner Solutions  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/multi-partner-solutions"
 ingested: 2026-04-05
 tags: [partners, solutions, embedded-signup]
@@ -46,5 +46,5 @@ Customers onboarded via solution share Solution Partner's credit line.
 - Get solutions via GET /<APP_ID>/whatsapp_business_solutions
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
-- [[wiki/concepts/embedded-signup]]
+- [solution-partners](../concepts/solution-partners.md)
+- [embedded-signup](../concepts/embedded-signup.md)

@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Receive Events"
-source_file: "[[raw/Receive events    RCS for Business.md]]"
+source_file: "[Receive events    RCS for Business.md](../../raw/Receive events    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/build/events/receive-events"
 ingested: 2026-04-05
 tags: [events, webhooks, subscriptions]
@@ -33,7 +33,7 @@ Agents receive webhook events from the RBM platform including user events (inter
 - Resubscription applies to all message types including promotions
 
 ### Platform Events
-- `AgentLaunchEvent`: launch state changes — see [[wiki/concepts/agent-launch-event]] for full payload structure
+- `AgentLaunchEvent`: launch state changes — see [agent-launch-event](../concepts/agent-launch-event.md) for full payload structure
   - Detection: `message.attributes.type` = `agent_launch_event`
   - States: PENDING, LAUNCHED, REJECTED, SUSPENDED, UNLAUNCHED
 - `TTL_EXPIRATION_REVOKED`: message expired, successfully revoked
@@ -48,10 +48,10 @@ Agents receive webhook events from the RBM platform including user events (inter
 
 ## Related Concepts
 
-- [[wiki/concepts/subscribe-unsubscribe]]
-- [[wiki/concepts/agent-lifecycle]]
-- [[wiki/concepts/agent-launch-event]]
+- [subscribe-unsubscribe](../concepts/subscribe-unsubscribe.md)
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
+- [agent-launch-event](../concepts/agent-launch-event.md)
 
 ## Related Entities
 
-- [[wiki/entities/rbm-api]]
+- [rbm-api](../entities/rbm-api.md)

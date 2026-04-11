@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Hosted Embedded Signup"
-source_file: "[[raw/Hosted Embedded Signup  Developer Documentation.md]]"
+source_file: "[Hosted Embedded Signup  Developer Documentation.md](../../raw/Hosted Embedded Signup  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/hosted-es"
 ingested: 2026-04-05
 tags: [embedded-signup, hosted, onboarding]
@@ -34,7 +34,7 @@ Hosted Embedded Signup ("Hosted ES") is a zero-integration option for onboarding
 7. Complete onboarding steps (register phone, share credit line)
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)
 
 ## Related Sources
-- [[wiki/sources/embedded-signup-overview]]
+- [embedded-signup-overview](../sources/embedded-signup-overview.md)

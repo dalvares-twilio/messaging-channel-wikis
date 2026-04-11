@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Managing Credit Lines"
-source_file: "[[raw/Managing credit lines  Developer Documentation.md]]"
+source_file: "[Managing credit lines  Developer Documentation.md](../../raw/Managing credit lines  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/share-and-revoke-credit-lines"
 ingested: 2026-04-05
 tags: [billing, credit-lines, solution-partners]
@@ -52,4 +52,4 @@ Compare `receiving_credential.id` with WABA's `primary_funding_id`.
 4. Delete: `DELETE /<ALLOCATION_CONFIG_ID>`
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
+- [solution-partners](../concepts/solution-partners.md)

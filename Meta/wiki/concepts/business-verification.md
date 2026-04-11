@@ -21,12 +21,12 @@ Returned by WABA API as `business_verification_status`:
 - Other statuses indicate issues
 
 ## Related Concepts
-- [[permissions]]
+- [permissions](permissions.md)
 
 ## Related Entities
-- [[official-business-account]]
-- [[whatsapp-business-account]]
+- [official-business-account](official-business-account.md)
+- [whatsapp-business-account](whatsapp-business-account.md)
 
 ## Sources
-- [[official-business-accounts]]
-- [[whatsapp-business-accounts]]
+- [official-business-accounts](official-business-accounts.md)
+- [whatsapp-business-accounts](whatsapp-business-accounts.md)

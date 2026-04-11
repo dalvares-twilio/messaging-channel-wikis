@@ -54,12 +54,12 @@ BSUIDs appear in:
 - Assigned to `user_id` property
 
 ## Related Concepts
-- [[user-identification]]
-- [[webhooks]]
+- [user-identification](user-identification.md)
+- [webhooks](webhooks.md)
 
 ## Related Entities
-- [[contact-book]]
-- [[messages-webhook]]
+- [contact-book](contact-book.md)
+- [messages-webhook](messages-webhook.md)
 
 ## Sources
-- [[business-scoped-user-ids]]
+- [business-scoped-user-ids](business-scoped-user-ids.md)

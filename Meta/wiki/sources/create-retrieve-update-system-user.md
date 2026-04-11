@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Create, Retrieve, and Update System Users"
-source_file: "[[raw/Create, Retrieve, and Update a System User.md]]"
+source_file: "[Create, Retrieve, and Update a System User.md](../../raw/Create, Retrieve, and Update a System User.md)"
 source_url: "https://developers.facebook.com/docs/business-management-apis/system-users/create-retrieve-update"
 ingested: 2026-04-05
 tags: [system-users, api, management]
@@ -55,8 +55,8 @@ Cannot delete system user, but can invalidate all tokens. Generate new tokens af
 - First system user creation requires real admin user's access token
 
 ## Related Sources
-- [[wiki/sources/install-apps-generate-tokens]]
-- [[wiki/sources/system-user-permissions]]
+- [install-apps-generate-tokens](../sources/install-apps-generate-tokens.md)
+- [system-user-permissions](../sources/system-user-permissions.md)
 
 ## Related Concepts
-- [[wiki/concepts/solution-partners]]
+- [solution-partners](../concepts/solution-partners.md)

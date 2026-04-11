@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Launch Approval"
-source_file: "[[raw/Launch approval    RCS for Business.md]]"
+source_file: "[Launch approval    RCS for Business.md](../../raw/Launch approval    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/launch/launch-approval"
 ingested: 2026-04-05
 tags: [launch, approval, carriers]
@@ -41,9 +41,9 @@ Launch approval involves review of brand verification and agent assets by Google
 
 ## Related Concepts
 
-- [[wiki/concepts/carrier-launch]]
-- [[wiki/concepts/agent-lifecycle]]
+- [carrier-launch](../concepts/carrier-launch.md)
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Related Entities
 
-- [[wiki/entities/developer-console]]
+- [developer-console](../entities/developer-console.md)

@@ -37,15 +37,15 @@ Sign in with RBM partner Google Account.
 
 ## Related
 
-- [[wiki/entities/rbm-api]]
-- [[wiki/entities/rbm-management-api]]
-- [[wiki/concepts/agent-lifecycle]]
+- [rbm-api](../entities/rbm-api.md)
+- [rbm-management-api](../entities/rbm-management-api.md)
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Sources
 
-- [[wiki/sources/webhooks]]
-- [[wiki/sources/create-agent]]
-- [[wiki/sources/edit-agent-info]]
-- [[wiki/sources/manage-agents]]
-- [[wiki/sources/test-devices]]
-- [[wiki/sources/deep-links]]
+- [webhooks](../sources/webhooks.md)
+- [create-agent](../sources/create-agent.md)
+- [edit-agent-info](../sources/edit-agent-info.md)
+- [manage-agents](../sources/manage-agents.md)
+- [test-devices](../sources/test-devices.md)
+- [deep-links](../sources/deep-links.md)

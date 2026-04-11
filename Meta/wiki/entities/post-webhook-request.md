@@ -84,12 +84,12 @@ app.post('/', (req, res) => {
 - Handle deduplication for retried webhooks
 
 ## Related Concepts
-- [[webhooks]]
-- [[webhook-security]]
+- [webhooks](webhooks.md)
+- [webhook-security](webhook-security.md)
 
 ## Related Entities
-- [[get-verification-request]]
-- [[messages-webhook]]
+- [get-verification-request](get-verification-request.md)
+- [messages-webhook](messages-webhook.md)
 
 ## Sources
-- [[create-webhook-endpoint]]
+- [create-webhook-endpoint](create-webhook-endpoint.md)

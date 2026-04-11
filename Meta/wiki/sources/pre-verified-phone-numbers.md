@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Pre-verified Phone Numbers"
-source_file: "[[raw/Pre-verified phone numbers  Developer Documentation.md]]"
+source_file: "[Pre-verified phone numbers  Developer Documentation.md](../../raw/Pre-verified phone numbers  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/embedded-signup/pre-verified-numbers"
 ingested: 2026-04-05
 tags: [phone-numbers, verification, embedded-signup]
@@ -66,4 +66,4 @@ POST /<BUSINESS_ID>/share_preverified_numbers
 ```
 
 ## Related Concepts
-- [[wiki/concepts/embedded-signup]]
+- [embedded-signup](../concepts/embedded-signup.md)

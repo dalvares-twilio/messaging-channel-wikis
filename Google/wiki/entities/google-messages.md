@@ -33,10 +33,10 @@ SMS deep links (`sms:` URLs) open in Messages and can initiate RBM conversations
 
 ## Related
 
-- [[wiki/concepts/rcs-enablement]]
-- [[wiki/entities/rbm-api]]
+- [rcs-enablement](../concepts/rcs-enablement.md)
+- [rbm-api](../entities/rbm-api.md)
 
 ## Sources
 
-- [[wiki/sources/test-devices]]
-- [[wiki/sources/deep-links]]
+- [test-devices](../sources/test-devices.md)
+- [deep-links](../sources/deep-links.md)

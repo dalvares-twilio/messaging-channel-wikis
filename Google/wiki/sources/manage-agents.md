@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Manage Agents"
-source_file: "[[raw/Manage agents    RCS for Business.md]]"
+source_file: "[Manage agents    RCS for Business.md](../../raw/Manage agents    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/build/agents/manage-agents"
 ingested: 2026-04-05
 tags: [agents, management, archiving]
@@ -25,8 +25,8 @@ RBM agents cannot be permanently deleted. Instead, visibility is managed through
 
 ## Related Concepts
 
-- [[wiki/concepts/agent-lifecycle]]
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Related Entities
 
-- [[wiki/entities/developer-console]]
+- [developer-console](../entities/developer-console.md)

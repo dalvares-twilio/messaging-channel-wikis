@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Partner-led Business Verification"
-source_file: "[[raw/Partner-led Business Verification  Developer Documentation.md]]"
+source_file: "[Partner-led Business Verification  Developer Documentation.md](../../raw/Partner-led Business Verification  Developer Documentation.md)"
 source_url: "https://developers.facebook.com/documentation/business-messaging/whatsapp/solution-providers/partner-led-business-verification"
 ingested: 2026-04-05
 tags: [verification, partners, onboarding]
@@ -48,5 +48,5 @@ GET /<BUSINESS_PORTFOLIO_ID>/self_certified_whatsapp_business_submissions
 - Maximum: 24 hours
 
 ## Related Concepts
-- [[wiki/concepts/business-verification]]
-- [[wiki/concepts/solution-partners]]
+- [business-verification](../concepts/business-verification.md)
+- [solution-partners](../concepts/solution-partners.md)

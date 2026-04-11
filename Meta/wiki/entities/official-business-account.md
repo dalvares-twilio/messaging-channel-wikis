@@ -55,11 +55,11 @@ GET /<PHONE_NUMBER_ID>?fields=official_business_account
 - Paid/promotional content not considered
 
 ## Related Concepts
-- [[business-verification]]
+- [business-verification](business-verification.md)
 
 ## Related Entities
-- [[whatsapp-business-account]]
-- [[display-name]]
+- [whatsapp-business-account](whatsapp-business-account.md)
+- [display-name](display-name.md)
 
 ## Sources
-- [[official-business-accounts]]
+- [official-business-accounts](official-business-accounts.md)

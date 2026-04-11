@@ -1,7 +1,7 @@
 ---
 type: source
 title: "Verify and Launch Overview"
-source_file: "[[raw/Verify and launch your agent    RCS for Business.md]]"
+source_file: "[Verify and launch your agent    RCS for Business.md](../../raw/Verify and launch your agent    RCS for Business.md)"
 source_url: "https://developers.google.com/business-communications/rcs-business-messaging/guides/launch"
 ingested: 2026-04-05
 tags: [launch, verification, carriers]
@@ -22,9 +22,9 @@ When an agent is ready for users, it must go through a two-step launch process: 
 
 ## Related Concepts
 
-- [[wiki/concepts/carrier-launch]]
-- [[wiki/concepts/agent-lifecycle]]
+- [carrier-launch](../concepts/carrier-launch.md)
+- [agent-lifecycle](../concepts/agent-lifecycle.md)
 
 ## Related Entities
 
-- [[wiki/entities/developer-console]]
+- [developer-console](../entities/developer-console.md)
